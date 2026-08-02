@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ tagline }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site_title }}" href="{{ root }}feed.xml">
+<style>
+  :root {
+    --bg: #fbfaf8;
+    --surface: #ffffff;
+    --border: #e4e0d8;
+    --text: #23201c;
+    --muted: #6b6459;
+    --accent: #8a4b2a;
+    --accent-soft: #f3e9e2;
+    --chip: #efece6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161513;
+      --surface: #1e1d1a;
+      --border: #33312c;
+      --text: #ece8e1;
+      --muted: #9a938a;
+      --accent: #d99a6f;
+      --accent-soft: #2c2622;
+      --chip: #2a2825;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  a { color: var(--accent); }
+  .wrap { max-width: 62rem; margin: 0 auto; padding: 2rem 1.25rem 5rem; }
+
+  header.site { border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; margin-bottom: 1.5rem; }
+  header.site h1 { font-size: 1.6rem; margin: 0 0 .35rem; letter-spacing: -.01em; }
+  header.site h1 a { color: var(--text); text-decoration: none; }
+  header.site p { margin: 0; color: var(--muted); font-size: .92rem; }
+  .meta-line { margin-top: .75rem; font-size: .82rem; color: var(--muted); }
+  .meta-line a { margin-left: .75rem; }
+
+  .controls { display: grid; gap: .75rem; margin-bottom: 1.5rem; }
+  .controls input[type=search], .controls select {
+    width: 100%; padding: .6rem .75rem; font-size: .95rem;
+    background: var(--surface); color: var(--text);
+    border: 1px solid var(--border); border-radius: 8px;
+  }
+  .selects { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: .75rem; }
+  .count { font-size: .82rem; color: var(--muted); }
+
+  article {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 1.1rem 1.2rem; margin-bottom: .9rem;
+  }
+  article h2 { font-size: 1.05rem; line-height: 1.4; margin: 0 0 .4rem; font-weight: 600; }
+  article h2 a { text-decoration: none; }
+  article h2 a:hover { text-decoration: underline; }
+  .byline { font-size: .8rem; color: var(--muted); margin-bottom: .6rem; }
+  .byline .sep { opacity: .5; margin: 0 .4rem; }
+  .summary { margin: 0 0 .5rem; }
+  .matters { margin: 0 0 .7rem; color: var(--muted); font-size: .93rem; }
+  .matters strong { color: var(--text); font-weight: 600; }
+  .no-summary { color: var(--muted); font-style: italic; font-size: .9rem; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: .35rem; }
+  .chip {
+    font-size: .74rem; padding: .18rem .55rem; border-radius: 999px;
+    background: var(--chip); color: var(--muted); white-space: nowrap;
+  }
+  .chip.depth { background: var(--accent-soft); color: var(--accent); }
+
+  details { margin-top: .7rem; }
+  details summary { cursor: pointer; font-size: .82rem; color: var(--muted); }
+  details p { font-size: .9rem; color: var(--muted); margin: .5rem 0 0; }
+
+  .archive-nav { margin-top: 3rem; border-top: 1px solid var(--border); padding-top: 1.25rem; }
+  .archive-nav h3 { font-size: .85rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 .6rem; }
+  .archive-nav ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .5rem .9rem; font-size: .9rem; }
+  .empty { color: var(--muted); padding: 2rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site">
+    <h1><a href="{{ root }}index.html">{{ site_title }}</a></h1>
+    <p>{{ tagline }}</p>
+    <p class="meta-line">
+      {{ total_count }} entries &middot; updated {{ generated_at }}
+      <a href="{{ root }}feed.xml">RSS</a>
+    </p>
+  </header>
+
+  {% if heading %}<h2 style="font-size:1.1rem;margin:0 0 1rem">{{ heading }}</h2>{% endif %}
+
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search titles, summaries, and authors…" autocomplete="off">
+    <div class="selects">
+      <select id="topic">
+        <option value="">All topics</option>
+        {% for topic in topics %}<option value="{{ topic }}">{{ topic }}</option>{% endfor %}
+      </select>
+      <select id="source">
+        <option value="">All sources</option>
+        {% for source in sources %}<option value="{{ source }}">{{ source }}</option>{% endfor %}
+      </select>
+      <select id="depth">
+        <option value="">Any depth</option>
+        <option value="overview">Overview</option>
+        <option value="applied">Applied</option>
+        <option value="theoretical">Theoretical</option>
+      </select>
+    </div>
+    <div class="count" id="count"></div>
+  </div>
+
+  <main id="list">
+  {% for entry in entries %}
+    <article
+      data-topics="{{ entry.topics | join('|') }}"
+      data-source="{{ entry.source }}"
+      data-depth="{{ entry.technical_depth or 'overview' }}"
+      data-text="{{ entry.search_text }}">
+      <h2><a href="{{ entry.url }}" rel="noopener">{{ entry.title }}</a></h2>
+      <div class="byline">
+        {{ entry.source }}<span class="sep">·</span>{{ entry.published }}
+        {%- if entry.author_line %}<span class="sep">·</span>{{ entry.author_line }}{% endif %}
+        {%- if entry.extra.doi %}<span class="sep">·</span><a href="https://doi.org/{{ entry.extra.doi }}" rel="noopener">doi</a>{% endif %}
+        {%- if entry.extra.discussion_url %}<span class="sep">·</span><a href="{{ entry.extra.discussion_url }}" rel="noopener">{{ entry.extra.points }} pts on HN</a>{% endif %}
+        {%- for ref in entry.also_at or [] %}<span class="sep">·</span><a href="{{ ref.url }}" rel="noopener">also on {{ ref.source }}</a>{% endfor %}
+      </div>
+
+      {% if entry.summary %}
+        <p class="summary">{{ entry.summary }}</p>
+        {% if entry.why_it_matters %}<p class="matters"><strong>Why it matters:</strong> {{ entry.why_it_matters }}</p>{% endif %}
+      {% else %}
+        <p class="no-summary">No generated summary available for this entry.</p>
+      {% endif %}
+
+      <div class="chips">
+        {% for topic in entry.topics %}<span class="chip">{{ topic }}</span>{% endfor %}
+        {% if entry.technical_depth %}<span class="chip depth">{{ entry.technical_depth }}</span>{% endif %}
+      </div>
+
+      {% if entry.abstract %}
+        <details>
+          <summary>Original abstract</summary>
+          <p>{{ entry.abstract }}</p>
+        </details>
+      {% endif %}
+    </article>
+  {% else %}
+    <p class="empty">No entries yet. The collector will populate this on its next run.</p>
+  {% endfor %}
+  </main>
+
+  {% if months %}
+  <nav class="archive-nav">
+    <h3>Archive</h3>
+    <ul>
+      {% for month in months %}
+      <li><a href="{{ root }}archive/{{ month.slug }}.html">{{ month.label }}</a> <span class="chip">{{ month.count }}</span></li>
+      {% endfor %}
+    </ul>
+  </nav>
+  {% endif %}
+
+</div>
+
+<script>
+(function () {
+  var q = document.getElementById('q');
+  var topic = document.getElementById('topic');
+  var source = document.getElementById('source');
+  var depth = document.getElementById('depth');
+  var count = document.getElementById('count');
+  var items = Array.prototype.slice.call(document.querySelectorAll('#list article'));
+
+  function apply() {
+    var needle = q.value.trim().toLowerCase();
+    var t = topic.value, s = source.value, d = depth.value;
+    var shown = 0;
+
+    items.forEach(function (el) {
+      var ok =
+        (!needle || el.dataset.text.indexOf(needle) !== -1) &&
+        (!t || el.dataset.topics.split('|').indexOf(t) !== -1) &&
+        (!s || el.dataset.source === s) &&
+        (!d || el.dataset.depth === d);
+      el.hidden = !ok;
+      if (ok) shown++;
+    });
+
+    count.textContent = shown === items.length
+      ? items.length + ' entries'
+      : shown + ' of ' + items.length + ' entries';
+  }
+
+  [q, topic, source, depth].forEach(function (el) {
+    el.addEventListener('input', apply);
+  });
+  apply();
+})();
+</script>
+</body>
+</html>
