@@ -12,11 +12,28 @@ import logging
 import os
 import sys
 from datetime import date, timedelta
+from pathlib import Path
 
 from . import config, render, store, summarize
 from .sources import ALL_SOURCES
 
 log = logging.getLogger("collector")
+
+
+def _have_credentials() -> bool:
+    """True if the Anthropic SDK will find a credential.
+
+    Mirrors the SDK's own resolution order: the two environment variables, then
+    a profile written by `ant auth login`. Checking the profile directory too
+    keeps local runs from being told to set an env var they don't need.
+    """
+    if os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"):
+        return True
+
+    config_dir = os.environ.get("ANTHROPIC_CONFIG_DIR")
+    base = Path(config_dir) if config_dir else Path.home() / ".config" / "anthropic"
+    credentials = base / "credentials"
+    return credentials.is_dir() and any(credentials.glob("*.json"))
 
 
 def collect(since: date) -> list[dict]:
@@ -51,6 +68,17 @@ def main(argv: list[str] | None = None) -> int:
         level=logging.INFO, format="%(asctime)s %(levelname)-7s %(name)s: %(message)s"
     )
 
+    # Check credentials before doing any work. Collection takes ~30s of polite,
+    # rate-limited requests to arXiv and Crossref; there is no reason to spend
+    # that only to fail on a missing key at the end.
+    needs_api = not args.render_only and not args.no_summarize
+    if needs_api and not _have_credentials():
+        log.error(
+            "no Anthropic credentials found. Set ANTHROPIC_API_KEY, or run with "
+            "--no-summarize to publish raw abstracts instead."
+        )
+        return 1
+
     entries = store.load()
     log.info("store: loaded %d existing entries", len(entries))
 
@@ -74,12 +102,6 @@ def main(argv: list[str] | None = None) -> int:
             fresh = fresh[: config.MAX_NEW_PER_RUN]
 
         if fresh and not args.no_summarize:
-            if not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN")):
-                log.error(
-                    "no Anthropic credentials found; run with --no-summarize to "
-                    "publish raw abstracts instead"
-                )
-                return 1
             summarize.summarize_all(fresh)
 
         for entry in fresh:

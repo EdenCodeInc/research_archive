@@ -54,41 +54,69 @@ score.
 
 ## Setup
 
-### 1. Create the GitHub repo
+**This repo must be public.** GitHub Pages cannot publish from a private repo on
+a Free plan, and every alternative — a second repo written via deploy key, a
+GitHub App token, a PAT — is blocked by `EdenCodeInc` org policy. A single
+public repo needs no cross-repo credential at all: Actions publishes to its own
+Pages site using the built-in `GITHUB_TOKEN`.
 
-The `gh` CLI isn't installed on this machine, so create the repo through the web
-UI (or `brew/apt install gh` first), then:
+Nothing sensitive lives here. Secrets are held by GitHub, never committed, and
+`CONTACT_EMAIL` is deliberately not defaulted in `config.py` for this reason —
+it's a repository variable. What is public is the source list, the topic
+taxonomy, and the collection history; the content itself is aggregated from
+arXiv, Crossref, and public RSS feeds regardless.
 
-```sh
-git add .
-git commit -m "Add quantum research collector"
-git remote add origin git@github.com:<you>/research_archive.git
-git push -u origin main
-```
+### 1. Make the repo public
+
+**Settings → General → Danger Zone → Change repository visibility → Public.**
+
+If that option is greyed out, the org restricts visibility changes and an owner
+has to do it. Failing that, create a public repo under your **personal**
+account and push there instead — personal repos have none of these
+restrictions, and nothing in the code depends on the owner.
 
 ### 2. Add the API key
 
-**Settings → Secrets and variables → Actions → New repository secret**
+**Settings → Secrets and variables → Actions → Secrets tab → New repository
+secret:**
 
 | Name | Value |
 |---|---|
-| `ANTHROPIC_API_KEY` | your Anthropic API key |
+| `ANTHROPIC_API_KEY` | your key from [console.anthropic.com](https://console.anthropic.com/settings/keys) |
 
-Optionally add repository *variables* (same page, Variables tab):
+Optionally, on the **Variables** tab:
 
-| Name | Purpose |
-|---|---|
-| `CONTACT_EMAIL` | sent to arXiv and Crossref; Crossref routes requests with a `mailto` to its faster polite pool |
-| `SITE_URL` | only needed if you serve from a custom domain |
+| Name | Value | Why |
+|---|---|---|
+| `CONTACT_EMAIL` | e.g. `you@edencode.ai` | Crossref routes requests carrying a `mailto` to its faster polite pool, and arXiv uses it to reach you if the collector misbehaves. Works without it. |
+
+Secrets and variables are different tabs on the same page and are **not**
+interchangeable — the workflow reads `secrets.ANTHROPIC_API_KEY`. An
+environment secret (scoped to an Environment) is also invisible to this job; it
+must be a repository secret.
+
+No API key yet? Run the workflow with **Skip Claude summarization** ticked. You
+get the full archive with original abstracts; entries are marked
+`summary_status` so a later pass can fill in summaries without re-collecting.
 
 ### 3. Enable Pages
 
-**Settings → Pages → Source: GitHub Actions.**
+**Settings → Pages → Source: GitHub Actions.** The site lands at
+`https://edencodeinc.github.io/research_archive/`.
 
 ### 4. Run it
 
-**Actions → Collect and publish → Run workflow.** After that it runs daily at
-06:15 UTC. The first run backfills a week and will summarize ~100–150 entries.
+**Actions → Collect and publish → Run workflow.**
+
+The workflow checks every secret and variable up front and names anything
+missing, so a misconfiguration fails in seconds rather than after collection.
+
+For the first run, set **Max entries to summarize** higher than the default 120
+— a 7-day backfill finds ~300 entries. Or leave it and run three times; the cap
+drops the oldest candidates and they're picked up on the next run while they're
+still inside the lookback window.
+
+After that it runs daily at 06:15 UTC.
 
 ## Running locally
 
@@ -155,6 +183,24 @@ Drop a module in `collector/sources/` exposing `fetch(since: date) -> list[dict]
 and add it to `ALL_SOURCES` in `collector/sources/__init__.py`. The expected
 entry shape is documented at the top of that file. A source that raises is
 logged and skipped — one bad day upstream won't cost you the run.
+
+## Troubleshooting
+
+**`no Anthropic credentials found`** — `ANTHROPIC_API_KEY` isn't reaching the
+job. In order of likelihood: not added; added on the Variables tab instead of
+Secrets; added as an *environment* secret (the `collect` job declares no
+environment, so it can't see those); an org-level secret not scoped to this
+repo; or a name typo. The preflight step catches all of these before any work
+happens.
+
+**`Get Pages site failed` / `Resource not accessible by integration`** on the
+deploy job — Pages isn't enabled, or it's set to the wrong source. It must be
+**Settings → Pages → Source: GitHub Actions**, not "Deploy from a branch". This
+also fails while the repo is still private, since Pages needs a public repo on
+a Free plan.
+
+**Site publishes but looks unstyled** — `.nojekyll` is missing from the
+uploaded artifact. It's generated by `render.py`; check it's in `site/`.
 
 ## Failure behavior
 

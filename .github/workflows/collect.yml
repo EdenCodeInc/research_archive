@@ -11,20 +11,19 @@ on:
         description: "How many days back to collect"
         required: false
         default: "7"
+      max_new:
+        description: "Max entries to summarize this run (blank = config default)"
+        required: false
+        default: ""
       skip_summaries:
         description: "Skip Claude summarization (no API cost)"
         type: boolean
         default: false
-  push:
-    branches: [main]
-    paths:
-      - "collector/**"
-      - ".github/workflows/collect.yml"
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: write   # commit data/entries.json back to this repo
+  pages: write      # publish the rendered site
+  id-token: write   # required by actions/deploy-pages
 
 # Never let two runs write to data/entries.json at once.
 concurrency:
@@ -37,6 +36,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Fail in seconds with a specific cause rather than part-way through a
+      # run. Only tests whether the value is present — never prints it.
+      - name: Check configuration
+        if: github.event.inputs.skip_summaries != 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::error::Secret ANTHROPIC_API_KEY is empty or not visible to this job."
+            echo "  Must be a *repository* secret (Settings -> Secrets and variables ->"
+            echo "  Actions -> Secrets tab) — not a variable, not an environment secret."
+            echo "  To publish without summaries, re-run with 'Skip Claude summarization'."
+            exit 1
+          fi
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -44,13 +58,16 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - uses: actions/configure-pages@v5
+        id: pages
+
       - name: Collect, summarize, and render
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
-          # Used only for absolute links in the RSS feed. Override with a
-          # SITE_URL repository variable if you serve from a custom domain.
-          SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+          MAX_NEW_PER_RUN: ${{ github.event.inputs.max_new }}
+          # configure-pages resolves this, including a custom domain if set.
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
         run: |
           python -m collector.main \
             --days "${{ github.event.inputs.days || '7' }}" \
@@ -68,8 +85,6 @@ jobs:
             git push
           fi
 
-      - uses: actions/configure-pages@v5
-
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
@@ -80,6 +95,9 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4

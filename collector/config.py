@@ -5,6 +5,27 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
+
+def env_str(name: str, default: str) -> str:
+    """Read a string override, treating empty as unset.
+
+    GitHub Actions substitutes an unset `vars.X` as an empty string rather than
+    omitting the variable, so `os.environ.get(name, default)` would return ""
+    and silently override the default.
+    """
+    return os.environ.get(name, "").strip() or default
+
+
+def env_int(name: str, default: int) -> int:
+    raw = os.environ.get(name, "").strip()
+    if not raw:
+        return default
+    try:
+        return int(raw)
+    except ValueError:
+        raise SystemExit(f"{name} must be an integer, got {raw!r}")
+
+
 # --- Paths -------------------------------------------------------------------
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -15,27 +36,29 @@ TEMPLATE_DIR = ROOT / "collector" / "templates"
 
 # --- Site identity -----------------------------------------------------------
 
-SITE_TITLE = os.environ.get("SITE_TITLE", "Quantum Computing Research Archive")
-SITE_TAGLINE = os.environ.get(
-    "SITE_TAGLINE",
-    "Automatically collected papers, preprints, and technical writing on quantum computing.",
-)
+SITE_TITLE = env_str("SITE_TITLE", "Quantum Computing Research Archive")
+SITE_TAGLINE = env_str("SITE_TAGLINE", "Automatically collected papers, preprints, and technical writing on quantum computing.")
 
 # Contact address sent to arXiv and Crossref so they can reach us if our
-# requests misbehave. Crossref routes requests with a mailto to its faster
-# "polite pool", so this is worth setting properly.
-CONTACT_EMAIL = os.environ.get("CONTACT_EMAIL", "pranav@edencode.ai")
-USER_AGENT = f"quantum-research-archive/1.0 (mailto:{CONTACT_EMAIL})"
+# requests misbehave. Crossref routes requests carrying a mailto to its faster
+# "polite pool", so it is worth setting — but deliberately not committed, since
+# this repo is public. Set it as a CONTACT_EMAIL repository variable instead.
+CONTACT_EMAIL = env_str("CONTACT_EMAIL", "")
+USER_AGENT = (
+    f"quantum-research-archive/1.0 (mailto:{CONTACT_EMAIL})"
+    if CONTACT_EMAIL
+    else "quantum-research-archive/1.0"
+)
 
 # --- Collection window -------------------------------------------------------
 
 # How far back each run looks. The store dedupes, so overlapping windows across
 # runs are harmless — this only needs to exceed the gap between runs.
-LOOKBACK_DAYS = int(os.environ.get("LOOKBACK_DAYS", "7"))
+LOOKBACK_DAYS = env_int("LOOKBACK_DAYS", 7)
 
 # Hard ceiling on how many new entries a single run will summarize, so an
 # unexpected flood of results can't run up an unbounded API bill.
-MAX_NEW_PER_RUN = int(os.environ.get("MAX_NEW_PER_RUN", "120"))
+MAX_NEW_PER_RUN = env_int("MAX_NEW_PER_RUN", 120)
 
 # --- arXiv -------------------------------------------------------------------
 
@@ -43,7 +66,7 @@ MAX_NEW_PER_RUN = int(os.environ.get("MAX_NEW_PER_RUN", "120"))
 # cond-mat.mes-hall (mesoscopic physics, where much hardware work lands) catch
 # relevant work that is cross-listed rather than primary.
 ARXIV_CATEGORIES = ["quant-ph", "cs.ET", "cond-mat.mes-hall"]
-ARXIV_MAX_RESULTS = int(os.environ.get("ARXIV_MAX_RESULTS", "150"))
+ARXIV_MAX_RESULTS = env_int("ARXIV_MAX_RESULTS", 150)
 # arXiv asks for no more than one request every three seconds.
 ARXIV_REQUEST_DELAY = 3.0
 
@@ -89,7 +112,7 @@ HN_QUERIES = ["quantum computing", "quantum error correction", "qubit"]
 # a 25-point bar yields ~0.6 stories/week and a 10-point bar ~1.6/week. Algolia
 # also matches these queries loosely (a post about "computing" can rank), so
 # every hit still has to clear the keyword filter regardless of score.
-HN_MIN_POINTS = int(os.environ.get("HN_MIN_POINTS", "10"))
+HN_MIN_POINTS = env_int("HN_MIN_POINTS", 10)
 
 # --- Relevance filtering -----------------------------------------------------
 
@@ -120,9 +143,9 @@ NEGATIVE_KEYWORDS = [
 
 # Default to the most capable model. Abstracts are short, so per-item cost is
 # small; override via env var if you want to trade quality for spend.
-SUMMARY_MODEL = os.environ.get("SUMMARY_MODEL", "claude-opus-5")
-SUMMARY_EFFORT = os.environ.get("SUMMARY_EFFORT", "low")
-SUMMARY_CONCURRENCY = int(os.environ.get("SUMMARY_CONCURRENCY", "6"))
+SUMMARY_MODEL = env_str("SUMMARY_MODEL", "claude-opus-5")
+SUMMARY_EFFORT = env_str("SUMMARY_EFFORT", "low")
+SUMMARY_CONCURRENCY = env_int("SUMMARY_CONCURRENCY", 6)
 
 # The controlled vocabulary the model tags each entry against. Keeping this
 # fixed is what makes the site's topic filter useful — free-form tags drift.
@@ -146,4 +169,4 @@ TOPICS = [
 # --- Rendering ---------------------------------------------------------------
 
 # Entries shown on the front page. Older ones live on monthly archive pages.
-HOMEPAGE_ENTRIES = int(os.environ.get("HOMEPAGE_ENTRIES", "300"))
+HOMEPAGE_ENTRIES = env_int("HOMEPAGE_ENTRIES", 300)

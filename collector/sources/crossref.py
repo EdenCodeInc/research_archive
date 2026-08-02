@@ -59,8 +59,11 @@ def _fetch_issn(issn: str, journal: str, since: date) -> list[dict]:
         "order": "desc",
         "select": "DOI,title,abstract,author,published-online,published-print,"
         "issued,created,URL,container-title,subject",
-        "mailto": config.CONTACT_EMAIL,
     }
+    # Crossref rejects an empty mailto; omit it entirely when unset. Requests
+    # without one still work, just on the slower shared pool.
+    if config.CONTACT_EMAIL:
+        params["mailto"] = config.CONTACT_EMAIL
     response = get(API_URL, params=params)
     if response is None:
         return []
