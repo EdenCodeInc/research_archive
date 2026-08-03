@@ -31,9 +31,20 @@ def _clean(text: str) -> str:
 
 
 def _fetch_category(category: str, since: date) -> list[dict]:
+    """Page back through a category until we reach `since` or stop early.
+
+    Returns (entries, status) where status is one of:
+      "complete" — the whole requested window was covered
+      "capped"   — ARXIV_MAX_RESULTS stopped us first
+      "error"    — a request failed, so coverage is unknown
+
+    The caller warns on anything but "complete": a partial window looks exactly
+    like a quiet week otherwise, and the two need different fixes.
+    """
     entries: list[dict] = []
     start = 0
     page_size = 100
+    status = "capped"
 
     while start < config.ARXIV_MAX_RESULTS:
         params = {
@@ -45,13 +56,16 @@ def _fetch_category(category: str, since: date) -> list[dict]:
         }
         response = get(API_URL, params=params)
         if response is None:
+            status = "error"
             break
 
         parsed = feedparser.parse(response.content)
         if not parsed.entries:
+            # Ran out of results before the window edge — the category simply
+            # has nothing older, so the window is fully covered.
+            status = "complete"
             break
 
-        hit_window_edge = False
         for item in parsed.entries:
             published = _parse_date(item.get("published"))
             if published is None:
@@ -59,17 +73,17 @@ def _fetch_category(category: str, since: date) -> list[dict]:
             # Results are newest-first, so the first entry older than the
             # window means every remaining entry is too.
             if published < since:
-                hit_window_edge = True
+                status = "complete"
                 break
             entries.append(_to_entry(item, published, category))
 
-        if hit_window_edge:
+        if status == "complete":
             break
 
         start += page_size
         time.sleep(config.ARXIV_REQUEST_DELAY)
 
-    return entries
+    return entries, status
 
 
 def _parse_date(value: str | None) -> date | None:
@@ -119,7 +133,23 @@ def fetch(since: date) -> list[dict]:
 
     for category in config.ARXIV_CATEGORIES:
         log.info("arXiv: fetching %s since %s", category, since)
-        for entry in _fetch_category(category, since):
+        found, status = _fetch_category(category, since)
+        oldest = min((e["published"] for e in found), default="none")
+        if status == "capped":
+            log.warning(
+                "arXiv: %s hit the ARXIV_MAX_RESULTS cap of %d before reaching %s "
+                "(oldest fetched: %s). Papers from %s to %s were NOT collected — "
+                "raise ARXIV_MAX_RESULTS or shorten the lookback window.",
+                category, config.ARXIV_MAX_RESULTS, since, oldest, since, oldest,
+            )
+        elif status == "error":
+            log.warning(
+                "arXiv: %s stopped on a request failure (oldest fetched: %s); "
+                "coverage back to %s is incomplete. Entries missed now will be "
+                "picked up next run if they stay inside the lookback window.",
+                category, oldest, since,
+            )
+        for entry in found:
             # A paper cross-listed in two of our categories arrives twice.
             if entry["id"] in seen:
                 continue

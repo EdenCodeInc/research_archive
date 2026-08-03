@@ -165,6 +165,7 @@ overridden by environment variable:
 |---|---|---|
 | `LOOKBACK_DAYS` | 7 | how far back each run looks |
 | `MAX_NEW_PER_RUN` | 120 | ceiling on entries summarized per run |
+| `ARXIV_MAX_RESULTS` | 700 | ceiling on results fetched per arXiv category per run. quant-ph alone runs ~350/week, so this must exceed the volume in your lookback window or the oldest results are dropped. The adapter logs a warning if it hits the cap. |
 | `SUMMARY_MODEL` | `claude-opus-5` | model used for summaries |
 | `SUMMARY_EFFORT` | `low` | `low` / `medium` / `high` |
 | `SUMMARY_CONCURRENCY` | 6 | parallel summarization requests |

@@ -66,7 +66,12 @@ MAX_NEW_PER_RUN = env_int("MAX_NEW_PER_RUN", 120)
 # cond-mat.mes-hall (mesoscopic physics, where much hardware work lands) catch
 # relevant work that is cross-listed rather than primary.
 ARXIV_CATEGORIES = ["quant-ph", "cs.ET", "cond-mat.mes-hall"]
-ARXIV_MAX_RESULTS = env_int("ARXIV_MAX_RESULTS", 150)
+# Per category, per run. quant-ph alone runs ~50 papers/day (~350/week), so a
+# cap below the lookback window's volume silently truncates the oldest results.
+# 700 covers a 14-day window with headroom; the fetch stops early at the window
+# edge anyway, so a generous cap costs nothing on a normal daily run. The
+# adapter logs a warning if it ever hits this.
+ARXIV_MAX_RESULTS = env_int("ARXIV_MAX_RESULTS", 700)
 # arXiv asks for no more than one request every three seconds.
 ARXIV_REQUEST_DELAY = 3.0
 
