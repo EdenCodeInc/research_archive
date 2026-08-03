@@ -18,6 +18,51 @@ log = logging.getLogger(__name__)
 
 _NON_ALNUM = re.compile(r"[^a-z0-9]+")
 
+# An entry that was collected but not yet summarized — either because the
+# per-run budget was spent, or because the run used --no-summarize. It is
+# stored like any other entry and picked up by a later run.
+DEFERRED = "deferred"
+
+
+def needs_summary(entry: dict) -> bool:
+    """True if this entry is waiting for a summary.
+
+    A recorded failure (`refused`, `api_error_500`, ...) is deliberately *not*
+    retried automatically: a refusal will refuse again, and silently re-billing
+    for it every run is worse than leaving it visible in the data. Use
+    --retry-failed to sweep those up.
+    """
+    status = entry.get("summary_status")
+    # None covers entries written before summary_status existed, and by
+    # --no-summarize runs; both should be picked up.
+    return status in (None, DEFERRED)
+
+
+def mark_deferred(entry: dict) -> dict:
+    """Give an unsummarized entry the fields the templates expect."""
+    entry.setdefault("summary", "")
+    entry.setdefault("why_it_matters", "")
+    entry.setdefault("topics", [])
+    entry.setdefault("technical_depth", "overview")
+    entry["summary_status"] = DEFERRED
+    return entry
+
+
+def summarization_queue(backlog: list[dict], fresh: list[dict], limit: int) -> list[dict]:
+    """Order one run's summarization work, capped at `limit`.
+
+    Backlog first, oldest first, so a deferred entry can never be starved
+    indefinitely by a steady stream of new arrivals. New entries follow,
+    newest first, so the front page stays current when the budget is tight.
+    """
+    ordered_backlog = sorted(
+        backlog, key=lambda e: (e.get("published", ""), e.get("id", ""))
+    )
+    ordered_fresh = sorted(
+        fresh, key=lambda e: (e.get("published", ""), e.get("id", "")), reverse=True
+    )
+    return (ordered_backlog + ordered_fresh)[:limit]
+
 
 def title_key(title: str) -> str:
     """Normalized title used to catch the same work arriving twice under

@@ -60,6 +60,11 @@ def main(argv: list[str] | None = None) -> int:
         "--render-only", action="store_true", help="rebuild the site from the stored data"
     )
     parser.add_argument(
+        "--retry-failed",
+        action="store_true",
+        help="also re-attempt entries whose summary previously errored or was refused",
+    )
+    parser.add_argument(
         "--site-url", default=os.environ.get("SITE_URL", ""), help="public URL, used in the RSS feed"
     )
     args = parser.parse_args(argv)
@@ -90,22 +95,48 @@ def main(argv: list[str] | None = None) -> int:
         fresh = store.select_new(entries, candidates)
         log.info("%d are new after deduplication", len(fresh))
 
-        if len(fresh) > config.MAX_NEW_PER_RUN:
-            log.warning(
-                "capping this run at %d of %d new entries; the rest will be picked "
-                "up next run if they are still inside the lookback window",
-                config.MAX_NEW_PER_RUN,
-                len(fresh),
-            )
-            # Newest first, so a cap drops the stalest candidates.
-            fresh.sort(key=lambda e: e.get("published", ""), reverse=True)
-            fresh = fresh[: config.MAX_NEW_PER_RUN]
-
-        if fresh and not args.no_summarize:
-            summarize.summarize_all(fresh)
+        # Everything collected is stored immediately, summarized or not. The
+        # budget below rate-limits summarization; it never discards an entry.
+        backlog = [e for e in entries.values() if store.needs_summary(e)]
+        if args.retry_failed:
+            retryable = [
+                e
+                for e in entries.values()
+                if not store.needs_summary(e) and e.get("summary_status") != "ok"
+            ]
+            log.info("retrying %d previously failed summaries", len(retryable))
+            backlog += retryable
 
         for entry in fresh:
+            store.mark_deferred(entry)
             entries[entry["id"]] = entry
+
+        if args.no_summarize:
+            log.info(
+                "skipping summarization; %d entries are queued for a later run",
+                len(backlog) + len(fresh),
+            )
+        else:
+            queue = store.summarization_queue(backlog, fresh, config.MAX_NEW_PER_RUN)
+            waiting = len(backlog) + len(fresh) - len(queue)
+            fresh_ids = {e["id"] for e in fresh}
+            from_new = sum(1 for e in queue if e["id"] in fresh_ids)
+            log.info(
+                "summarizing %d this run (%d from backlog, %d new)",
+                len(queue),
+                len(queue) - from_new,
+                from_new,
+            )
+            if waiting:
+                log.warning(
+                    "%d entries exceed the MAX_NEW_PER_RUN budget of %d. They are "
+                    "stored and will be summarized by a later run — nothing is "
+                    "lost. Raise MAX_NEW_PER_RUN to clear them sooner.",
+                    waiting,
+                    config.MAX_NEW_PER_RUN,
+                )
+            if queue:
+                summarize.summarize_all(queue)
 
         store.save(entries)
 

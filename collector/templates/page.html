@@ -140,6 +140,8 @@
       {% if entry.summary %}
         <p class="summary">{{ entry.summary }}</p>
         {% if entry.why_it_matters %}<p class="matters"><strong>Why it matters:</strong> {{ entry.why_it_matters }}</p>{% endif %}
+      {% elif entry.summary_status == "deferred" %}
+        <p class="no-summary">Summary queued &mdash; will appear after the next run.</p>
       {% else %}
         <p class="no-summary">No generated summary available for this entry.</p>
       {% endif %}

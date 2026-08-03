@@ -164,7 +164,7 @@ overridden by environment variable:
 | Variable | Default | Effect |
 |---|---|---|
 | `LOOKBACK_DAYS` | 7 | how far back each run looks |
-| `MAX_NEW_PER_RUN` | 120 | ceiling on entries summarized per run |
+| `MAX_NEW_PER_RUN` | 120 | ceiling on entries **summarized** per run. Collection is never capped — overflow is stored unsummarized and drained by later runs. See below. |
 | `ARXIV_MAX_RESULTS` | 700 | ceiling on results fetched per arXiv category per run. quant-ph alone runs ~350/week, so this must exceed the volume in your lookback window or the oldest results are dropped. The adapter logs a warning if it hits the cap. |
 | `SUMMARY_MODEL` | `claude-opus-5` | model used for summaries |
 | `SUMMARY_EFFORT` | `low` | `low` / `medium` / `high` |
@@ -177,6 +177,36 @@ The **topic taxonomy** is the `TOPICS` list in `config.py`. It is deliberately a
 closed vocabulary — free-form tags drift and make the site's topic filter
 useless. Editing it changes tagging for *future* entries only; run
 `--render-only` after an edit to refresh the filter dropdown.
+
+## The summarization budget
+
+`MAX_NEW_PER_RUN` limits how many entries a single run sends to Claude. It's a
+spend circuit-breaker for the pathological case — a wiped store, or broken
+dedup, would otherwise try to re-summarize the whole archive in one go.
+
+**It rate-limits, it doesn't discard.** Every collected entry is stored
+immediately. Anything over budget is marked `summary_status: "deferred"` and
+picked up by a later run, oldest first, before that run's new arrivals. So a
+large backfill drains over a few days and converges on its own:
+
+```
+day 1: 400 queued -> summarize 120 -> 280 queued
+day 2: +40 new    -> summarize 120 -> 200 queued
+...
+day 5: drained
+```
+
+Backlog is always summarized ahead of new entries, so nothing can be starved by
+a steady stream of arrivals. Deferred entries appear on the site immediately
+with their original abstract and a "Summary queued" note.
+
+`--no-summarize` uses the same mechanism: entries collected that way are simply
+deferred, and a later run with credentials fills them in — no re-collection.
+
+**Recorded failures are not retried automatically.** An entry whose summary was
+refused or errored keeps that status rather than being re-attempted every run,
+since a refusal will refuse again and silently re-billing for it is worse than
+leaving it visible. Sweep them up deliberately with `--retry-failed`.
 
 ## Adding a source
 
