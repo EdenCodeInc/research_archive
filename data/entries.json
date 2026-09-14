@@ -1,6 +1,166 @@
 {
-  "count": 5243,
+  "count": 5251,
   "entries": [
+    {
+      "abstract": "In 1931, physicist Hans Bethe predicted that, in certain one-dimensional quantum systems, particles can bind together to form multi-particle states known as Bethe strings. Unlike ordinary molecules, which are held together by chemical bonds, Bethe strings arise purely from interactions between particles and exist only in one dimension. For decades, Bethe strings remained primarily a theoretical concept.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://phys.org/rss-feed/physics-news/quantum-physics/"
+      },
+      "id": "feed:eedbf0371c2ef441",
+      "published": "2026-09-14",
+      "source": "Phys.org Quantum Physics",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Ultracold cesium atoms reveal Bethe strings predicted nearly a century ago",
+      "topics": [],
+      "url": "https://phys.org/news/2026-09-ultracold-cesium-atoms-reveal-bethe.html",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://www.nature.com/subjects/quantum-information.rss"
+      },
+      "id": "feed:ee11339934b22cfe",
+      "published": "2026-09-14",
+      "source": "Nature: Quantum Information",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Single-gate, multipartite entanglement on a room-temperature quantum register",
+      "topics": [],
+      "url": "https://www.nature.com/articles/s41565-026-02254-6",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Middle Tennessee State University ’s QRISE Center has welcomed its first eight graduate trainees through a five-year, $2 million NSF National Research Traineeship grant focused on quantum science and artificial intelligence. The program provides eligible students with tuition assistance, stipends, faculty mentorship and professional development opportunities aimed at preparing them for quantum computing and AI careers. The trainees will conduct research spanning quantum simulations, quantum machine learning and computational science, with opportunities to work with academic, national laboratory and industry partners. PRESS RELEASE &#8212; &#8220;If we want to build a sustainable quantum ecosystem in Tennessee, we also have to build the people who will power it.” Those words from Middle Tennessee State University physics professor Hanna Terletska, director of Quantum Research Interdisciplinary Science and Education Center , or QRISE, welcomed the first cohort of eight trainees to an orientation session inside the James E. Walker Library made possible by a $2 million National Science Foundation grant to bolster research in quantum science and artificial intelligence. Over the next five years, the NSF’s National Research Traineeship grant will prepare these MTSU graduate students to meet the growing demand for skilled professionals experienced in quantum computing and AI. Trainees receive $16,000 in tuition assistance, a host of professional development opportunities, and a $37,000 stipend for eligible students. “A student might begin with fundamental research at MTSU, spend time at Oak Ridge National Research Laboratory working at the frontier of quantum science, and then work with an industry partner where the questions become very different,” said Terletska. “What problem are we solving? Who is the customer? Can this technology be deployed? That is the workforce pipeline we want to build.” Eight graduate students make up the first cohort of trainees — ",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:b5870a8a767e43cc",
+      "published": "2026-09-14",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "MTSU’s QRISE Lands $2M Federal Grant for Quantum and AI research",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/14/mtsu-qrise-lands-2m-federal-grant-quantum-ai-research/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Researchers entangled four qubits in a room-temperature diamond system about 10 times faster than with a conventional sequence of two-qubit gates. The parallel gate completed the operation in 14.8 microseconds with a fidelity of 0.92, compared with 0.69 for the sequential method. The approach could support more sensitive quantum sensors and more efficient error correction, but it remains a four-qubit laboratory demonstration. Researchers have entangled four qubits inside a diamond at room temperature using a single gate, cutting the operation time by about 90% while improving its accuracy over the conventional approach. The experimental system produced a four-qubit entangled state in 14.8 microseconds, which researchers report was about 10 times faster than a sequence of two-qubit gates. According to the study published in Nature Nanotechnology , the parallel gate achieved a fidelity of 0.92, meaning its operation closely matched the intended result. The conventional method, which entangled the qubits two at a time through a series of separate operations, achieved a fidelity of 0.69. The findings could lead to more capable room-temperature quantum sensors and more efficient error correction in solid-state quantum processors. They also demonstrate a way to turn unwanted interactions among qubits, normally treated as a source of errors, into a tool for controlling several qubits simultaneously. The team used a nitrogen-vacancy center, or NV center, in diamond. An NV center is a small defect formed when a nitrogen atom replaces one carbon atom in the diamond’s crystal structure and an adjacent position remains empty. The defect can trap an electron whose quantum state can be prepared, controlled and measured using light and microwave pulses. Unlike many quantum systems, NV centers can preserve useful quantum behavior at room temperature. That feature has made them a major platform for quantum sensing, networking and quantum computing. The researchers used",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:69e41552be4975d8",
+      "published": "2026-09-14",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Penn Researchers Demonstrate Room-Temperature Diamond System That Entangles Four Qubits 10 Times Faster",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/14/penn-researchers-demonstrate-room-temperature-diamond-system-that-entangles-four-qubits-10-times-faster/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Fortaegis raised an oversubscribed $50 million Series A to commercialize its chip-based security technology for AI, defense, telecommunications and autonomous systems. The company uses the unique physical properties of silicon chips to generate changing encryption keys that are not stored on devices. Fortaegis plans to begin commercial manufacturing in 2027 while expanding FPGA production and developing application-specific chips. Dutch startup Fortaegis has raised $50 million to move its chip-based security technology into commercial production, targeting networks that connect AI systems, defense equipment, satellites and autonomous machines. The oversubscribed Series A was led by Singapore-based Serendipity Capital , according to the company. Other participants included TEL Venture Capital, the corporate venture arm of Japanese chip-equipment maker Tokyo Electron , and investors connected to manufacturing, defense, quantum computing and critical infrastructure. Fortaegis plans to use the funding to begin commercial manufacturing in 2027, the Financial Times reported. The company said the investment would support production and deployment of its field-programmable gate array products across the U.S., Europe, Singapore and Japan. Field-programmable gate arrays, or FPGAs, are chips that can be configured for specific tasks after they have been manufactured. The funding will also support Fortaegis ’s development of application-specific integrated circuits, or ASICs. Unlike FPGAs, ASICs are designed and manufactured for a particular function, potentially offering better performance and efficiency at large production volumes. Founded in October 2023, the Amsterdam-based company has expanded across Europe, the U.S. and Asia. It says it is working with more than 25 companies and governments in semiconductor manufacturing, defense, AI infrastructure, telecommunications and other critical industries. Fortaegis founder and CEO Boudewijn Wijnands told the FT tha",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:10a9a19d3c6fb4e5",
+      "published": "2026-09-14",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Fortaegis Raises $50 Million to Commercialize Chip-Based Security Technology",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/14/fortaegis-raises-50-million-to-commercialize-chip-based-security-technology/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Researchers identified three quantum materials that could improve searches for extremely light dark matter by several orders of magnitude. Titanium diselenide, strontium ruthenate and hole-doped diamond host electronic excitations that could amplify the faint energy signals produced by dark matter interactions. T itanium diselenide and strontium ruthenate also offer directional sensitivity, which could help researchers distinguish dark matter signals from background noise. PRESS RELEASE &#8212; For decades, physicists have searched for dark matter, the invisible substance thought to make up roughly 85% of all matter in the universe. Although its gravitational influence shapes galaxies and the large-scale structure of the cosmos, dark matter has never been directly detected. Now, an international team has identified a new class of quantum materials that could dramatically improve the search for some of the lightest and most elusive forms of dark matter. Published in&nbsp; Physical Review Letters , the study introduces three unconventional materials whose unique electronic properties could serve as exceptionally sensitive dark matter detectors, potentially surpassing existing detector designs by several orders of magnitude. The research by&nbsp; Prof. Yonit Hochberg &nbsp; and Rotem Ovadia from the Hebrew University of Jerusalem, Dr. Dino Novko from the Institute of Physics in Croatia, and Prof. Antonio Politano &nbsp; of the University of L&#8217;Aquila . The work brings together expertise in particle physics, condensed matter physics, and materials science to tackle one of the greatest unanswered questions in modern science. Unlike ordinary matter, dark matter does not emit, absorb, or reflect light, making it effectively invisible. Scientists can search for it only by looking for the tiny amounts of energy deposited when dark matter particles interact with ordinary materials. Detecting light dark matter is particularly challenging because these intera",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:0717fd97582accbd",
+      "published": "2026-09-14",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "New Quantum Materials Could Dramatically Boost the Search for Dark Matter",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/14/new-quantum-materials-could-dramatically-boost-the-search-for-dark-matter/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "",
+      "authors": [
+        "Hyukgun Kwon",
+        "Kento Tsubouchi",
+        "Chia-Tung Chu",
+        "Liang Jiang"
+      ],
+      "extra": {
+        "doi": "10.1038/s41534-026-01347-3",
+        "subjects": []
+      },
+      "id": "doi:10.1038/s41534-026-01347-3",
+      "published": "2026-09-14",
+      "source": "npj Quantum Information",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Criteria for unbiased estimation: applications to noise-agnostic sensing and quantum channel estimation",
+      "topics": [],
+      "url": "https://doi.org/10.1038/s41534-026-01347-3",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Quantum Machines ran an end-to-end NVIDIA CUDA-Q program across live qubits, GPUs and CPUs using NVIDIA NVQLink. The demonstration used a single program to route quantum and classical tasks to the appropriate processors without requiring developers to hand-code low-level control sequences. The system exchanged measurements and control decisions in microseconds, supporting the real-time processing needed for tasks such as quantum error correction. PRESS RELEASE &#8212; Quantum Machines, a leading provider of advanced quantum control solutions, today became the first control company to run an&nbsp;end-to-end&nbsp; NVIDIA&nbsp; CUDA-Q&nbsp; program across live qubits and a PPU classical processor with&nbsp; NVIDIA &nbsp;NVQLink .&nbsp;CUDA-Q is NVIDIA’s open platform for&nbsp;quantum-GPU&nbsp;supercomputing, providing a way of writing instructions that both a classical computer and a quantum computer can follow. This&nbsp;enables&nbsp;a software developer to write applications that can easily&nbsp;share quantum and classical resources, taking advantage of the power and reliability of supercomputing in the quantum workflow. NVQLink is the microsecond-speed connection architecture between a quantum controller and GPUs. This breakthrough demonstration shows how&nbsp;engineers, developers and researchers can&nbsp;run&nbsp;hybrid quantum-classical applications using CUDA-Q, which handles the underlying technical steps automatically in familiar programming languages used across the quantum industry, such as Python, C++, or QUA. This removes the need to hand-code the low-level control sequences that have traditionally required specialist quantum-hardware expertise.&nbsp; This removes layers of complexity typically required to deploy quantum workloads, reducing time-to-value for research and commercial teams, and moving the industry closer to scalable, application-driven quantum deployments. Code written once with CUDA-Q was executed on Quantum Machines&#8217; co",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:5eefdba7d831e914",
+      "published": "2026-09-13",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Quantum Machines Makes Quantum Computers Easier to Program With NVIDIA CUDA-Q And NVQLink",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/13/quantum-machines-makes-quantum-computers-easier-to-program-with-nvidia-cuda-q-and-nvqlink/",
+      "why_it_matters": ""
+    },
     {
       "abstract": "GÉANT and the Quantum Internet Alliance (QIA) have partnered to advance European quantum networking by signing an MoU on September 8, 2026. This collaboration leverages GÉANT's optical network and QIA's quantum networking expertise to develop infrastructure, standards, and interoperability protocols, aiming to transition quantum communication prototypes into operational cross-border trials and establish a sovereign European Quantum Internet. The post GÉANT and Quantum Internet Alliance Partner to Advance European Quantum Networking Architecture appeared first on Quantum Computing Report .",
       "authors": [
