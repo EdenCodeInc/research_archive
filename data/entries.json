@@ -1,6 +1,369 @@
 {
-  "count": 5251,
+  "count": 5277,
   "entries": [
+    {
+      "abstract": "Insider Brief Quantum Dice and North Wales Police completed Project PROTECT, a proof-of-technology evaluating probabilistic computing for emergency-response vehicle deployment planning. In a modelled deployment scenario, the approach reduced average response times to 4.82 minutes, about 40% below the station-based baseline, while increasing P0 demand reachable within 10 minutes from 58.8% to 75.6%. A separate 24-hour simulation covering 13 urgent incidents achieved an average response time of 7.76 minutes in its best-performing configuration, although further validation is required before operational deployment. PRESS RELEASE &#8212; Quantum Dice and North Wales Police today announced the results of Project PROTECT, a proof-of-technology evaluating how Quantum Dice&#8217;s probabilistic processor can support emergency-response vehicle deployment planning. The project demonstrated that probabilistic optimisation can significantly improve forward-deployment planning for emergency response vehicles while maintaining operational constraints that are critical to policing. In a constrained modelled deployment scenario, retaining one vehicle at each of five station wards and optimising the placement of ten surplus vehicles, Project PROTECT reduced average response times to 4.82 minutes, a reduction of approximately 40% compared with the station-based baseline. The project also increased the proportion of high-priority (P0) demand reachable within 10 minutes from 58.8% to 75.6%, while geographic ward coverage improved from 39.3% to 64.3%. George Dunlop, Co-founder and Director of Partnerships at Quantum Dice , said: “Project PROTECT demonstrates that advanced optimisation technologies can deliver meaningful operational insights for public-sector organisations today. By leveraging our UK-made probabilistic processor, we have shown how sovereign UK computing capability can support critical public-safety missions and provide a practical pathway to scalable deployment.” North W",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:f6c0445a50be12e1",
+      "published": "2026-09-15",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Quantum Dice and North Wales Police Test Probabilistic Computing for Emergency Response",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/15/quantum-dice-north-wales-police-probabilistic-vehicle-deployment/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief TOYO Corporation has purchased a second IQM quantum computer to expand access to quantum education, research and technology testing in Japan. The IQM Spark system will be installed at TOYO’s Tokyo R&amp;D center and is expected to begin operating in early 2027. TOYO’s Spark and planned 20-qubit IQM Radiance systems will be available to Japanese companies, universities and research organizations. PRESS RELEASE &#8212; &nbsp;IQM Quantum Computers, a global leader in superconducting quantum computers, today announced that TOYO Corporation has purchased a second full-stack quantum computer, IQM Spark. This expands TOYO&#8217;s quantum footprint and reinforces IQM&#8217;s commitment to driving quantum acceleration in Japan.&nbsp; The Spark system will be installed at TOYO&#8217;s R&amp;D center in Kiba, Tokyo, and will be operational in early 2027, enabling hands-on learning from fundamental quantum computing education to algorithm validation and verification.&nbsp; This announcement follows TOYO&#8217;s earlier acquisition of an IQM Radiance 20-qubit quantum computer, planned for installation at the end of 2026 at the&nbsp;Global Research and Development Center for Business by Quantum-AI technology (G-QuAT), a research facility operated by the National Institute of Advanced Industrial Science and Technology (AIST).&nbsp; Together, the two deployments underscore growing demand for IQM&#8217;s on-premises quantum computers. TOYO is also playing a key role in advancing quantum computing technology in Japan, and owning the systems enables the company to extend capability into the ecosystem in a way that advances its own goals while accelerating adoption where it&#8217;s needed most.&nbsp; “What makes this purchase matter isn&#8217;t that TOYO bought a second system, it&#8217;s what they&#8217;re choosing to do with them. TOYO is sharing the capabilities for educational purposes, they&#8217;re opening it up to the universities, startups, and researchers who mak",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:f47938cbbd4257be",
+      "published": "2026-09-15",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "TOYO Corporation Buys Second IQM Quantum Computer",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/15/toyo-corporation-buys-second-iqm-quantum-computer/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Fujitsu released OpenQARP as open-source software, offering more than 100 components designed to streamline quantum application development. The package includes more than 70 composable building blocks and 20 ready-to-run algorithms, including tools developed by Fujitsu. OpenQARP supports standard PCs, NVIDIA CUDA-Q and Fujitsu’s 40-qubit simulator, following beta testing by more than 80 organizations. PRESS RELEASE &#8212; Fujitsu Limited today announced the global open-source release of its quantum application development software, Open Quantum Application Research Package (OpenQARP (code name)). The software offers over 100 software components, including Fujitsu-developed quantum algorithms. These components can be combined to significantly streamline quantum application development. The software is compatible with various execution environments, such as Fujitsu&#8217;s quantum simulator built on a large-scale HPC environment and the NVIDIA CUDA-Q platform [1] for hybrid quantum-classical computing. Prior to its public release, Fujitsu has provided a beta version of the software to over 80 organizations since February 2026 through joint research and the Quantum Simulator Challenge [2], and it has already been used to generate numerous research and development results in quantum applications. By publicly releasing the software, which includes Fujitsu-developed algorithms, as open-source software, Fujitsu aims to accelerate the practical adoption of quantum software and contribute to addressing societal challenges through quantum technology. Background Quantum computing is expected to provide one approach to solving complex problems that conventional computers cannot address in various societal domains, such as materials development, financial optimization, healthcare, and drug discovery. Fujitsu has been engaged in the development of specific quantum applications through joint demonstrations with customers across various industries and joint research",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:e632fd0da999596c",
+      "published": "2026-09-15",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Fujitsu Releases Open Quantum Application Research Package as Open Source",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/15/fujitsu-releases-open-quantum-application-research-package-as-open-source/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "BlueQubit has launched the \"Quantum Flywheel\" grant program, offering $150,000 in compute credits over three months for quantum algorithm discovery, adversarial classical simulation, and quantum error correction research. Supported by IBM, AWS, and NVIDIA, the program provides access to QPU, GPU, and CPU hardware, along with BlueQubit's development environment, for selected research teams. The initiative aims to advance quantum computing through open-source contributions, peer-reviewed research, and AI-driven QEC code discovery. The post BlueQubit Launches $150,000 &#8220;Quantum Flywheel&#8221; Compute Grant Program Supported by AWS, IBM, and NVIDIA appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:d309656e61dee2aa",
+      "published": "2026-09-15",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "BlueQubit Launches $150,000 “Quantum Flywheel” Compute Grant Program Supported by AWS, IBM, and NVIDIA",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/bluequbit-launches-150000-quantum-flywheel-compute-grant-program-supported-by-aws-ibm-and-nvidia/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Anyon Computing has introduced an open-source, real-time quantum control system featuring NVIDIA NVQLink integration. This system unifies microwave control hardware and superconducting QPUs with CPUs and GPUs over a shared RDMA-over-Ethernet fabric, enabling microsecond execution loops vital for quantum error correction and hybrid quantum-classical machine learning. The initiative aims to standardize control layers across multi-QPU and multi-GPU supercomputing clusters. The post Anyon Computing Unveils Open-Source Real-Time Control Plane Powered by NVIDIA NVQLink appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:d195784acb07f175",
+      "published": "2026-09-15",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Anyon Computing Unveils Open-Source Real-Time Control Plane Powered by NVIDIA NVQLink",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/anyon-computing-unveils-open-source-real-time-control-plane-powered-by-nvidia-nvqlink/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "A collaboration including MITRE, Quantum Brilliance, NVIDIA, and SandboxAQ has developed a GPU-accelerated digital twin framework for quantum sensor error attribution, detailed in an arXiv preprint. This framework automates error budgeting by evaluating sensitivity, accuracy bias, and parameter-drift robustness, identifying key performance limiters for NV diamond ensembles and validating on a cesium OPM array for biomagnetic imaging. The research highlights that optimizing for sensitivity alone doesn't guarantee accuracy and that software-based noise rejection is crucial for clinical targets. The post MITRE, Quantum Brilliance, NVIDIA, and SandboxAQ Introduce GPU-Accelerated Digital Twin Framework for Quantum Sensor Error Attribution appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:cb6d84f557361585",
+      "published": "2026-09-15",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "MITRE, Quantum Brilliance, NVIDIA, and SandboxAQ Introduce GPU-Accelerated Digital Twin Framework for Quantum Sensor Error Attribution",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/mitre-quantum-brilliance-nvidia-and-sandboxaq-introduce-gpu-accelerated-digital-twin-framework-for-quantum-sensor-error-attribution/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "QCentroid has integrated NVIDIA CUDA-Q into its QuantumOps platform, creating an enterprise hybrid application design framework. This new system automates the placement of quantum components within classical HPC software, allowing for the optimization of classical-quantum boundaries in AI, simulation, and generative modeling. Demonstrated on a cGAN for catalyst materials discovery, the platform evaluates various hybrid Generator designs against classical baselines, leveraging GPU-accelerated simulation and quantum processing units for performance assessment. The post QCentroid Integrates QuantumOps Platform with NVIDIA CUDA-Q for Enterprise Hybrid Application Workflows appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:b0a194bec82b86b7",
+      "published": "2026-09-15",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "QCentroid Integrates QuantumOps Platform with NVIDIA CUDA-Q for Enterprise Hybrid Application Workflows",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/qcentroid-integrates-quantumops-platform-with-nvidia-cuda-q-for-enterprise-hybrid-application-workflows/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "NVIDIA has launched CUDA-Q Logical, an extension to its open-source accelerated quantum computing platform, aimed at accelerating fault-tolerant quantum computing by unifying the design of high-level algorithms, quantum error correction codes, and QPU micro-architectures. This framework, detailed in a new research publication, allows for direct derivation of full-stack resource estimates and has shown significant speedups in fault-tolerant system resource modeling at national laboratories like Fermilab. The release coincides with wide adoption of NVIDIA’s NVQLink interconnect and GPU-accelerated quantum simulation libraries, fostering an auditable foundation for utility-scale quantum-GPU supercomputers. The post NVIDIA Unveils CUDA-Q Logical to Accelerate Fault-Tolerant System Orchestration Across Hardware Modalities appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:a55e7044f8eb6cff",
+      "published": "2026-09-15",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "NVIDIA Unveils CUDA-Q Logical to Accelerate Fault-Tolerant System Orchestration Across Hardware Modalities",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/nvidia-unveils-cuda-q-logical-to-accelerate-fault-tolerant-system-orchestration-across-hardware-modalities/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief The QUOPS benchmark measures how much computation a quantum computer can complete successfully and how quickly it can perform the work. Tests found that Quantinuum ’s Helios handled larger circuits, while Google ’s Willow and IBM ’s Boston completed operations at higher rates. The study estimates that current quantum computing capability must increase about 100,000-fold to reach the scientific workloads examined. A new benchmark could give researchers and buyers a more practical way to compare quantum computers by measuring how much computation they can complete successfully and how quickly they can do it. The new benchmark also indicates that future quantum computers will need a significant performance boost &#8212; in the 100,000-fold range &#8212; to tackle high-value scientific problems. The Quantum Universal Operations Performance System, or QUOPS, measures the largest useful-sized test circuit a quantum computer can run above a set accuracy threshold. It also records the rate at which the machine performs those operations. Researchers tested the benchmark on processors from Quantinuum , Google and IBM , according to a study posted on the preprint server arXiv . They also applied it to a small fault-tolerant processor built with up to eight logical qubits on Quantinuum ’s Helios-1 system. The results exposed a trade-off that basic hardware specifications often obscure. Google ’s Willow and IBM ’s Boston superconducting processors ran operations faster, while Quantinuum ’s Helios trapped-ion processor successfully handled larger test circuits, according to a Quantinuum blog post about the study. The study also found that current systems remain about five orders of magnitude below the estimated computational capability needed for several recognized scientific problems. In more simple terms, that means companies would need to boost performance by roughly 100,000-fold to reach the target range examined by the researchers. The finding lends support to ",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:978c1311c948a9d9",
+      "published": "2026-09-15",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Quantum Computers Need 100,000-Fold Performance Gain For Scientific Utility, Study Finds",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/15/quantum-computers-need-100000-fold-performance-gain-for-scientific-utility-study-finds/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Quandela and NVIDIA have collaborated on a technical white paper outlining an architecture to integrate photonic Quantum Processing Units (QPUs) with classical AI and HPC environments using NVIDIA NVQLink. This framework connects Quandela's Quantum System Controller (QSC) to NVIDIA GPU nodes via a low-latency interconnect, enabling GPU-accelerated simulations, quantum error correction, and QPU pulse calibration within a unified host process running NVIDIA CUDA-Q and the MerLin Quantum Machine Learning framework. This initiative aims to facilitate the commercial adoption of hybrid quantum-classical computing across various phases, from cloud-hosted experimentation to scalable, fault-tolerant deployments. The post Quandela and NVIDIA Outline Photonic QPU Integration Architecture via NVQLink appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:90575f7f2d55e945",
+      "published": "2026-09-15",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Quandela and NVIDIA Outline Photonic QPU Integration Architecture via NVQLink",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/quandela-and-nvidia-outline-photonic-qpu-integration-architecture-via-nvqlink/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "QC Design has integrated its Plaquette platform with NVIDIA CUDA-Q Logical, announced on September 14, 2026. This integration allows for hardware-realistic fault-tolerant quantum computing (FTQC) simulations by connecting high-level quantum error correction (QEC) circuit compilation with device-specific physical noise models. This enables evaluation of QEC code structures under continuous non-Pauli noise models, addressing discrepancies in traditional FTQC resource estimation. An initial study showed a 0.2% leakage rate on two-qubit entangling gates degraded the fault-tolerant circuit noise threshold by approximately 60%. The post QC Design Integrates Plaquette Platform with NVIDIA CUDA-Q Logical for Hardware-Realistic FTQC Simulation appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:404ab4432c994c1b",
+      "published": "2026-09-15",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "QC Design Integrates Plaquette Platform with NVIDIA CUDA-Q Logical for Hardware-Realistic FTQC Simulation",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/qc-design-integrates-plaquette-platform-with-nvidia-cuda-q-logical-for-hardware-realistic-ftqc-simulation/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "A research collaboration involving UCLA, Caltech, and NVIDIA has developed a machine-learning framework utilizing a Fourier Neural Operator (FNO) for the inverse design of quantum control pulse sequences. This FNO-based method significantly accelerates the synthesis of quantum control sequences, achieving a 10⁷x speedup and reducing computation time from 10 hours to 10-20 minutes, with an 86.2% success rate in preparing target quantum states. The framework, built on NVIDIA's CUDA-Q platform, offers a differentiable approach for optimizing laser pulse parameters in molecular quantum dynamics. The post UCLA, Caltech, and NVIDIA Develop Fourier Neural Operator for Quantum Control Sequence Synthesis appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:3bf1642d0aec9770",
+      "published": "2026-09-15",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "UCLA, Caltech, and NVIDIA Develop Fourier Neural Operator for Quantum Control Sequence Synthesis",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/ucla-caltech-and-nvidia-develop-fourier-neural-operator-for-quantum-control-sequence-synthesis/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Entrust has added CBOM import and export capabilities to its Cryptographic Security Platform to help organizations connect cryptographic inventories with governance, risk assessment, and remediation. The platform now includes Ansible-based certificate lifecycle automation, expanded support for composite algorithms, and SPIRE-based capabilities for machine and AI identities. Entrust is offering the Cryptographic Security Platform as a service or for on-premises deployment, including options aimed at post-quantum migration and data sovereignty requirements. PRESS RELEASE &#8212; Entrust today announced new capabilities for its Cryptographic Security Platform (CSP) that help organizations turn Cryptographic Bill of Materials (CBOMs) data into action. Government agencies, financial institutions, healthcare organizations, and other critical infrastructure operators are navigating increased cyber threats, shorter certificate lifecycles, the rapid growth of machine and AI identities, evolving compliance requirements, and the transition to post-quantum cryptography. Managing these changes depends on a comprehensive view of where cryptography resides and how assets and systems depend on it. Growing focus on cryptographic inventory and post-quantum readiness from industry groups, standards bodies, and regulators around the world, including the recent U.S. Executive Order and the EU’s DORA and NIS2 regulations requiring CBOMs-based inventories, reinforces the need for organizations to understand their cryptographic assets, dependencies and risk exposure. Organizations can now connect cryptographic discovery and inventory with governance, automation and post-quantum migration planning, helping them identify and address risks across complex environments. With new CBOM import and export capabilities, the Cryptographic Security Platform helps organizations build more complete cryptographic inventories, understand dependencies, and translate cryptographic visibility i",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:30b4d3fc0536f8b8",
+      "published": "2026-09-15",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Entrust Turns CBOM Data Into Action With Expanded Cryptographic Security Platform",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/15/entrust-adds-cbom-capabilities-cryptographic-security-platform/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "At IEEE Quantum Week 2026, IQM Quantum Computers announced the adoption of NVIDIA CUDA-Q Logical within their Halocene quantum error correction product line. This integration allows for the standardization of high-level logical circuit descriptions, enabling QEC algorithm workloads to be compiled, benchmarked, and executed across various physical backends. The framework provides auditable multi-layer resource estimates and supports up to 5 logical qubits, aiming to standardize the evaluation and validation of QEC designs on physical testbed hardware. The post IQM Adopts NVIDIA CUDA-Q Logical Framework to Drive Open-Architecture Fault-Tolerant System Benchmarking appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:1a55f8231e57a79c",
+      "published": "2026-09-15",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "IQM Adopts NVIDIA CUDA-Q Logical Framework to Drive Open-Architecture Fault-Tolerant System Benchmarking",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/iqm-adopts-nvidia-cuda-q-logical-framework-to-drive-open-architecture-fault-tolerant-system-benchmarking/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "At IEEE Quantum Week 2026, IonQ presented nine peer-reviewed papers, with four receiving Best Paper Awards, showcasing advancements in hybrid HPC and quantum-AI workflows. Their work, utilizing IonQ's quantum hardware alongside NVIDIA software, demonstrated significant progress in enterprise engineering optimization (e.g., accelerating 35-million-element mesh simulations by up to 14.6% with Synopsys), quantum-accelerated AI architectures (e.g., 24% error reduction in AI classification with QuantumBasel), and dynamic error mitigation. This research highlights the practical application and performance benefits of quantum computing across various fields. The post IonQ Demonstrates Hybrid HPC and Quantum-AI Workflows Across Nine Peer-Reviewed Papers at IEEE Quantum Week 2026 appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:04f9e423f2347067",
+      "published": "2026-09-15",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "IonQ Demonstrates Hybrid HPC and Quantum-AI Workflows Across Nine Peer-Reviewed Papers at IEEE Quantum Week 2026",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/ionq-demonstrates-hybrid-hpc-and-quantum-ai-workflows-across-nine-peer-reviewed-papers-at-ieee-quantum-week-2026/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "",
+      "authors": [
+        "Zi-Wei Li",
+        "Jiaojiao Chen",
+        "Wei Xiong",
+        "Xiao Xue",
+        "Zeng-Zhao Li"
+      ],
+      "extra": {
+        "doi": "10.1038/s41534-026-01307-x",
+        "subjects": []
+      },
+      "id": "doi:10.1038/s41534-026-01307-x",
+      "published": "2026-09-15",
+      "source": "npj Quantum Information",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Quantum Coulomb drag signatures of Majorana bound states",
+      "topics": [],
+      "url": "https://doi.org/10.1038/s41534-026-01307-x",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Physicists at the University of Oxford have helped confirm that one of the strangest phenomena in physics—quantum entanglement—occurs even among some of the heaviest and most fleeting particles ever created. The discovery, made using the world's most powerful particle collider at CERN, has been published in Physical Review Letters.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://phys.org/rss-feed/physics-news/quantum-physics/"
+      },
+      "id": "feed:ffe6b24683494207",
+      "published": "2026-09-14",
+      "source": "Phys.org Quantum Physics",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Physicists help uncover 'spooky' quantum effect in the Large Hadron Collider",
+      "topics": [],
+      "url": "https://phys.org/news/2026-09-physicists-uncover-spooky-quantum-effect.html",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Cloq, a quantum clock startup founded by University of Oxford students, won the top prize at the fourth Reuben Entrepreneurship Forum. The team is developing a compact, low-cost quantum clock based on a University of Oxford patent involving a nitrogen atom trapped inside a buckminsterfullerene molecule. Cloq previously placed second at Oxford Edge’s StEP Demo Day and will represent Oxford at Stage Two in Berlin in October while continuing to validate potential applications with customers. Photo Credits: Simon Devenport. PRESS RELEASE &#8212; Cloq took the top prize at the Forum, now in its fourth year, with the pitch delivered by teammate David McMahon, a DPhil student in Atomic and Laser Physics. The win builds on Cloq&#8217;s second-place finish at Oxford Edge&#8217;s StEP Demo Day last month and comes as the team prepares for its next pitch at Stage Two in Berlin this October. It was at StEP, Oxford Edge&#8217;s eight-week educational accelerator run jointly with Oxford University Innovation (OUI), that Joel met his three co-founders: David; Aria Puri, a final-year physics undergraduate; and Yuanzhu Wang, a second-year engineer. The four gravitated to the same project among those on offer, a University of Oxford patent for a compact, low-cost quantum clock developed by Professor Arzhang Ardavan and colleagues in the Department of Physics. Built around a nitrogen atom trapped inside a buckminsterfullerene molecule, or &#8220;buckyball,&#8221; the technology brings high-precision timing to industries currently priced out of it. Joel, who is entering the fourth year of his integrated master&#8217;s in Physics, first came into contact with Oxford Edge, a Centre for Entrepreneurship and Innovation for the University of Oxford , through Entrepreneurship for Physicists, an in-curricular course also taken, a year apart, by his future teammate Aria. Oxford Edge was launched by Christ Church in 2025, the College&#8217;s 500th year. At StEP&#8217;s Demo Day, h",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:f900bc89ba630316",
+      "published": "2026-09-14",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Oxford Quantum Startup Cloq Wins Top Prize at Reuben Entrepreneurship Forum",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/14/oxford-quantum-startup-cloq-top-prize-reuben-entrepreneurship-forum/",
+      "why_it_matters": ""
+    },
     {
       "abstract": "In 1931, physicist Hans Bethe predicted that, in certain one-dimensional quantum systems, particles can bind together to form multi-particle states known as Bethe strings. Unlike ordinary molecules, which are held together by chemical bonds, Bethe strings arise purely from interactions between particles and exist only in one dimension. For decades, Bethe strings remained primarily a theoretical concept.",
       "authors": [],
@@ -38,6 +401,26 @@
       "why_it_matters": ""
     },
     {
+      "abstract": "Insider Brief Photonic’s proposed Project VANGUARD would establish a Canadian multi-tenant semiconductor manufacturing facility at an estimated cost of up to CAD$500 million &#8212; or about US$359 million. The facility would serve commercial and government customers in quantum computing, artificial intelligence, aerospace, defense, advanced sensing and semiconductor packaging. The project was selected for the Canada Investment Summit Prospectus and is intended to expand domestic manufacturing capacity, strengthen supply chains and create skilled jobs. PRESS RELEASE &#8212; Photonic Inc. today announced Project VANGUARD, a proposal to establish a Canadian multi-tenant semiconductor manufacturing facility, anchored by Photonic. Project VANGUARD has been selected for inclusion in the Canada Investment Summit Prospectus, a curated portfolio of nationally significant investment opportunities presented to global institutional investors, strategic partners, and allied governments. With an estimated cost of up to $500 million CAD &#8212; about US$359 million, Project VANGUARD is envisioned as shared national semiconducting manufacturing infrastructure. The proposed facility would serve commercial and government organizations working across quantum computing, artificial intelligence, aerospace, defence, advanced sensing, and semiconductor packaging. Canada is home to world-leading research and innovation in many of these fields, yet companies often face significant challenges moving from prototype development to manufacturing at scale. Limited domestic manufacturing capacity often forces companies to scale manufacturing abroad, increasing costs, lengthening development timelines, and reducing control over strategically important intellectual property and supply chains. &#8220;Project VANGUARD is an opportunity to build critical semiconductor manufacturing infrastructure that helps Canadian companies scale at home, strengthens our economic and technological sovereignty, and ",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:b7766910283546ce",
+      "published": "2026-09-14",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Photonic Proposes CAD$500 Million Canadian Semiconductor Manufacturing Facility",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/14/photonic-proposes-cad500-million-canadian-semiconductor-manufacturing-facility/",
+      "why_it_matters": ""
+    },
+    {
       "abstract": "Insider Brief Middle Tennessee State University ’s QRISE Center has welcomed its first eight graduate trainees through a five-year, $2 million NSF National Research Traineeship grant focused on quantum science and artificial intelligence. The program provides eligible students with tuition assistance, stipends, faculty mentorship and professional development opportunities aimed at preparing them for quantum computing and AI careers. The trainees will conduct research spanning quantum simulations, quantum machine learning and computational science, with opportunities to work with academic, national laboratory and industry partners. PRESS RELEASE &#8212; &#8220;If we want to build a sustainable quantum ecosystem in Tennessee, we also have to build the people who will power it.” Those words from Middle Tennessee State University physics professor Hanna Terletska, director of Quantum Research Interdisciplinary Science and Education Center , or QRISE, welcomed the first cohort of eight trainees to an orientation session inside the James E. Walker Library made possible by a $2 million National Science Foundation grant to bolster research in quantum science and artificial intelligence. Over the next five years, the NSF’s National Research Traineeship grant will prepare these MTSU graduate students to meet the growing demand for skilled professionals experienced in quantum computing and AI. Trainees receive $16,000 in tuition assistance, a host of professional development opportunities, and a $37,000 stipend for eligible students. “A student might begin with fundamental research at MTSU, spend time at Oak Ridge National Research Laboratory working at the frontier of quantum science, and then work with an industry partner where the questions become very different,” said Terletska. “What problem are we solving? Who is the customer? Can this technology be deployed? That is the workforce pipeline we want to build.” Eight graduate students make up the first cohort of trainees — ",
       "authors": [
         "Mohib Ur Rehman"
@@ -55,6 +438,64 @@
       "title": "MTSU’s QRISE Lands $2M Federal Grant for Quantum and AI research",
       "topics": [],
       "url": "https://thequantuminsider.com/2026/09/14/mtsu-qrise-lands-2m-federal-grant-quantum-ai-research/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief The U.S. National Science Foundation is investing $20 million in a two-year pilot led by the University of Central Florida to support commercialization of federally funded deep-technology research. The pilot will provide commercialization funding, expert mentorship, and investor connections to small businesses developing deep-technology ventures. NSF and UCF will evaluate the program to identify approaches that help deep-tech companies move from federally funded research toward commercial products and services. PRESS RELEASE &#8212; The U.S. National Science Foundation today announced a $20 million investment to launch a two-year pilot supporting small businesses in commercializing their deep-technology ventures. The pilot aims to address a persistent gap separating federally funded deep technology research from commercial success. The investment ensures that the U.S. remains at the forefront of global innovation. &#8220;NSF invests in small businesses that bring the most innovative, cutting-edge technologies to the market,&#8221; said Erwin Gianchandani, NSF Assistant Director for Technology, Innovation and Partnerships. &#8220;By helping these companies go further in bridging the so-called &#8216;valley of death,&#8217; we can build on NSF&#8217;s R&amp;D investments and help more breakthrough innovations reach the market, strengthening U.S. competitiveness and economic growth.&#8221; &#8220;We are grateful to NSF for its continued confidence in UCF and for the opportunity to help shape the future of research translation and commercialization,&#8221; said University of Central Florida (UCF) President Alexander N. Cartwright. &#8220;Discovery reaches its greatest potential when it moves beyond the laboratory and improves lives, strengthens industries and creates opportunities. UCF&#8217;s National Commercialization and Translation Institute (NCTI) builds on UCF&#8217;s growing national leadership in helping promising technologies become products, comp",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:a9b88c6b91c965c8",
+      "published": "2026-09-14",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "NSF Launches $20M Pilot for Deep-Tech Commercialization",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/14/nsf-20m-pilot-deep-tech-commercialization/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief BlueQubit has opened applications for its $150,000 Quantum Flywheel grant program, supported by IBM, AWS, and NVIDIA accelerated computing. The three-month program will provide selected research teams with QPU, CPU, and GPU compute access, frontier AI models, and BlueQubit ’s quantum development environment. The program seeks proposals focused on quantum algorithms, classical simulation of quantum advantage claims, and AI-assisted quantum error-correction research. PRESS RELEASE &#8212; BlueQubit announced the open call for its Quantum Flywheel grant program, a $150,000 initiative created with support from IBM, Amazon Web Services (AWS), and NVIDIA accelerated computing. The three-month program provides research teams with cloud compute credits for QPU, CPU, and GPU resources, along with access to frontier AI models and BlueQubit ’s quantum-native development environment. While frontier AI tools now allow scientists to draft complete experimental pipelines in hours, access to expensive hardware remains a bottleneck to testing and validating these hypotheses. Quantum Flywheel removes this barrier, enabling accelerated quantum computing research aimed at producing publishable preprints, open-source repositories, and reproducible benchmark data. The program invites proposals designed to address fundamental scientific challenges across three areas. Teams will develop and test novel quantum algorithms on IBM quantum computers, targeting quantum advantage in simulation, optimization, and other areas where classical methods cannot easily compete. Researchers will also conduct adversarial classical simulation, using tensor networks, Pauli-path methods, and other classical heuristics to stress-test published quantum advantage claims. Additionally, proposals will explore using frontier AI agents to discover, decode, and evaluate novel quantum error-correction codes aimed at mitigating hardware noise. Selected teams will receive direct access to high-performance ",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:9ebf7372eaf514c4",
+      "published": "2026-09-14",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "BlueQubit Launches Quantum Flywheel Research Grant Program",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/14/bluequbit-quantum-flywheel-research-grant-program/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "IonQ and partners unveil 10 peer-reviewed papers at IEEE QCE26, winning 4 medals. See how quantum-classical hybrid workflows deliver enterprise impact today.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://ionq.com/blog/rss.xml"
+      },
+      "id": "feed:878c44382f1eaf68",
+      "published": "2026-09-14",
+      "source": "IonQ",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "IonQ | IonQ at IEEE QCE26: 10 Papers, Real Quantum Results",
+      "topics": [],
+      "url": "https://www.ionq.com/blog/bridging-a-historical-divide-in-quantum-computing",
       "why_it_matters": ""
     },
     {
@@ -78,6 +519,24 @@
       "why_it_matters": ""
     },
     {
+      "abstract": "The vast majority of modern quantum technologies—from quantum cryptography to the quantum internet to the quantum computer—rely on one essential element: the transmission of photons. Two qubits (two atoms, for example) exchange information: One qubit emits a photon, and the other qubit absorbs it.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://phys.org/rss-feed/physics-news/quantum-physics/"
+      },
+      "id": "feed:17475c77320efc2c",
+      "published": "2026-09-14",
+      "source": "Phys.org Quantum Physics",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Getting photons into shape for reliable quantum communication",
+      "topics": [],
+      "url": "https://phys.org/news/2026-09-photons-reliable-quantum-communication.html",
+      "why_it_matters": ""
+    },
+    {
       "abstract": "Insider Brief Fortaegis raised an oversubscribed $50 million Series A to commercialize its chip-based security technology for AI, defense, telecommunications and autonomous systems. The company uses the unique physical properties of silicon chips to generate changing encryption keys that are not stored on devices. Fortaegis plans to begin commercial manufacturing in 2027 while expanding FPGA production and developing application-specific chips. Dutch startup Fortaegis has raised $50 million to move its chip-based security technology into commercial production, targeting networks that connect AI systems, defense equipment, satellites and autonomous machines. The oversubscribed Series A was led by Singapore-based Serendipity Capital , according to the company. Other participants included TEL Venture Capital, the corporate venture arm of Japanese chip-equipment maker Tokyo Electron , and investors connected to manufacturing, defense, quantum computing and critical infrastructure. Fortaegis plans to use the funding to begin commercial manufacturing in 2027, the Financial Times reported. The company said the investment would support production and deployment of its field-programmable gate array products across the U.S., Europe, Singapore and Japan. Field-programmable gate arrays, or FPGAs, are chips that can be configured for specific tasks after they have been manufactured. The funding will also support Fortaegis ’s development of application-specific integrated circuits, or ASICs. Unlike FPGAs, ASICs are designed and manufactured for a particular function, potentially offering better performance and efficiency at large production volumes. Founded in October 2023, the Amsterdam-based company has expanded across Europe, the U.S. and Asia. It says it is working with more than 25 companies and governments in semiconductor manufacturing, defense, AI infrastructure, telecommunications and other critical industries. Fortaegis founder and CEO Boudewijn Wijnands told the FT tha",
       "authors": [
         "Matt Swayne"
@@ -98,6 +557,26 @@
       "why_it_matters": ""
     },
     {
+      "abstract": "Insider Brief Quandela and NVIDIA have published a technical white paper outlining an architecture for integrating Quandela ’s photonic QPUs into existing AI and HPC infrastructure. The framework combines CPUs, GPUs and QPUs, with NVIDIA CUDA-Q, cuQuantum and NVQLink supporting quantum algorithm development, GPU simulation and low-latency QPU integration. The companies propose a three-step path covering access, integration and discovery, and scaling as organizations identify quantum workloads with potential value. PRESS RELEASE &#8212; Building on our June announcement of a low-latency integration between a Quandela photonic QPU and NVIDIA AI infrastructure, the companies are publishing a technical white paper today. This paper outlines a vision and architectural framework for gradually integrating quantum computing into current AI and HPC environments. This approach is based on the complementarity of CPUs, GPUs and QPUs. The CPU orchestrates workflows, while the GPU remains at the center of AI processing, notably handling intensive computation and simulation. The QPU acts as a specialized accelerator for workloads for which quantum computing could bring significant value. Thanks to the NVIDIA CUDA-Q platform (an open quantum-GPU supercomputing programming platform) and NVIDIA cuQuantum (an SDK optimized for simulating quantum computations on GPUs), algorithms can be developed, simulated and tested on GPU before being run on an actual photonic QPU. NVIDIA NVQLink enables a low-latency connection between the NVIDIA GPU environment and the Quantum System Controller, which then controls the QPU. Organizations can thus progressively explore quantum applications by relying on their existing computing infrastructure, without having to replace their current environments. A Step Toward More Accessible Quantum Computing By facilitating the integration of quantum computing into current AI and HPC environments, this platform empowers users to experiment, develop, and test quan",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:101b0e4de4e6afb8",
+      "published": "2026-09-14",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Quandela Publishes White Paper on Photonic QPU Integration With NVIDIA Infrastructure",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/14/quandela-white-paper-photonic-qpu-nvidia-infrastructure/",
+      "why_it_matters": ""
+    },
+    {
       "abstract": "Insider Brief Researchers identified three quantum materials that could improve searches for extremely light dark matter by several orders of magnitude. Titanium diselenide, strontium ruthenate and hole-doped diamond host electronic excitations that could amplify the faint energy signals produced by dark matter interactions. T itanium diselenide and strontium ruthenate also offer directional sensitivity, which could help researchers distinguish dark matter signals from background noise. PRESS RELEASE &#8212; For decades, physicists have searched for dark matter, the invisible substance thought to make up roughly 85% of all matter in the universe. Although its gravitational influence shapes galaxies and the large-scale structure of the cosmos, dark matter has never been directly detected. Now, an international team has identified a new class of quantum materials that could dramatically improve the search for some of the lightest and most elusive forms of dark matter. Published in&nbsp; Physical Review Letters , the study introduces three unconventional materials whose unique electronic properties could serve as exceptionally sensitive dark matter detectors, potentially surpassing existing detector designs by several orders of magnitude. The research by&nbsp; Prof. Yonit Hochberg &nbsp; and Rotem Ovadia from the Hebrew University of Jerusalem, Dr. Dino Novko from the Institute of Physics in Croatia, and Prof. Antonio Politano &nbsp; of the University of L&#8217;Aquila . The work brings together expertise in particle physics, condensed matter physics, and materials science to tackle one of the greatest unanswered questions in modern science. Unlike ordinary matter, dark matter does not emit, absorb, or reflect light, making it effectively invisible. Scientists can search for it only by looking for the tiny amounts of energy deposited when dark matter particles interact with ordinary materials. Detecting light dark matter is particularly challenging because these intera",
       "authors": [
         "Matt Swayne"
@@ -115,6 +594,48 @@
       "title": "New Quantum Materials Could Dramatically Boost the Search for Dark Matter",
       "topics": [],
       "url": "https://thequantuminsider.com/2026/09/14/new-quantum-materials-could-dramatically-boost-the-search-for-dark-matter/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "extra": {
+        "doi": "10.1103/pwws-21cx",
+        "subjects": []
+      },
+      "id": "doi:10.1103/pwws-21cx",
+      "published": "2026-09-14",
+      "source": "PRX Quantum",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Intrinsic Hamiltonian of mean force and strong-coupling quantum thermodynamics",
+      "topics": [],
+      "url": "https://doi.org/10.1103/pwws-21cx",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "extra": {
+        "doi": "10.1103/6wcb-nj42",
+        "subjects": []
+      },
+      "id": "doi:10.1103/6wcb-nj42",
+      "published": "2026-09-14",
+      "source": "PRX Quantum",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Enabling Deterministic Passive Quantum State Transfer with Giant Atoms",
+      "topics": [],
+      "url": "https://doi.org/10.1103/6wcb-nj42",
       "why_it_matters": ""
     },
     {
