@@ -1,5 +1,5 @@
 {
-  "count": 6479,
+  "count": 6494,
   "entries": [
     {
       "abstract": "Insider Brief Singapore-based AQSolotl is establishing research, development and commercialisation operations at Universiti Teknologi Malaysia’s Technovation Park in Johor Bahru, becoming Malaysia’s first quantum computing hardware company, according to UTM. The operations build on UTM’s quantum research collaborations with Japanese and Singaporean institutions, which helped develop quantum control and computing hardware technologies commercialised through AQSolotl. The facility will offer UTM students industrial internships and direct experience in quantum research, technology development and commercialisation. Image: AQSolotl, a spin-off company from Singapore’s quantum ecosystem in collaboration with UTM performs research, development and commercialization of quantum computer controllers in Johor Bahru. PRESS RELEASE &#8212; Universiti Teknologi Malaysia (UTM) is strengthening its role in Malaysia&#8217;s emerging quantum technology ecosystem as AQSolotl Pte. Ltd. , a Singapore-based quantum technology company, establishes its research, development and commercialisation ( R&amp;D&amp;C ) operations at UTM Technovation Park in Johor Bahru. The development makes AQSolotl the&nbsp; first quantum computing hardware company operating in Malaysia , marking an important step in translating UTM&#8217;s long-term research capabilities and international partnerships into advanced technology and industry development. UTM has been developing expertise in quantum technologies since&nbsp; 2009 through collaborations with Japan , including The University of Osaka, before expanding its research network to Singapore in&nbsp; 2018 . Collaborations involving the&nbsp; Centre for Quantum Technologies (CQT), Nanyang Technological University (NTU) and the National University of Singapore (NUS) &nbsp;contributed to the development of quantum control and computing hardware technologies that subsequently progressed towards commercialisation through AQSolotl. UTM Vice-Chancellor&nbsp; Pro",
@@ -196,6 +196,26 @@
       "why_it_matters": ""
     },
     {
+      "abstract": "Insider Brief Chinese researchers developed a compact quantum magnetometer that detected underground train activity, located a buried magnet and monitored a geomagnetic storm in field tests. The instrument uses a 7-cubic-centimeter sensing probe and automatically restores measurements within a second after strong magnetic interference is removed. The findings suggest the system could support mineral exploration, environmental monitoring and searches for unexploded ordnance. Image: Schematic diagram and photograph of the miniaturized magnetometer system from the study. Chinese researchers developed a compact quantum magnetometer that detected underground train activity, located a buried magnet and monitored a geomagnetic storm in field tests. The instrument uses a small sensing probe &#8212; about the the size of two dice placed side by side &#8212; and automatically restores measurements within a second after strong magnetic interference is removed. In the study, the researchers&#8217; compact quantum magnetometer &#8212; with separate electronics controls &#8212; detected underground train activity and located a buried magnet, demonstrating capabilities that could support geological surveys and searches for concealed objects with potential defense applications. According to the South China Morning Post , the researchers said the system was meant to be used for anti-submarine warfare (ASW), however, the study itself did not test submarine detection and doesn&#8217;t seem to establish military detection ranges. The device combines a sensing probe measuring about 7 cubic centimeters with the ability to track rapidly changing magnetic fields and automatically recover after strong interference interrupts measurements, according to a study in Acta Physica Sinica that was computer translated into English. Researchers Xin Wang, Min Jiang and Xinhua Peng report that the instrument addresses a practical obstacle for quantum sensing. Instruments sensitive enough to measure ti",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:9787bd31c1989eae",
+      "published": "2026-09-25",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Chinese Scientists Say Compact Quantum Magnetometer Tracks Hidden Targets in Field Tests",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/25/chinese-scientists-say-compact-quantum-magnetometer-tracks-hidden-targets-in-field-tests/",
+      "why_it_matters": ""
+    },
+    {
       "abstract": "Infleqtion has achieved 30 entangled logical qubits on its commercial Sqale quantum computing platform, utilizing 80 physical neutral-atom qubits. This breakthrough, announced at Quantum World Congress 2026, was enabled by an AI-assisted logical circuit discovery and software-based loss correction. This positions Infleqtion to scale to 100 logical qubits by 2028 and 1,000 by 2030, with current applications in biomarker discovery. The post Infleqtion Achieves 30 Entangled Logical Qubits on Sqale Neutral-Atom Quantum Processor appeared first on Quantum Computing Report .",
       "authors": [
         "Mohamed Abdel-Kareem"
@@ -236,6 +256,66 @@
       "why_it_matters": ""
     },
     {
+      "abstract": "Insider Brief Qingxing Heterogeneous Computing completed a Series A+ funding round, bringing its total raised across two rounds in three months to nearly 100 million yuan (about $14.9 million) to develop quantum-inspired AI. Its RiverONE model runs on conventional GPUs and reportedly achieved at least 95% of a larger comparison model’s performance on a specialized quantum calibration task with less than one-tenth as many parameters. The company is working with chipmakers including Biren Technology and MetaX to adapt quantum software and AI models to their hardware, although the report did not disclose revenue from those partnerships. Image: Photo by GDJ on Pixabay Qingxing Heterogeneous Computing completed a Series A+ funding round, bringing its total raised across two rounds in three months to nearly 100 million yuan (about $14.9 million) to develop quantum-inspired AI. Its RiverONE model runs on conventional GPUs and reportedly achieved at least 95% of a larger comparison model’s performance on a specialized quantum calibration task with less than one-tenth as many parameters. The company is working with chipmakers including Biren Technology and MetaX to adapt quantum software and AI models to their hardware, although the report did not disclose revenue from those partnerships. Qingxing Heterogeneous Computing has completed a new funding round to develop quantum-inspired artificial intelligence that runs on existing chips, bringing its total raised over three months to nearly 100 million yuan (about $14.9 million). The Tsinghua University -incubated company closed a Series A+ round following an earlier Series A financing, according to PE Daily AI, in an article by Yu Mengying republished by 36Kr . The latest round’s size was not disclosed separately. Investors included Jinkai Capital ( Jadex Capital ), Anhui High-Tech Investment ( Anhui Provincial Emerging Industry Investment ), Daode Investment , Lishi Investment , Zhongzi Fund ( China Consulting Fund ), Xuhui Ca",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:806a3b21e3461e4d",
+      "published": "2026-09-25",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "China’s Qingxing Raises Nearly 100 Million Yuan to Develop Quantum-Inspired AI",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/25/chinas-qingxing-raises-nearly-100-million-yuan-to-develop-quantum-inspired-ai/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Fairfax County Public Schools plans to install an operational quantum computer at Skyview High School, giving K-12 students hands-on access to quantum computing. The system is expected to be installed in December, with student learning experiences beginning in spring 2027 through a planned quantum computing pathway. FCPS, Connected DMV, FCEDA and XeedQ are developing the program as part of a broader effort to connect students with universities, researchers, federal laboratories and the regional quantum industry. PRESS RELEASE &#8212; Fairfax County Public Schools (FCPS) is making history through a groundbreaking partnership with Connected DMV and the Fairfax County Economic Development Authority (FCEDA) that will bring an operational quantum computer directly to students at Skyview High School, creating a first-of-its-kind opportunity for K-12 public education. This partnership creates a unique opportunity for FCPS students to work with an emerging science as it moves from research laboratories into fields such as cybersecurity, medicine, materials science, finance, logistics, and national security. The quantum computer planned for Skyview is about the size of a small refrigerator and is designed for learning. Students will have hands-on experience with a technology that operates very differently from the computers we use every day. They will explore fundamental quantum concepts, test problems such as finding the most efficient way to organize a schedule, and compare how a quantum computer approaches a problem with how a traditional computer would solve it. Along the way, students will learn not only what quantum computing can do, but also its current limitations. Students will develop skills in coding, mathematics, experimentation, data analysis, problem solving, communication, collaboration, and critical thinking. “Our responsibility is to prepare our students for their future and not our past. Their future is yet to be imagined with careers that do ",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:7beea04acc21012b",
+      "published": "2026-09-25",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Fairfax County Schools Plans Quantum Computer Program at High School",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/25/fairfax-county-schools-quantum-computer-high-school/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Creotech Quantum said the European Commission positively assessed the technical and financial results of the eCAUSIS project, supporting further commercialization of its proprietary QKD system. The Horizon Europe and EuroQCI project developed a DV-QKD module, cryptographic key management software and supporting technologies for certification, integration and serial production. Creotech Quantum plans to bring its QKD solution to market in 2026, with the project targeting production capacity of up to 1,000 modules annually and potential expansion to 10,000 modules. PRESS RELEASE &#8212; Creotech Quantum S.A., a Warsaw Stock Exchange-listed company developing and commercializing quantum technologies, announced that the European Commission has approved the results of the eCAUSIS project &#8211; “European, Certifiable, Affordable, User-oriented, Secure, Integrationable, Scalable quantum key distribution solutions”. The project was positively assessed both in terms of its technical and financial performance, while its results represent an important milestone in the development of Creotech Quantum’s proprietary quantum key distribution (QKD) system and provide a foundation for its further commercialization and potential deployment across the European market. “The European Commission’s positive assessment of the eCAUSIS project results is an important confirmation of the technological maturity of our solutions and the strategic direction in which we are developing our quantum technologies. The project focused not only on developing the QKD system itself, but also on its certifiability, integration with existing infrastructure, scalability and readiness for serial production. What is particularly important to us is that the project results can be leveraged to deploy our proprietary QKD system on the market. This is an important step in building European capabilities and production capacity in the field of secure quantum communications,” says Anna Kamińska, PhD,",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:7728995dd5a208b7",
+      "published": "2026-09-25",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Creotech Quantum Prepares QKD System for Commercialization",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/25/creotech-quantum-qkd-system-commercialization/",
+      "why_it_matters": ""
+    },
+    {
       "abstract": "Qambria AG, a Swiss quantum infrastructure developer, has successfully closed a $2.4 million pre-seed funding round led by Syntropy. The company aims to commercialize a classical engine for quantum computing, focusing on software and control orchestration to integrate quantum processing units with high-performance computing. Qambria's IP-licensing model will help lower costs and complexity for quantum hardware manufacturers and data centers. The post Qambria Secures $2.4M Pre-Seed Funding to Commercialize Sub-Microsecond Classical Control Infrastructure for Fault-Tolerant Quantum Systems appeared first on Quantum Computing Report .",
       "authors": [
         "Mohamed Abdel-Kareem"
@@ -253,6 +333,140 @@
       "title": "Qambria Secures $2.4M Pre-Seed Funding to Commercialize Sub-Microsecond Classical Control Infrastructure for Fault-Tolerant Quantum Systems",
       "topics": [],
       "url": "https://quantumcomputingreport.com/qambria-secures-2-4m-pre-seed-funding-to-commercialize-sub-microsecond-classical-control-infrastructure-for-fault-tolerant-quantum-systems/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "We are continuously sending information to each other, transmitting zeros and ones through a giant network of connected computers and devices. Scientists are now trying to extend this familiar concept of the internet to the quantum realm, looking for an efficient way to exchange quantum rather than classical information: qubits instead of bits. The motivation is not just scientific curiosity. Qubits can be a 0, a 1 or any superposition of the two. They can also become entangled, showing a degree of correlation that is out of reach for classical bits.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://phys.org/rss-feed/physics-news/quantum-physics/"
+      },
+      "id": "feed:5dfa50195e635984",
+      "published": "2026-09-25",
+      "source": "Phys.org Quantum Physics",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Spin rephasing helps quantum memories store single-photon states longer for future networks",
+      "topics": [],
+      "url": "https://phys.org/news/2026-09-rephasing-quantum-memories-photon-states.html",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief CGI Federal has entered an applied research agreement with the U.S. Defense Logistics Agency and the University of Tennessee , Knoxville, to study agentic AI and quantum computing for warehouse management and supply chain resilience. The Quantum Pathfinder will initially explore dynamic warehouse orchestration, reverse logistics and disposition, and resilient inventory positioning in contested environments. CGI Federal will host the initiative at its Knoxville delivery center, with research findings expected to be shared through publications, industry events and other venues. PRESS RELEASE &#8212; CGI Federal Inc . (CGI Federal), a leading provider of technology and professional services for the U.S. government, today announced that it has entered into an agreement with the U.S. Defense Logistics Agency (DLA) and the University of Tennessee , Knoxville (UT) to conduct applied research and development to examine how agentic artificial intelligence (AI) and quantum computing can support advanced warehouse management and bolster supply chain and logistics resilience in contested environments. This applied research initiative, called the Quantum Pathfinder, is anchored in a mutual commitment to advance the commercialization of mission-critical emerging technologies. It unites government mission ownership, university research leadership and commercial quantum capability behind a single objective: moving quantum computing and agentic AI from promise to practice in the systems that support national readiness. &#8220;Quantum computing will not arrive as a single product launch; it will arrive as a series of hard research problems solved against real mission constraints that evolve as compute modalities emerge,&#8221; said Victor Foulk, Vice-President of Emerging Technologies, CGI Federal. &#8220;We are investing to do that work now, alongside a federal partner that understands the mission and an academic partner with deep research expertise. That&#8217;s how y",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:4e0887f59953f78f",
+      "published": "2026-09-25",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "CGI Federal, DLA and UT Knoxville Study Quantum Computing for Logistics",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/25/dla-ut-knoxville-applied-research-agreement/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Quantum photonics could be a pivotal part of future quantum technology if the right materials can be created, a new review paper has found.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://phys.org/rss-feed/physics-news/quantum-physics/"
+      },
+      "id": "feed:4d377eacf6431de7",
+      "published": "2026-09-25",
+      "source": "Phys.org Quantum Physics",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Ultrathin materials could make quantum light circuits programmable",
+      "topics": [],
+      "url": "https://phys.org/news/2026-09-ultrathin-materials-quantum-circuits-programmable.html",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "An electron's charge is normally fixed, like a coin you can't break into pieces. But if electrons are cooled close to absolute zero and trapped in a two-dimensional layer under a powerful magnetic field, they organize into a collective state of \"quasiparticles\" that seem to hold only a fraction of an electron's charge.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://phys.org/rss-feed/physics-news/quantum-physics/"
+      },
+      "id": "feed:3c18ef5351e0680f",
+      "published": "2026-09-25",
+      "source": "Phys.org Quantum Physics",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Rare quantum state reveals particles with quarter-electron charge",
+      "topics": [],
+      "url": "https://phys.org/news/2026-09-rare-quantum-state-reveals-particles.html",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Guest Post By Courtney Olujobi, Principal at Moon Pursuit Capital. From an investment perspective, one of the first significant markets created by quantum computing may have very little to do with buying access to quantum computers themselves. It may come from the amount of capital businesses will need to spend protecting the financial systems, digital infrastructure and sensitive data that were built for a world in which today’s encryption was considered secure. We do not know exactly when a quantum computer capable of breaking widely used public-key encryption will arrive, and estimates still vary considerably. Economically, what matters is that companies cannot wait for that moment to prepare. Spending on quantum resilience is already finding its way into regulation, procurement requirements and long-term technology planning, which means the commercial impact of quantum could start showing up in cybersecurity and infrastructure budgets well before quantum computing itself reaches broad commercial maturity. The reason is simple. Encrypted data can be copied today and decrypted later. An adversary does not need a quantum computer to steal a bank&#8217;s archived records, a hospital&#8217;s patient files or a company&#8217;s deal documents. It only needs patience. So the relevant question for any business is not when the machine arrives. It is how long its data has to stay secret, and how long it will take to move that data onto new cryptography. If those two periods together run past the arrival date, the exposure has already started. That logic is now turning into deadlines. In June, the White House signed Executive Order 14412, which directs federal agencies to move their most sensitive systems to post quantum encryption by the end of 2030 and post quantum digital signatures by the end of 2031, and starts a rulemaking that would extend compliance to federal contractors. The NSA requires new national security system acquisitions to support quantum resistant algori",
+      "authors": [
+        "Resonance"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:3038314015b47cbc",
+      "published": "2026-09-25",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Guest Post: Quantum Investment May Start With Post-Quantum Security",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/25/quantum-investment-post-quantum-security/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "In my first months as a physics journalist nearly a decade ago, I kept running into an inscrutable string of characters: AdS/CFT. Thoroughly intimidated, I decided to just ignore it. But I couldn&rsquo;t keep my head in the sand for long. I soon learned that those characters are shorthand for a surprising connection between the seemingly inharmonious worlds of gravity and quantum mechanics. Source",
+      "authors": [
+        "Charlie Wood"
+      ],
+      "extra": {
+        "feed_url": "https://api.quantamagazine.org/feed/"
+      },
+      "id": "feed:2cefa4e1c5a54981",
+      "published": "2026-09-25",
+      "source": "Quanta Magazine",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Gravity Seems Holographic. What Does That Mean for Reality?",
+      "topics": [],
+      "url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief India’s Defence Research and Development Organisation (DRDO) has signed a Technology Development Fund agreement with Zero mK India to develop an indigenous 20 mK dilution refrigerator for quantum applications. The project is the first high-value deep-tech agreement under the Technology Development Fund, which has a Rs 500 crore allocation approved for deep-tech and advanced technology projects. The refrigerator project is intended to strengthen India’s domestic capabilities in quantum technology and cryogenics while reducing reliance on imported cryogenic equipment. India&#8217;s Defence Research and Development Organisation (DRDO) has entered its first high-value deep-tech project agreement under the Technology Development Fund scheme, partnering with start-up Zero mK India Private Limited to build an indigenous 20 mK dilution refrigerator for quantum applications, India Blooms reported . The agreement was signed in New Delhi by the Director of the Technology Development Fund and representatives from Zero mK India, a company based in Alwar, Rajasthan. It marks the first high-value deal drawn from the Rs 500 crore fund that Defence Minister Rajnath Singh approved to back deep-tech and advanced technology projects. Dilution refrigerators are cryogenic systems built to reach extremely low temperatures in the millikelvin range, conditions that are necessary for operating and testing several quantum computing platforms and related quantum technologies. Developing a 20 mK-class refrigerator domestically supports the goals of the National Quantum Mission and is expected to build India&#8217;s capabilities in quantum technology, advanced cryogenics, and other strategic technology areas. The project is also intended to cut India&#8217;s reliance on imported cryogenic equipment and grow the country&#8217;s domestic quantum technology sector. Official Reactions Rajnath Singh congratulated DRDO, industry participants, and other stakeholders involved in the projec",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:2b28e9fa81099d71",
+      "published": "2026-09-25",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "DRDO Partners With Zero mK India on 20 mK Quantum Refrigerator",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/25/drdo-zero-mk-india-20-mk-dilution-refrigerator/",
       "why_it_matters": ""
     },
     {
@@ -339,6 +553,42 @@
       "extra": {
         "feed_url": "https://www.nature.com/subjects/quantum-information.rss"
       },
+      "id": "feed:09654db2e1738e0a",
+      "published": "2026-09-25",
+      "source": "Nature: Quantum Information",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "A universal speed limit for collective decay in quantum systems",
+      "topics": [],
+      "url": "https://www.nature.com/articles/s41567-026-03445-7",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Classical computers can temporarily store the information required to perform specific tasks in a short-term memory component known as RAM (random access memory). This component allows computer processors to retrieve information from a chosen location without searching through all stored data.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://phys.org/rss-feed/physics-news/quantum-physics/"
+      },
+      "id": "feed:076f7030cfaadcb6",
+      "published": "2026-09-25",
+      "source": "Phys.org Quantum Physics",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Random access quantum memory lets one processor select among seven storage cells",
+      "topics": [],
+      "url": "https://phys.org/news/2026-09-random-access-quantum-memory-processor.html",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://www.nature.com/subjects/quantum-information.rss"
+      },
       "id": "feed:043b0d36a8cafda6",
       "published": "2026-09-25",
       "source": "Nature: Quantum Information",
@@ -369,6 +619,53 @@
       "title": "QuiX Quantum Partners with Tohoku Electronic Industrial for Exclusive Distribution in Japan",
       "topics": [],
       "url": "https://quantumcomputingreport.com/quix-quantum-partners-with-tohoku-electronic-industrial-for-exclusive-distribution-in-japan/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "extra": {
+        "doi": "10.1103/v1r7-lr89",
+        "subjects": []
+      },
+      "id": "doi:10.1103/v1r7-lr89",
+      "published": "2026-09-25",
+      "source": "PRX Quantum",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Directional and correlated optical emission from a waveguide-engineered molecule with local control",
+      "topics": [],
+      "url": "https://doi.org/10.1103/v1r7-lr89",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Abstract This paper investigates multipartite quantum clock synchronization (QCS) procedures using a new class of quantum states called collective symmetric (CS) states, which generalize Dicke and N00N-type states. Among all the QCS techniques proposed in the literature, the focus here is on procedures relying on local operations and classical communication (LOCC). Two synchronization scenarios that are particularly useful for quantum networks are considered: (i) pair synchronization where multiple arbitrarily chosen disjoint pairs of nodes aim to align their clocks, and (ii) network synchronization where all nodes aim to synchronize their clocks to a common average time. First, the paper discusses the use of CS states in QCS procedures previously proposed in the literature for both scenarios. Second, possible limitations of the QCS procedures are considered in terms of insufficient robustness and estimation ambiguity. Third, a new procedure, referred to as efficient synchronization procedure (ESP), is designed for each of the two synchronization scenarios. The ESP is shown to address the aforementioned limitations and to outperform the state-of-the-art LOCC-based multipartite QCS procedures in terms of synchronization precision.",
+      "authors": [
+        "Ufuk Keskin",
+        "Stefano Marano",
+        "Andrea Conti",
+        "Hyundong Shin",
+        "William C. Lindsey",
+        "Moe Z. Win"
+      ],
+      "extra": {
+        "doi": "10.1088/2058-9565/aeac82",
+        "subjects": []
+      },
+      "id": "doi:10.1088/2058-9565/aeac82",
+      "published": "2026-09-25",
+      "source": "Quantum Science and Technology",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Multipartite quantum clock synchronization via collective symmetric states",
+      "topics": [],
+      "url": "https://doi.org/10.1088/2058-9565/aeac82",
       "why_it_matters": ""
     },
     {
@@ -2375,7 +2672,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Characterization and Active Control of Position-Dependent Timing Dynamics in Superconducting Strip Detectors",
       "topics": [],
@@ -2400,7 +2697,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Learned-projector QAOA for hierarchical optimization",
       "topics": [],
@@ -2458,7 +2755,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Efficient Record-and-Replay Arithmetic for Quantum Elliptic-Curve Point Addition",
       "topics": [],
@@ -2490,7 +2787,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Reconfigurable bus-based quantum router for modular superconducting processors",
       "topics": [],
@@ -3051,7 +3348,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Imaging how fluctuations destroy superconductivity in two dimensions",
       "topics": [],
@@ -3074,7 +3371,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Fundamental Physics at the Frontier of Noisy Quantum Computation",
       "topics": [],
@@ -3099,7 +3396,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "On Certifying Source Sampling Hardness in Quantum Generative Modeling",
       "topics": [],
@@ -3128,7 +3425,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Realization of Very High Mobility InAs Quantum Wells on InP Substrates Through Convex InAlAs Graded Buffer Optimization",
       "topics": [],
@@ -3151,7 +3448,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Walsh-Transform Realization of Dense-to-Sparse Quantum State Preparation",
       "topics": [],
@@ -3176,7 +3473,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Classical Cellular Automaton for Measurement-Only Entanglement Transitions",
       "topics": [],
@@ -3201,7 +3498,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Associative Memory for Quantum Entangled States",
       "topics": [],
@@ -3228,7 +3525,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Mediating gates between polar molecules using microwave-dressed Rydberg atoms",
       "topics": [],
@@ -3254,7 +3551,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Power-law growth of shift current with superlattice period in flat Chern bands",
       "topics": [],
@@ -3277,7 +3574,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Large-Area SnS Crystals by Controlled Sn-S Chemical Vapor Deposition: Growth Optimization, Morphology, and Raman Characterization",
       "topics": [],
@@ -3300,7 +3597,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Universal holonomic control of algebras of observables",
       "topics": [],
@@ -3328,7 +3625,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Quantum computational advantage in random-circuit sampling on IBM superconducting quantum computers",
       "topics": [],
@@ -3352,7 +3649,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Interaction induced flattening of optical transition quantum geometry",
       "topics": [],
@@ -3376,7 +3673,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Continuity of Regularized Channel Rényi Divergences",
       "topics": [],
@@ -3404,7 +3701,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Non-stabilizerness and entanglement in $(2+1)$-dimensional SU(2) lattice gauge theory using tensor networks",
       "topics": [],
@@ -3428,7 +3725,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Universal Counterdiabatic Quantum Sensing",
       "topics": [],
@@ -3452,7 +3749,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Theory of extrinsic contributions to the full orbital current",
       "topics": [],
@@ -3482,7 +3779,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Observation of Universal Quantum Chaos at Shallow Depths",
       "topics": [],
@@ -3506,7 +3803,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Local Vacuum Entanglement through Most Entangled Modes",
       "topics": [],
@@ -3532,7 +3829,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Classical Capacity and Entanglement Cost of the Amplitude Damping Channel",
       "topics": [],
@@ -8473,7 +8770,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Bi-Oriented Interlaced Matrix Multiplication and an Operator Factorisation of the Quantum Harmonic Oscillator",
       "topics": [],
