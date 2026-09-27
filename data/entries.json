@@ -1,6 +1,182 @@
 {
-  "count": 6494,
+  "count": 6507,
   "entries": [
+    {
+      "abstract": "Bernard Gavgani joins D-Wave Quantum's board, bringing fintech and cybersecurity expertise. Simon Phillips is now CPO at Oxford Quantum Circuits, focusing on commercializing Quantum-AI platforms, and Doug Campbell is the new CEO of Bifrost Electronics, leading the commercialization of their Heimdall Amplifier. The post Who’s News: Strategic Appointments at D-Wave Quantum, Oxford Quantum Circuits, and Bifrost Electronics appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:f80eeffdf5f5d3b4",
+      "published": "2026-09-26",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Who’s News: Strategic Appointments at D-Wave Quantum, Oxford Quantum Circuits, and Bifrost Electronics",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/whos-news-strategic-appointments-at-d-wave-quantum-oxford-quantum-circuits-and-bifrost-electronics/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "ETSI's new report, TR 104 171, addresses vulnerabilities in Quantum Random Number Generators (QRNGs) due to practical hardware limitations. It provides guidelines across the QRNG lifecycle, including the Entropy Zero Trust (EZT) framework to mitigate side-channel attacks. The report also sets priorities for future standardization, such as API command sets and integration with post-quantum cryptography. The post ETSI Identifies Technical Limitations and Implementation Vulnerabilities in Quantum Random Number Generators (ETSI TR 104 171) appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:8fb0c727eb2f233b",
+      "published": "2026-09-26",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "ETSI Identifies Technical Limitations and Implementation Vulnerabilities in Quantum Random Number Generators (ETSI TR 104 171)",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/etsi-identifies-technical-limitations-and-implementation-vulnerabilities-in-quantum-random-number-generators-etsi-tr-104-171/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Yuval Boger interviews Sebastian Hassinger, host of The New Quantum Era podcast, and author of a new book by the same name. Sebastian and I have many things in common beyond our jobs in quantum. We are both podcasters, neither of us has a PhD, and we are both authors of new books &#8211; Sebastian’s The New Quantum Era, and my Quantum Bits, the Comic Book Guide to Quantum Computing. In a conversation that is more symmetric than the typical episode, we compare notes about the motivation and process of writing these books, explaining quantum computing for non-physicists, debate Sebastian’s modality forecast, speak about our hypothetical dinner guests and much more. Transcript Yuval: &nbsp;Hello, Sebastian. Thank you for joining me today. Sebastian: &nbsp;Hi, Yuval. Thanks for joining me. This is your Riverside. This is your studio, I know, but we&#8217;ll be guests on each other&#8217;s podcast simultaneously. This is a crossover episode. Yuval: &nbsp;So, Sebastian, who are you and what do you do? Sebastian: &nbsp;I am Sebastian Hassinger. I&#8217;m an independent consultant and jack of all trades in quantum. I have been working in quantum for almost a decade now, which shocked me when I realized that when I counted up the years. First with IBM Quantum and then with AWS. And the beginning of 2026, I went independent and started a company called The New Quantum Era, which is sort of a grab bag of all of the projects that I&#8217;m working on. How about yourself, Yuval? Tell us a bit about yourself. Yuval: &nbsp;I am Yuval Boger. I&#8217;m chief commercial officer of QuEra Computing. We make the world&#8217;s best quantum computer. And I&#8217;ve been doing this, I only have five years of experience in quantum, but sometimes they feel like two and sometimes they feel like 20. Sebastian: &nbsp;Same. (laughing) I don&#8217;t think that&#8217;s gonna change. I have bad news for you. (laughing) Yuval: &nbsp;I wasn&#8217;t part of naming the company QuEra, but I think it doe",
+      "authors": [
+        "Yuval Boger"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:896802966792aeec",
+      "published": "2026-09-26",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Sebastian Hassinger (The New Quantum Era): why neutral atoms lead the qubit race for now",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/26/sebastian-hassinger-the-new-quantum-era-why-neutral-atoms-lead-the-qubit-race-for-now/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Pasqal reported strong H1 2026 financial results with €312.9M post-SPAC cash and 14% revenue growth. The company achieved significant technological breakthroughs, including scaling to 1,024 atoms and demonstrating logical qubit execution. Pasqal also expanded commercially with new deployments in Saudi Arabia and Italy, and became an XPRIZE finalist. The post Pasqal Reports H1 2026 Financial Results: €312.9M Post-SPAC Cash Balance, 14% Revenue Growth, and 1,000-Atom Scale appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:580249ee8b3a9e69",
+      "published": "2026-09-26",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Pasqal Reports H1 2026 Financial Results: €312.9M Post-SPAC Cash Balance, 14% Revenue Growth, and 1,000-Atom Scale",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/pasqal-reports-h1-2026-financial-results-e312-9m-post-spac-cash-balance-14-revenue-growth-and-1000-atom-scale/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Fairfax County Public Schools (FCPS) will be the first K-12 public high school to install a physical quantum computer, the XeedQ XQ1e, at Skyview High School in December 2026. This 4-qubit quantum computer operates at room temperature and offers high-fidelity quantum computing for student learning. The initiative aims to create a regional talent development hub in quantum computing. The post Fairfax County Public Schools to Install XeedQ 4-Qubit Quantum Computer at Skyview High School appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:49e0ebf9ab52147d",
+      "published": "2026-09-26",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Fairfax County Public Schools to Install XeedQ 4-Qubit Quantum Computer at Skyview High School",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/fairfax-county-public-schools-to-install-xeedq-4-qubit-quantum-computer-at-skyview-high-school/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Researchers at Japan’s National Institute for Materials Science found that atomic-scale surface steps can guide superconducting vortices in an ultrathin superconductor. Vortices moved more than 1,000 times more easily along the steps than across them at intermediate magnetic fields, with the guiding effect adjustable through temperature and magnetic field. The findings could help researchers control vortex motion and heat flow in future low-power superconducting devices. PRESS RELEASE &#8212; Researchers at the Research Center for Materials Nanoarchitectonics (MANA), one of the centers under the National Institute for Materials Science (NIMS), Japan, discovered that atomic-scale steps can guide superconducting vortices in an ultrathin superconductor. Vortices moved more than 1,000 times more easily along the steps than across them, and this guiding effect could be tuned by temperature and magnetic field. Superconducting vortices are tiny quantum objects whose movement can strongly influence how superconductors behave. Controlling their direction of motion could therefore be important for developing ultralow-power superconducting technologies. However, directional control of vortices in two-dimensional superconductors has remained challenging. Achieving such control could help develop future superconducting devices that consume less power while improving processing efficiency. Addressing this challenge, a research team led by Takashi Uchihashi from Research Center for Materials Nanoarchitectonics (MANA), National Institute for Materials Science, Japan, investigated an ultrathin superconductor with regularly arranged atomic steps on its surface. Scanning tunneling microscopy confirmed the parallel steps and directly visualized vortices located along them. Their findings were published in the journal Physical Review B on July 30, 2026. Four-terminal resistance measurements revealed that vortices moved more than 1,000 times more easily along the atomic ste",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:12c088536452e5aa",
+      "published": "2026-09-26",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "MANA Reveals Atomic-Scale Rails for Guiding Superconducting Vortices",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/09/26/mana-reveals-atomic-scale-rails-for-guiding-superconducting-vortices/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "",
+      "authors": [
+        "Shuo Ren",
+        "Rui-Jian Liang",
+        "Zhen-Xuan He",
+        "Ji-Yang Zhou",
+        "Wu-Xi Lin",
+        "Zhi-He Hao",
+        "Bing Chen",
+        "Tao Tu",
+        "Jin-Shi Xu",
+        "Chuan-Feng Li",
+        "Guang-Can Guo"
+      ],
+      "extra": {
+        "doi": "10.1038/s41534-026-01381-1",
+        "subjects": []
+      },
+      "id": "doi:10.1038/s41534-026-01381-1",
+      "published": "2026-09-26",
+      "source": "npj Quantum Information",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Decoherence-protected entangling gates in a silicon carbide quantum node",
+      "topics": [],
+      "url": "https://doi.org/10.1038/s41534-026-01381-1",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Abstract Gaussian-modulated coherent-state (GMCS) continuous-variable quantum key distribution (CV-QKD) offers a practical path to quantum-secured communication owing to its compatibility with existing optical fibre networks and use of mature security proofs. Achieving high secret key rates in real-time systems, however, requires post-processing schemes that are both information-theoretically efficient and computationally scalable. In previous experimental work 1 , we have demonstrated record real-time key rates using a one-round sliced reconciliation scheme with guard-band post-selection. Here, we present the corresponding theoretical framework and provide an asymptotic security analysis that considers arbitrary collective attacks, a much broader class of attacks than the usually assumed Gaussian collective attacks. The security analysis applies the entropic continuity of quantum channels justified by a quantum channel estimation procedure. In conditions of high noise, our scheme uses 500 times less classical communication than multidimensional reconciliation.",
+      "authors": [
+        "Adam Alderton",
+        "Amanda Weerasinghe",
+        "Muataz Alhussein",
+        "Adrian Wonfor",
+        "Richard Penty"
+      ],
+      "extra": {
+        "doi": "10.1038/s41534-026-01366-0",
+        "subjects": []
+      },
+      "id": "doi:10.1038/s41534-026-01366-0",
+      "published": "2026-09-26",
+      "source": "npj Quantum Information",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "The security of practical post-selection in Gaussian-modulated continuous-variable quantum key distribution",
+      "topics": [],
+      "url": "https://doi.org/10.1038/s41534-026-01366-0",
+      "why_it_matters": ""
+    },
     {
       "abstract": "Insider Brief Singapore-based AQSolotl is establishing research, development and commercialisation operations at Universiti Teknologi Malaysia’s Technovation Park in Johor Bahru, becoming Malaysia’s first quantum computing hardware company, according to UTM. The operations build on UTM’s quantum research collaborations with Japanese and Singaporean institutions, which helped develop quantum control and computing hardware technologies commercialised through AQSolotl. The facility will offer UTM students industrial internships and direct experience in quantum research, technology development and commercialisation. Image: AQSolotl, a spin-off company from Singapore’s quantum ecosystem in collaboration with UTM performs research, development and commercialization of quantum computer controllers in Johor Bahru. PRESS RELEASE &#8212; Universiti Teknologi Malaysia (UTM) is strengthening its role in Malaysia&#8217;s emerging quantum technology ecosystem as AQSolotl Pte. Ltd. , a Singapore-based quantum technology company, establishes its research, development and commercialisation ( R&amp;D&amp;C ) operations at UTM Technovation Park in Johor Bahru. The development makes AQSolotl the&nbsp; first quantum computing hardware company operating in Malaysia , marking an important step in translating UTM&#8217;s long-term research capabilities and international partnerships into advanced technology and industry development. UTM has been developing expertise in quantum technologies since&nbsp; 2009 through collaborations with Japan , including The University of Osaka, before expanding its research network to Singapore in&nbsp; 2018 . Collaborations involving the&nbsp; Centre for Quantum Technologies (CQT), Nanyang Technological University (NTU) and the National University of Singapore (NUS) &nbsp;contributed to the development of quantum control and computing hardware technologies that subsequently progressed towards commercialisation through AQSolotl. UTM Vice-Chancellor&nbsp; Pro",
       "authors": [
@@ -19,6 +195,26 @@
       "title": "UTM Becomes Base For Malaysia’s First Quantum Computing Hardware Company",
       "topics": [],
       "url": "https://thequantuminsider.com/2026/09/25/utm-becomes-base-for-malaysias-first-quantum-computing-hardware-company/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "DRDO has partnered with Zero mK India to indigenously develop a 20 mK dilution refrigerator, crucial for quantum computing and defense. This marks the first high-value project under the expanded ₹500-crore TDF scheme, aiming to reduce import dependency and strengthen India's National Quantum Mission. The project will establish a domestic supply chain for sub-kelvin cryogenic hardware. The post DRDO Signs First High-Value TDF Pact with Startup Zero mK India for 20 mK Dilution Refrigerator appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:ef1268834a960c2f",
+      "published": "2026-09-25",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "DRDO Signs First High-Value TDF Pact with Startup Zero mK India for 20 mK Dilution Refrigerator",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/drdo-signs-first-high-value-tdf-pact-with-startup-zero-mk-india-for-20-mk-dilution-refrigerator/",
       "why_it_matters": ""
     },
     {
@@ -316,6 +512,26 @@
       "why_it_matters": ""
     },
     {
+      "abstract": "Creotech Quantum has secured a €2.33M contract from the European Space Agency (ESA) to develop advanced Superconducting Nanowire Single-Photon Detectors (SNSPDs) over 24 months. These detectors will be crucial for European quantum key distribution networks and deep-space optical communication, reaching Technology Readiness Level 5 (TRL 5). Creotech Quantum will lead the consortium, overseeing the design, manufacturing, and validation of the SNSPDs. The post Creotech Quantum Wins €2.33M ($2.66M USD) ESA Contract for Space-Grade Quantum Detectors appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:672bd2e4935ad102",
+      "published": "2026-09-25",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Creotech Quantum Wins €2.33M ($2.66M USD) ESA Contract for Space-Grade Quantum Detectors",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/creotech-quantum-wins-e2-33m-2-66m-usd-esa-contract-for-space-grade-quantum-detectors/",
+      "why_it_matters": ""
+    },
+    {
       "abstract": "Qambria AG, a Swiss quantum infrastructure developer, has successfully closed a $2.4 million pre-seed funding round led by Syntropy. The company aims to commercialize a classical engine for quantum computing, focusing on software and control orchestration to integrate quantum processing units with high-performance computing. Qambria's IP-licensing model will help lower costs and complexity for quantum hardware manufacturers and data centers. The post Qambria Secures $2.4M Pre-Seed Funding to Commercialize Sub-Microsecond Classical Control Infrastructure for Fault-Tolerant Quantum Systems appeared first on Quantum Computing Report .",
       "authors": [
         "Mohamed Abdel-Kareem"
@@ -392,6 +608,26 @@
       "why_it_matters": ""
     },
     {
+      "abstract": "CGI Federal, the DLA, and the University of Tennessee have partnered to launch the \"Quantum Pathfinder\" initiative. This program will explore how AI and quantum computing can optimize supply chain resilience, particularly in warehouse management, reverse logistics, and inventory positioning within military contexts. Hosted at CGI Federal's Knoxville center, the initiative aims to solve logistical bottlenecks and strengthen supply chains during disruptions. The post CGI Federal, DLA, and University of Tennessee Launch &#8220;Quantum Pathfinder&#8221; Initiative for Supply Chain Resilience appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:481d6375a5a0b427",
+      "published": "2026-09-25",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "CGI Federal, DLA, and University of Tennessee Launch “Quantum Pathfinder” Initiative for Supply Chain Resilience",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/cgi-federal-dla-and-university-of-tennessee-launch-quantum-pathfinder-initiative-for-supply-chain-resilience/",
+      "why_it_matters": ""
+    },
+    {
       "abstract": "An electron's charge is normally fixed, like a coin you can't break into pieces. But if electrons are cooled close to absolute zero and trapped in a two-dimensional layer under a powerful magnetic field, they organize into a collective state of \"quasiparticles\" that seem to hold only a fraction of an electron's charge.",
       "authors": [],
       "extra": {
@@ -407,6 +643,26 @@
       "title": "Rare quantum state reveals particles with quarter-electron charge",
       "topics": [],
       "url": "https://phys.org/news/2026-09-rare-quantum-state-reveals-particles.html",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "AQSolotl, Malaysia's first quantum computing hardware company, has established its R&#038;D operations at UTM Technovation Park in Johor Bahru. This Singapore-based startup will focus on designing and producing high-precision quantum computer control electronics, leveraging UTM's research programs and creating a cross-border talent and commercialization corridor between Malaysia and Singapore. The company's CTO, Dr. Yap Yung Szen, is a UTM researcher recognized in UNESCO’s global Quantum 100 initiative. The post UTM Technovation Park Becomes R&#038;D Base for AQSolotl, Malaysia&#8217;s First Quantum Computing Hardware Company appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:38d4e56e6bf32032",
+      "published": "2026-09-25",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "UTM Technovation Park Becomes R&D Base for AQSolotl, Malaysia’s First Quantum Computing Hardware Company",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/utm-technovation-park-becomes-rd-base-for-aqsolotl-malaysias-first-quantum-computing-hardware-company/",
       "why_it_matters": ""
     },
     {
@@ -447,6 +703,26 @@
       "title": "Gravity Seems Holographic. What Does That Mean for Reality?",
       "topics": [],
       "url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Creotech Quantum's eCAUSIS project, funded by Horizon Europe, has received European Commission approval for its DV-QKD platform, transitioning it from R&#038;D to commercial production. The project, with a total budget of nearly €7 million, involved Creotech Quantum as coordinator, along with AIT Austrian Institute of Technology and Fraunhofer Society. This initiative establishes a European supply chain for QKD modules, with an initial capacity of 1,000 units per year, potentially expanding to 10,000 annually. The post European Commission Approves eCAUSIS Results as Creotech Quantum Prepares QKD System for Commercial Rollout appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:2c7ca13f4ad41200",
+      "published": "2026-09-25",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "European Commission Approves eCAUSIS Results as Creotech Quantum Prepares QKD System for Commercial Rollout",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/european-commission-approves-ecausis-results-as-creotech-quantum-prepares-qkd-system-for-commercial-rollout/",
       "why_it_matters": ""
     },
     {
