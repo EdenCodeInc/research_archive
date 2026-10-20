@@ -1,6 +1,202 @@
 {
-  "count": 9037,
+  "count": 9055,
   "entries": [
+    {
+      "abstract": "Taiyi Quantum, a Shanghai-based quantum hardware developer, has secured over ¥1 billion RMB (approx. $149.6M USD) in cumulative funding within nine months of its founding, achieving unicorn valuation status. The company specializes in Ytterbium neutral-atom arrays for fault-tolerant quantum computing and has made significant progress in hardware integration and open-sourced its LUOSHU compiler. The post Taiyi Quantum Surpasses ¥1 Billion RMB ($149.6M+ USD) in Cumulative Funding for Ytterbium Neutral-Atom Systems appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:fccc604d643114aa",
+      "published": "2026-10-20",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Taiyi Quantum Surpasses ¥1 Billion RMB ($149.6M+ USD) in Cumulative Funding for Ytterbium Neutral-Atom Systems",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/taiyi-quantum-surpasses-%c2%a51-billion-rmb-149-6m-usd-in-cumulative-funding-for-ytterbium-neutral-atom-systems/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Finland’s Coherence Quantum raised €2.78 million in seed funding to develop cryogenic signalling and control infrastructure for scaling solid-state quantum computers. The Aalto University spinout is developing signal conditioning and higher-density interfaces to manage wiring, heat and noise as qubit counts increase. Lifeline Ventures led the round, with participation from Mårten Mickos , to fund an Espoo laboratory, product prototypes, manufacturing development, research and hiring. Image: Coherence Quantum founding team. (Provided) PRESS RELEASE &#8212; Coherence Quantum , a Finnish quantum hardware company originating from Aalto University’ s Quantum Computing and Devices (QCD) group, has raised €2.78 million in seed funding to develop a new approach to the cryogenic infrastructure surrounding solid-state quantum processors. The €2.78 million round is led by Helsinki-based early-stage investor Lifeline Ventures , with participation from technology entrepreneur Mårten Mickos . Quantum computers are being developed to tackle calculations that are beyond the practical reach of today’s computers, with potential applications ranging from discovering new materials and medicines to modelling complex physical systems. Reaching that point will require machines with far more usable qubits than today’s systems. But adding more qubits creates another scaling problem: everything needed to control them. As quantum processors grow, more control and readout signals need to reach the quantum processing unit (QPU). Conventional approaches require more wiring and signal-conditioning hardware inside a system with very limited space and cooling power. At the same time, the qubit environment has to remain protected from thermal noise and other disturbances that can affect performance. Coherence Quantum is developing an integrated cryogenic signalling and control platform to address this scaling challenge. Its first technologies focus on cryogenic signal conditioning, hel",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:bf1d4b72c4154758",
+      "published": "2026-10-20",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Coherence Quantum Raises €2.78 Million in Seed Round",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/10/20/coherence-quantum-raises-e2-78-million-in-seed-round/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Bechtle will provide the German Aerospace Center’s Quantum Computing Initiative with cloud access to IQM ’s superconducting quantum computers until June 2027, expanding its research resources and technology portfolio. The agreement enables application teams to develop and run quantum algorithms and compare superconducting systems with other quantum computing technologies. Bechtle will manage platform accounts and support, while a dedicated classical server at IQM ’s Munich data center will support hybrid quantum and classical workloads. PRESS RELEASE &#8212; Under a new framework agreement, Bechtle is providing German Aerospace Center ’s Quantum Computing Initiative (DLR QCI) with cloud-based computing time on quantum systems from IQM Quantum Computers. This expands the DLR QCI’s quantum computing resources for its application teams, complements its existing technology portfolio, and creates additional opportunities for comparison with quantum systems already in place. The IQM Resonance cloud platform supports efficient use through seamless user and group management and provides the foundation for planning, developing, running, and managing quantum algorithms across the entire development process. “ Our offering combines technological excellence with the flexibility that benefits the DLR QCI in its quantum computing applications. This is how we support the customer in expanding its research infrastructure, while also strengthening the technological sovereignty of Germany and Europe in international competition, ” says Christian Behma, Managing Director of Bechtle IT System House Bonn. The DLR QCI brings together start-ups, industry, research, and the public sector in a strong ecosystem for sovereign, competitive quantum computing. To this end, it commissions companies to develop quantum computers, quantum algorithms, and relevant use cases. The focus is on practical application scenarios, for example in materials research, aerospace, mobility, and secu",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:81904346849d0ba0",
+      "published": "2026-10-20",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Bechtle Expands DLR Quantum Computing Resources With IQM Technology",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/10/20/bechtle-expands-dlr-quantum-computing-resources-with-iqm-technology/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Quminex, a Quebec-based exploration technology startup, has successfully raised $1.5 million CAD (approximately $1.06 million USD) in pre-seed funding. This investment, led by Quantacet and QAI Ventures, will accelerate the commercial development and field deployment of its proprietary Quminex Discovery Platform™. The platform aims to modernize mineral discovery by using machine learning and high-performance computing to transform geological data into explainable mineral system models. The post Quminex Raises $1.5M CAD ($1.06M USD) Pre-Seed Round Led by Quantacet and QAI Ventures to Advance Mineral Discovery Platform appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:7f3bda3b586ad027",
+      "published": "2026-10-20",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Quminex Raises $1.5M CAD ($1.06M USD) Pre-Seed Round Led by Quantacet and QAI Ventures to Advance Mineral Discovery Platform",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/quminex-raises-1-5m-cad-1-06m-usd-pre-seed-round-led-by-quantacet-and-qai-ventures-to-advance-mineral-discovery-platform/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Alice &amp; Bob reported Phase 1 PROQCIMA results demonstrating core components of its cat-qubit error-correction architecture on three hardware demonstrators. Tests included protected CNOT gates, repeated error-correction cycles and a non-Clifford gate, but the measured logical error rate remained above the error-correction threshold. A digital twin identified longer, more consistent qubit coherence as a priority, while automated monitoring software tracked performance and recalibration needs. PRESS RELEASE &#8212; – Alice &amp; Bob , a leader in fault-tolerant quantum computing, today shares a summary of results from Phase 1 of PROQCIMA , the French government’s quantum computing programme. Led by the French Defense Innovation Agency (AID) and the Direction générale de l&#8217;Armement, PROQCIMA aims to develop two prototypes of universal quantum computers, each capable of supporting 1,000 logical qubits, ready for industrialisation by 2032. The programme is structured as a 10-year competition: three candidates will continue after the first four years, with two ultimately selected to continue beyond year eight.&nbsp; Five companies were selected to participate: Alice &amp; Bob , Pasqal , Quandela , Quobly and C12 . The first phase of the programme was designed to assess the technical and industrial feasibility of each company’s approach. Each candidate was required to demonstrate the expected level of technological maturity, including through the development and testing of its technology on real hardware. Alice &amp; Bob began work on Phase 1 of PROQCIMA in 2024, committing to build an integrated multi-block demonstrator with partial functional validation to demonstrate the core operations of its error-correction architecture on real hardware. Alice &amp; Bob has delivered on that commitment. The company assembled and operated three independent demonstrators, two on 6-qubit chips and one on a 12-qubit chip. The team demonstrated each building block o",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:1d2f3d58a15e9bf8",
+      "published": "2026-10-20",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Alice & Bob Reports Cat-Qubit Progress in French Quantum Computing Program",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/10/20/alice-bob-reports-cat-qubit-progress-in-french-quantum-computing-program/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "NVIDIA and Jülich Supercomputing Centre simulated a 104-qubit fault-tolerant quantum computing experiment on the JUPITER supercomputer, Europe's first exascale system. This simulation, detailed in an NVIDIA technical report, validated a magic state cultivation protocol that significantly reduces physical qubit overhead. The project utilized JUPITER's 8,192 NVIDIA GH200 Grace Hopper Superchips and advanced software to model complex quantum error correction. The post NVIDIA and Jülich Run 104-Qubit Magic State Cultivation Simulation on JUPITER Supercomputer appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:f8203b9e21a1b515",
+      "published": "2026-10-19",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "NVIDIA and Jülich Run 104-Qubit Magic State Cultivation Simulation on JUPITER Supercomputer",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/nvidia-and-julich-run-104-qubit-magic-state-cultivation-simulation-on-jupiter-supercomputer/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "The Korea Research Institute of Standards and Science (KRISS) has remeasured a key transition frequency of the strontium (Sr) atom for the first time in 88 years, since 1938, using a photonic grating chip. It has established a new absolute frequency value with a measurement uncertainty reduced by more than 50 times. By providing an accurate reference value for next-generation quantum technologies, this achievement is expected to contribute to the precise control and miniaturization of quantum devices, including atomic clocks and neutral-atom quantum computers. The work is published in the journal Metrologia.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://phys.org/rss-feed/physics-news/quantum-physics/"
+      },
+      "id": "feed:d191a289ac8f1770",
+      "published": "2026-10-19",
+      "source": "Phys.org Quantum Physics",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Scientists redetermine a key strontium frequency with 50 times better precision for quantum technologies",
+      "topics": [],
+      "url": "https://phys.org/news/2026-10-scientists-redetermine-key-strontium-frequency.html",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Quantinuum reported 99.9995% logical fidelity on its Helios quantum computer using a color code, equivalent to five errors per million operations and a tenfold reduction from its previous result. Logical errors decreased exponentially as code distance increased, with each tested increase reducing remaining errors by a factor of 12. Tests on the same Helios hardware showed a tradeoff between codes, with Helix using 10 physical qubits per logical qubit while the color code used up to 37 but achieved lower logical error rates. Image: Rendering of a deployed Helios system. (Quantinuum) PRESS RELEASE &#8212; Quantinuum (NASDAQ: QNT), a leading full-stack quantum computing company, today announced a world-record quantum error-correction result, achieving a logical fidelity of 99.9995% on its Helios commercial computer using the company’s error-correction architecture. This marks Quantinuum ’s second breakthrough in two months, demonstrating how its highly accurate trapped-ion hardware and flexible architecture work together to deliver rapid improvements in accuracy. The achievement reinforces Quantinuum ’s error-correction leadership and validates that its accuracy performance is now within the target range for Apollo, the company’s planned universal fault-tolerant quantum computer expected to be available by 2029. Quantinuum ’s architecture is an end-to-end framework programmable through the company’s developer platform. It integrates tailored AI decoders, all-to-all qubit connectivity, high-fidelity physical operations, and hardware-level error correction. This architecture also allows the company to test, refine, and combine different error-correction codes and optimize between accuracy and efficiency. In the latest study, Quantinuum used a well-known “color code” within this architecture to achieve the world-record logical fidelity result, which is equivalent to just five errors per million operations. The error rate is 10 times lower than Quantinuum’s o",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:d018752d08549444",
+      "published": "2026-10-19",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Quantinuum Reports a 10x Reduction in Logical Error Rate on Helios",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/10/19/quantinuum-reports-a-10x-reduction-in-logical-error-rate-on-helios/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Voltage fluctuations, light fluctuations, temperature fluctuations—any fluctuations are troublesome and thus undesirable. They don't just cause discomfort; in engineering and medical applications, they affect the accuracy of measurements or introduce errors in controls. Even at the minute level of quantum phenomena, fluctuations are considered undesirable.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://phys.org/rss-feed/physics-news/quantum-physics/"
+      },
+      "id": "feed:c4f8f2bdcc445af5",
+      "published": "2026-10-19",
+      "source": "Phys.org Quantum Physics",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Normally forbidden emissions from graphene could expose quantum fluctuations in incoming light",
+      "topics": [],
+      "url": "https://phys.org/news/2026-10-forbidden-emissions-graphene-expose-quantum.html",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Quantinuum has demonstrated a 99.9995% logical memory fidelity on its Helios trapped-ion quantum computer, achieving a logical error rate of 5 × 10-6 per syndrome-extraction round on a distance-7 code. This performance shows exponential error suppression with increasing code distance, with a suppression factor of 12. These results align with the performance targets for Quantinuum's future universal fault-tolerant quantum system, Apollo. The post Quantinuum Demonstrates 99.9995% Logical Memory Fidelity on Helios Trapped-Ion Processor appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:b75ad017318556b8",
+      "published": "2026-10-19",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Quantinuum Demonstrates 99.9995% Logical Memory Fidelity on Helios Trapped-Ion Processor",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/quantinuum-demonstrates-99-9995-logical-memory-fidelity-on-helios-trapped-ion-processor/",
+      "why_it_matters": ""
+    },
     {
       "abstract": "Insider Brief Chinese startup Tuoyuan, led by quantum researcher Mu Qiao, is pursuing neutral-atom quantum computing with a reported development target of 100 logical qubits. QbitAI reported that the company raised hundreds of millions of yuan in seed and angel financing, but those details have not been independently verified. Qiao has published research on neutral-atom and trapped-ion quantum simulation, while Tuoyuan has yet to disclose hardware benchmarks or a timeline for its planned system. Photo by Christian Lue on Unsplash A new Chinese startup led by quantum researcher Mu Qiao is pursuing neutral-atom quantum computing, with a reported development goal of building a system with 100 logical qubits. The company, identified as FlipFlop Tuoyuan in a QbitAI report republished by 36Kr , brings together Qiao’s experience in trapped-ion and neutral-atom experiments. Its reported plans focus on fault-tolerant computing, which uses error correction to protect calculations from the errors that limit quantum processors. QbitAI reported that Tuoyuan completed seed and angel financing totaling hundreds of millions of yuan &#8212; or tens of millions in U.S. dollars, citing people familiar with the company. The report named Source Code Capital, Oasis Capital and CICC Capital among the investors but did not provide an exact amount or valuation. Those financing details could not be independently verified for this article. Qiao’s research record provides better details on the technical experience behind the venture. He is a shared first author and a corresponding author of a study published in Nature in August 2025 that used an array of Rydberg atoms to investigate a quantum magnet with mobile vacancies, known as holes. Such experiments let researchers reproduce selected features of complex quantum systems under controlled conditions. The study examined interactions between magnetism and particle motion, a problem relevant to understanding strongly correlated materials, inclu",
       "authors": [
@@ -22,6 +218,24 @@
       "why_it_matters": ""
     },
     {
+      "abstract": "Today's computer technology, based on silicon chips, is slowly reaching its physical limits. Components cannot be miniaturized indefinitely, and clock speeds cannot be increased indefinitely. At the same time, huge AI data centers are being built in many places, and these consume an immense amount of electricity. This is why scientists around the world are searching for novel materials that can replace or complement silicon technology and consume significantly less electricity.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://phys.org/rss-feed/physics-news/quantum-physics/"
+      },
+      "id": "feed:973656b6886513aa",
+      "published": "2026-10-19",
+      "source": "Phys.org Quantum Physics",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "X-rays reveal surprisingly long-lived spin waves in copper oxide",
+      "topics": [],
+      "url": "https://phys.org/news/2026-10-rays-reveal-copper-oxide.html",
+      "why_it_matters": ""
+    },
+    {
       "abstract": "Insider Brief RIKEN researchers demonstrated high-accuracy parallel control of silicon spin qubits using a shared microwave line and a calibration method that reduces control errors. Pairwise phase calibrations helped maintain gate fidelities above 99.99% when operating up to three qubits simultaneously and approximately 99.9% across all five. Increased microwave power caused remaining losses in quantum coherence, identifying a limitation that further device improvements could help address. Image: Rendered illustration of five silicon spin qubits controlled in parallel through a shared microwave line. ( RIKEN ) PRESS RELEASE &#8212; Silicon spin qubits are a promising platform for building scalable quantum computers as they are compatible with the semiconductor manufacturing technologies used to produce today&#8217;s computer chips. However, they have an important weakness: silicon spin qubits typically lose accuracy when several qubits are under parallel control. To be useful, quantum computers will need to operate many qubits simultaneously without compromising the accuracy of their operations. Now, in a study published in Nature Physics , researchers from the RIKEN Center for Emergent Matter Science and collaborators have addressed this challenge by achieving high-fidelity control of multiple silicon spin qubits operating in parallel. Using a five-qubit silicon array controlled through a single shared microwave line, they identified a key source of errors during the simultaneous operation of qubits and developed a way to mitigate its effects. According to Leon Camenzind, a research scientist at RIKEN and co-first author who supervised the experiments, “This shows that high-fidelity control can be maintained even when several qubits are operated at the same time and represents an important step toward scaling up silicon-based quantum processors.” Unmasking the culprit behind control errors Quantum computers process information using quantum bits, or qubits, which ",
       "authors": [
         "Matt Swayne"
@@ -39,6 +253,124 @@
       "title": "RIKEN Team Improves Parallel Control of Silicon Spin Qubits",
       "topics": [],
       "url": "https://thequantuminsider.com/2026/10/19/riken-team-improves-parallel-control-of-silicon-spin-qubits/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Xanadu, a photonic quantum computing company, has secured up to $10 million in additional DARPA funding through the Quantum Benchmarking Initiative (QBI). This one-year contract extension will support Xanadu's hardware and software development, particularly for its fault-tolerant photonic architecture and the PennyLane open-source quantum software framework. The funding aims to accelerate the development of practical, fault-tolerant quantum computing for various industrial and government applications. The post Xanadu Secures Up to $10 Million in Additional DARPA Funding Under QBI Program appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:7a7b5f16771214fe",
+      "published": "2026-10-19",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Xanadu Secures Up to $10 Million in Additional DARPA Funding Under QBI Program",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/xanadu-secures-up-to-10-million-in-additional-darpa-funding-under-qbi-program/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief NVIDIA simulated a 104-qubit fault-tolerant quantum processor on Europe’s JUPITER supercomputer to evaluate magic-state cultivation under realistic hardware noise. The approach studied could reduce the qubits needed to produce magic states by 90% compared with previous methods, according to NVIDIA. The simulation used 8,192 GPUs and NVIDIA’s quantum computing software to help researchers assess processor designs before building hardware. PRESS RELEASE &#8212; NVIDIA today announced a record-breaking quantum computing simulation on JUPITER, Europe’s first exascale supercomputer, allowing researchers to fully explore and validate magic state cultivation — a leading approach to fault-tolerant quantum computing that requires 90% fewer qubits than previous methods. Running on a system of NVIDIA GH200 superchips at Jülich Supercomputing Centre, the 104-qubit simulation is the largest comprehensive simulation of a fault-tolerant quantum processor to date, modeling how a realistic quantum processor performs fault-tolerant computation at record scale. That level of fidelity gives researchers the data and tools needed to predict the performance of future designs before they are built — reducing reliance on hardware trial and error, and accelerating the path to useful quantum applications in fields like drug discovery, financial modeling and materials science. “Useful quantum computing will require fantastically complex, fault-tolerant systems — and understanding how they behave at scale is essential to building them,” said Jensen Huang, founder and CEO of NVIDIA. “Our results from Jülich show how quantum processors and GPU supercomputers can work together to tackle research that would otherwise be out of reach — accelerating the discovery of transformative quantum applications.” “Europe’s investment in JUPITER gives researchers the ability to investigate questions that were previously beyond reach,” said Kristel Michielsen, director of the Jülich Supercomputing ",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:786160abd79e6e96",
+      "published": "2026-10-19",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "NVIDIA Runs Simulation of Fault-Tolerant Quantum Computing at Jülich Supercomputing Centre",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/10/19/nvidia-runs-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Podcast with Joel Van Dyk, a physicist turned Wall Street cybersecurity veteran, about the quantum threat to cryptography and what organizations should be doing right now to prepare. The post Podcast with Joel Van Dyk, CTO/CISO and Co-Founder of Done. Quantum Security Limited appeared first on Quantum Computing Report .",
+      "authors": [
+        "Doug Finke"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:6efc88600efad6d6",
+      "published": "2026-10-19",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Podcast with Joel Van Dyk, CTO/CISO and Co-Founder of Done. Quantum Security Limited",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/podcast-with-joel-van-dyk-cto-ciso-and-co-founder-of-done-quantum-security-limited/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://www.nature.com/subjects/quantum-information.rss"
+      },
+      "id": "feed:577813e92a957f11",
+      "published": "2026-10-19",
+      "source": "Nature: Quantum Information",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Light and mirrors move large quantum computers closer to reality",
+      "topics": [],
+      "url": "https://www.nature.com/articles/d41586-026-03237-2",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "FlipFlop Tuoyuan, a Chinese quantum hardware startup, has secured over $14 million in early-stage funding to develop neutral-atom quantum processing units. Founded in July 2026 by Dr. Qiao Mu, the company aims to build a 100-logical-qubit fault-tolerant quantum computer and utilize AI for experimental design and hardware control. The post Chinese Startup FlipFlop Tuoyuan Emerges with Major VC Backing for 100-Logical-Qubit Neutral-Atom Systems appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:4c7d911716510b37",
+      "published": "2026-10-19",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Chinese Startup FlipFlop Tuoyuan Emerges with Major VC Backing for 100-Logical-Qubit Neutral-Atom Systems",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/chinese-startup-flipflop-tuoyuan-emerges-with-major-vc-backing-for-100-logical-qubit-neutral-atom-systems/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "The UK government and UK Research and Innovation (UKRI) have announced a £78 million (approximately $103.8 million USD) funding package to advance quantum sensing, networking, and workforce development. This initiative, part of the National Quantum Strategy, includes grants for commercial applications, supply-chain development, and an expansion of the QuEST Apprentices Programme. An additional £17 million has been allocated for integrating AI and high-performance computing with quantum platforms, aiming to solidify the UK's global leadership in quantum technologies. The post UK Government and UKRI Unveil £78M ($103.8M USD) Quantum Commercialization, Networking, and Skills Package appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:0b5b51a49bdde46e",
+      "published": "2026-10-19",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "UK Government and UKRI Unveil £78M ($103.8M USD) Quantum Commercialization, Networking, and Skills Package",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/uk-government-and-ukri-unveil-78m-103-8m-usd-quantum-commercialization-networking-and-skills-package/",
       "why_it_matters": ""
     },
     {
@@ -79,6 +411,37 @@
       "title": "UKRI Backs UK Quantum Businesses With Share of £50 Million",
       "topics": [],
       "url": "https://thequantuminsider.com/2026/10/19/ukri-backs-uk-quantum-businesses-with-share-of-50-million/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "",
+      "authors": [
+        "Xingyu Wang",
+        "Jiahao Li",
+        "Bolong Wang",
+        "Yuexiang Cao",
+        "Yonghui Li",
+        "Haoran Hu",
+        "Qian Li",
+        "Nan Xiao",
+        "Chen Dong",
+        "Kai Guo",
+        "Lei Shi"
+      ],
+      "extra": {
+        "doi": "10.1038/s41534-026-01382-0",
+        "subjects": []
+      },
+      "id": "doi:10.1038/s41534-026-01382-0",
+      "published": "2026-10-19",
+      "source": "npj Quantum Information",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Scalability bottlenecks in entanglement-based satellite quantum key distribution: downlink asymmetry, orbit dependence and finite-key effects",
+      "topics": [],
+      "url": "https://doi.org/10.1038/s41534-026-01382-0",
       "why_it_matters": ""
     },
     {
