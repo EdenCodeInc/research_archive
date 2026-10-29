@@ -1,6 +1,409 @@
 {
-  "count": 9864,
+  "count": 9897,
   "entries": [
+    {
+      "abstract": "Nord Quantique secured a $10 million extension for Stage B of the DARPA Quantum Benchmarking Initiative (QBI) to advance its bosonic quantum error correction (QEC) architecture. This funding supports engineering milestones and prototyping to demonstrate the viability of their approach, which aims for a 1:1 physical-to-logical qubit footprint using superconducting bosonic codes. The company will focus on reducing error rates and developing hardware subsystems to meet DARPA's goal of achieving utility-scale quantum computing by 2033. The post Nord Quantique Secures $10 Million DARPA Quantum Benchmarking Initiative Stage B Agreement Extension appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:e9ff521ca43a5113",
+      "published": "2026-10-29",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Nord Quantique Secures $10 Million DARPA Quantum Benchmarking Initiative Stage B Agreement Extension",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/nord-quantique-secures-10-million-darpa-quantum-benchmarking-initiative-stage-b-agreement-extension/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Researchers from LANL and Cornell have developed a framework to extract quantum information from dynamical quantum simulations, revealing how information propagates and reorganizes in many-body states. Their work demonstrates that traditional measurements capture only a limited view of quantum information, and that multipartite entanglement can be certified even as entanglement is redistributed. This framework can repurpose quantum simulators as multi-purpose quantum information laboratories, though full quantum information reconstruction on hardware faces significant scaling challenges. The post LANL and Cornell Researchers Demonstrate Extraction of Quantum Information Structures from Condensed-Matter Dynamical Simulations appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:e91e613c0a69e71f",
+      "published": "2026-10-29",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "LANL and Cornell Researchers Demonstrate Extraction of Quantum Information Structures from Condensed-Matter Dynamical Simulations",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/lanl-and-cornell-researchers-demonstrate-extraction-of-quantum-information-structures-from-condensed-matter-dynamical-simulations/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "The UK Space Agency and DSIT have published a Quantum Technology Roadmap for Space, outlining strategic priorities for 2035–2040. The roadmap identifies four investment themes: assured timing, resilient sensing, sovereign communications, and long-term computing, aiming to transition prototypes into flight-qualified space systems. It also emphasizes the need to address engineering bottlenecks and proposes immediate actions to strengthen the UK's sovereign industrial capabilities in quantum space technology. The post UK Space Agency and DSIT Publish Quantum Technology Roadmap for Space Targeting 2035–2040 Sovereign Capabilities appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:e2afe88b303e5591",
+      "published": "2026-10-29",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "UK Space Agency and DSIT Publish Quantum Technology Roadmap for Space Targeting 2035–2040 Sovereign Capabilities",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/uk-space-agency-and-dsit-publish-quantum-technology-roadmap-for-space-targeting-2035-2040-sovereign-capabilities/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "BlueQubit, in collaboration with EPFL and the XPRIZE Foundation, has demonstrated quantum computational advantage using IBM Quantum's 120-qubit ibm_phoenix processor. Their random-circuit sampling experiment, involving 61 active qubits, achieved a fidelity that would take over a century for classical supercomputers to replicate. This study highlights significant architectural improvements in IBM processors and validates the classical hardness of their quantum benchmarks. The post BlueQubit Benchmarks Quantum Computational Advantage in Random-Circuit Sampling on IBM Nighthawk r2 Hardware appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:c88769b1851331fb",
+      "published": "2026-10-29",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "BlueQubit Benchmarks Quantum Computational Advantage in Random-Circuit Sampling on IBM Nighthawk r2 Hardware",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/bluequbit-benchmarks-quantum-computational-advantage-in-random-circuit-sampling-on-ibm-nighthawk-r2-hardware/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "EPB and IonQ have successfully deployed hybrid quantum-classical algorithms on IonQ Forte Enterprise to optimize power grid topology, significantly reducing power loss and improving efficiency. Their research, funded by a $4 million NIST grant, utilized trapped-ion systems to benchmark three distinct computational frameworks for distribution network reconfiguration. These methods demonstrated substantial parameter reduction, decreased classical solver runtime, and recovered global minimal-loss configurations across various bus systems, establishing a practical boundary where quantum-assisted pipelines become more efficient. The post EPB and IonQ Deploy Hybrid Trapped-Ion Algorithms on Forte Enterprise to Optimize Power Grid Topology appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:c5b2bbe3fd4871c6",
+      "published": "2026-10-29",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "EPB and IonQ Deploy Hybrid Trapped-Ion Algorithms on Forte Enterprise to Optimize Power Grid Topology",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/epb-and-ionq-deploy-hybrid-trapped-ion-algorithms-on-forte-enterprise-to-optimize-power-grid-topology/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief D-Wave customer Shionogi has won first place in the Quality of Life category of Japan’s NEDO Challenge for research applying quantum computing to drug discovery. A peer-reviewed study published in Scientific Reports in July 2026 found that a quantum-assisted generative AI model produced 97% chemically valid molecular representations, compared with 73% for an equivalent classical model. The ¥40 million award will support Shionogi’s continued research combining quantum computing and classical high-performance computing to generate and evaluate potential drug candidates. PRESS RELEASE &#8212; D-Wave Quantum Inc. (NASDAQ: QBTS) (&#8220; D-Wave &#8220;), the only dual-platform quantum computing company providing both annealing and gate-model systems, software and services, today announced that its customer Shionogi &amp; Co., Ltd. (“Shionogi”) has won first place in the Quality of Life (QOL) category of the NEDO Challenge for its research exploring the application of quantum computing to drug discovery. The award-winning research includes, among other achievements, a peer-reviewed study published in Scientific Reports in July 2026, which integrated D-Wave annealing quantum computing technology into a generative AI model for molecular design. Among the achievements included in the award-winning peer-reviewed research, conducted in collaboration with D-Wave , was that 97% of molecular representations generated by the quantum-assisted model were chemically valid, compared with 73% using an equivalent classical model. The quantum-assisted model also generated a higher proportion of molecules with strong drug-likeness scores, exceeding both the classical model and the training dataset. These findings demonstrate how annealing quantum computing could improve the quality of generative AI outputs for early-stage drug discovery. The ¥40 million NEDO prize will support Shionogi’s continued research into applying quantum computing to one of the pharmaceutical industry",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:b9513400c6037a4e",
+      "published": "2026-10-29",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Shionogi Wins NEDO Award for Quantum-Assisted Drug Discovery",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/10/29/shionogi-nedo-quantum-drug-discovery/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Pasqal's 256-qubit neutral-atom processor observed an unexpected slowdown in a 2D quantum magnet's dynamics, diverging from classical simulations. This research, detailed in a preprint, explores the relaxation landscape of a 2D transverse-field Ising model, uncovering three distinct physical behaviors including a previously unpredicted relaxation slowdown at intermediate field strengths. The study highlights the quantum processor's ability to explore non-equilibrium condensed-matter regimes beyond the limits of classical tensor-network simulations. The post Pasqal 256-Qubit Neutral-Atom Processor Observes Unpredicted Slowdown in 2D Quantum Magnet Dynamics appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:b4ec43b804af2468",
+      "published": "2026-10-29",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Pasqal 256-Qubit Neutral-Atom Processor Observes Unpredicted Slowdown in 2D Quantum Magnet Dynamics",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/pasqal-256-qubit-neutral-atom-processor-observes-unpredicted-slowdown-in-2d-quantum-magnet-dynamics/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "University of Sydney researchers have demonstrated significant advancements in quantum error correction on IBM Quantum's ibm_phoenix processor. They achieved multi-qubit fault-tolerant logic and sustained error suppression for up to 170 rounds using a novel dynamic \"walking\" syndrome circuit. This breakthrough, utilizing the Nighthawk r2 architecture, includes successful logical Bell-state preparation and three-logical-qubit teleportation, marking a crucial step towards scalable fault-tolerant quantum computing. The post University of Sydney Demonstrates Multi-Qubit Logical Entanglement and 170-Round Stability on IBM Square-Lattice Nighthawk r2 Processor appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:b054b1686cf0649d",
+      "published": "2026-10-29",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "University of Sydney Demonstrates Multi-Qubit Logical Entanglement and 170-Round Stability on IBM Square-Lattice Nighthawk r2 Processor",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/university-of-sydney-demonstrates-multi-qubit-logical-entanglement-and-170-round-stability-on-ibm-square-lattice-nighthawk-r2-processor/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Nord Quantique has secured a US$10 million extension to its DARPA Quantum Benchmarking Initiative Stage B agreement to continue evaluation of its quantum computing architecture. The company uses bosonic quantum error correction to protect quantum information within physical qubits, with the aim of reducing the hardware overhead required for fault-tolerant quantum computing. DARPA ’s Quantum Benchmarking Initiative evaluates whether emerging quantum architectures can reach utility-scale operation by 2033, while Nord Quantique says the funding will support its development roadmap. PRESS RELEASE &#8212; Nord Quantique , a Canadian quantum computing company pioneering hardware-efficient quantum error correction, today announced a US$10 million extension of its Defense Advanced Research Projects Agency’s (DARPA) Quantum Benchmarking Initiative (QBI) Stage B agreement. The extension supports Nord Quantique ’s continued participation in Stage B and its potential to deliver utility-scale quantum computing with significantly reduced hardware requirements. DARPA Quantum Benchmarking Initiative aims to determine whether emerging quantum computing architectures can achieve utility-scale operation by 2033. The program rigorously evaluates the technical feasibility, scalability and resources required to develop commercially valuable quantum computers. “This marks another important milestone for Nord Quantique and reflects the momentum behind our technology,” said Julien Camirand Lemyre, CEO and co-founder of Nord Quantique. “The DARPA program provides an important opportunity to validate our approach against the demanding requirements of utility-scale quantum computing. We’re proud to continue that work as we advance our commercial roadmap.” Nord Quantique ’s architecture uses bosonic quantum error correction to protect quantum information within individual physical qubits, dramatically reducing the hardware overhead traditionally associated with fault tolerance. Th",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:874e1a47e69c3ef5",
+      "published": "2026-10-29",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Nord Quantique Secures $10 Million DARPA Funding Extension",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/10/29/nord-quantique-10-million-darpa-funding-extension/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Researchers at Yonsei University have developed a Mamba-based neural decoder for quantum error correction, significantly reducing computational complexity from O(d4) to O(d2) compared to Transformer-based models. This new decoder matches the accuracy of Transformer models like AlphaQubit but eliminates the quadratic self-attention bottlenecks, making real-time feedback on quantum hardware possible. The Mamba decoder shows superior performance in real-time conditions and has implications for advancing fault-tolerant quantum computing, though practical implementation requires overcoming edge-compute limitations. The post Yonsei University Researchers Develop Mamba State-Space Neural Decoder to Enable Real-Time Quantum Error Correction appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:81ec24d4753cf1f5",
+      "published": "2026-10-29",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Yonsei University Researchers Develop Mamba State-Space Neural Decoder to Enable Real-Time Quantum Error Correction",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/yonsei-university-researchers-develop-mamba-state-space-neural-decoder-to-enable-real-time-quantum-error-correction/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Researchers from Jülich, Aachen and Cologne performed single-qubit operations in 6.8 nanoseconds with accuracies exceeding 99.98%, demonstrating fast, precise control of a superconducting qubit. Their R2D pulse-shaping method reduced unwanted multiphoton transitions by more than 20 times compared with the established DRAG method. Tests used a single isolated transmon qubit, with further experiments needed to assess performance in larger processors and two-qubit operations. Image: Quantum computer laboratory at the Peter Grünberg Institute for Functional Quantum Systems (PGI-13) at Forschungszentrum Jülich. (Forschungszentrum Jülich / Sascha Kreklau) PRESS RELEASE &#8212; Researchers from Jülich, Aachen and Cologne have performed a quantum operation on a qubit in just 6.8 nanoseconds – with more than 99.98 percent accuracy. Such operations typically take several tens of nanoseconds in superconducting quantum computers. The paper was published in Nature Communications . 6.8 nanoseconds – that&#8217;s how long it takes light to travel a distance of around two metres in a vacuum. In this tiny fraction of a second, researchers in the Peter Grünberg Institute for Functional Quantum Systems (PGI-13) and Quantum Control (PGI-8) at Forschungszentrum Jülich have succeeded in performing elementary computing operations on a quantum bit, or qubit for short. Switching speed is a critical factor in quantum computing. This is because qubits are sensitive and retain their quantum states for only a limited time. The faster individual operations can be performed, the more can fit into this time window. This is important for complex algorithms and for resource-intensive error correction. However, the shorter the microwave pulses used to switch qubits, the stronger they must be. This increases the risk of unwanted excitation. This is because superconducting qubits possess more than the two energy states used for computation. If they are excited too strongly, they can unint",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:70eca5cf2dc68db1",
+      "published": "2026-10-29",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Researchers Curb Unwanted Transitions in Ultrafast Quantum Gates",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/10/29/researchers-curb-unwanted-transitions-in-ultrafast-quantum-gates/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Delft University of Technology researchers controlled the nuclear spin of a single atom using radio-frequency signals, a finding that could inform methods for storing and reading quantum information. A refined double magnetic resonance technique allowed the team to address electron and nuclear spins independently and flip the nuclear spin even when the two were largely disentangled. The results, published in Nature Communications, challenge the researchers’ understanding of nuclear spin control, with the mechanism driving the response still unresolved. PRESS RELEASE &#8212; Researchers at Delft University of Technology (The Netherlands) have succeeded in controlling the magnetism in the nucleus of a single atom with radio waves. This came as a surprise: until now, physicists believed that this nuclear spin could not be manipulated directly. The discovery could open up new possibilities for storing and reading quantum information. The research is published in the journal Nature Communications . In metals such as iron and nickel, every atom is slightly magnetic. But inside the atom, different magnetic “compass needles”, known in quantum mechanics as spins , are also at work. “By far the strongest magnetism comes from the electrons,” says lead researcher Sander Otte. “But in some atoms, the nucleus also carries a spin. That spin is much weaker, but it is also much better shielded from the outside world.” Otte’s group studies spins using a converted scanning tunnelling microscope. This enables electrical signals to be directed with extreme precision at a single atom. In the past, the researchers mainly focused on the electron spin, which is the easiest to read out. The nuclear spin appeared only indirectly, through the so-called hyperfine interaction. This causes the spins of the nucleus and the electron to become slightly entangled. Control against expectations In their latest experiment, main author Hester Vennema and her colleagues sent two different si",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:54c98fa0a8bc6bf4",
+      "published": "2026-10-29",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Delft Researchers Control The Magnetic Core of a Single Atom",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/10/29/delft-researchers-control-the-magnetic-core-of-a-single-atom/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Researchers from the University of Gothenburg and Chalmers University of Technology have developed a modular neural decoder for surface code quantum error correction (QEC). This decoder demonstrates superior performance compared to traditional methods and is capable of adapting across different hardware architectures, noise profiles, and multi-patch logical operations. Its efficient design, inspired by the renormalization group, allows for training on a single commercial GPU and offers portability advantages for fault-tolerant computing. The post Gothenburg and Chalmers Researchers Develop Modular Graph Neural Decoder for Surface Code Memory and Lattice Surgery appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:4f844be44f330b7b",
+      "published": "2026-10-29",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Gothenburg and Chalmers Researchers Develop Modular Graph Neural Decoder for Surface Code Memory and Lattice Surgery",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/gothenburg-and-chalmers-researchers-develop-modular-graph-neural-decoder-for-surface-code-memory-and-lattice-surgery/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Pasqal and its research collaborators used a 256-qubit neutral-atom processor to study a two-dimensional quantum magnet and observed an unexpected slowdown in its relaxation after a sudden change. The slowdown appeared in a regime where three classical simulation methods diverged from one another and the experimental results, although the researchers have not yet explained the behavior. The findings, published as an arXiv preprint, suggest quantum processors could help investigate complex physical systems that challenge existing simulation methods, but do not demonstrate computational quantum advantage. PRESS RELEASE &#8212; Pasqal (Nasdaq: PSQL), a global leader in neutral-atom quantum computing, today announced that its 256-qubit quantum processor has revealed an unexpected behavior in a two-dimensional quantum magnet: under certain conditions, the system takes far longer to settle after being disturbed than theory predicts. The results, released as a preprint with the Flatiron Institute, the University of Augsburg, Forschungszentrum Jülich, the University of Regensburg and the Institut d’Optique–CNRS, were obtained in a regime where three state-of-the-art classical simulation methods no longer agree with one another. A regime theory cannot yet predict The researchers abruptly pushed the magnet out of equilibrium, a sudden change physicists call a quench and &nbsp;&nbsp;expected it to settle quickly into a new stable state, as most systems do. Under one set of conditions, it didn’t. The result marks a shift in how quantum processors can be used in research: not only to reproduce what scientists already know, but to reveal behavior they did not anticipate. The system in question is a quantum magnet: a grid of interacting atomic spins described by one of the reference models of magnetism. Models like this are deliberately simplified, but they capture behavior physicists’ study across many magnetic materials, including how magnetic information spreads t",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:2dd5d8fe77ac1ab8",
+      "published": "2026-10-29",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Pasqal’s 256-Qubit Processor Finds Unexpected Quantum Magnet Behavior",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/10/29/pasqal-processor-unexpected-quantum-magnet-behavior/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Qoro, E.ON and the UK National Quantum Computing Centre developed a proof of concept using hybrid quantum-classical computing to improve peer-to-peer energy transaction scheduling. The team used Qoro’s Divi SDK and scheduler to decompose large grid optimisation problems into subproblems of up to 50 qubits, reducing quantum hardware execution time by approximately threefold through spatial circuit packing on IBM hardware. The research found that QAOA sampling combined with classical feasibility repair reduced residual decomposition error compared with classical baselines, although the results remain a proof of concept rather than a demonstrated deployment in an operational power grid. PRESS RELEASE &#8212; Qoro, E.ON , and the UK National Quantum Computing Centre (NQCC) have successfully developed a proof-of-concept, exploring future applications of hybrid quantum-classical computing in peer-to-peer energy trading. With SparQ grant funding, the team developed a new decomposition-based optimisation pipeline, built using Qoro’s open-source software development kit (SDK), Divi, and orchestrated through Qoro’s scheduler. The resulting proof-of-concept improved upon previous hybrid methods using energy grid benchmark models, outperforming classical baselines. It also reduced hardware execution time by approximately 3x through spatial circuit packing on IBM quantum hardware. This proves that software orchestration can unlock utility-scale applications on today’s quantum processors. By mathematically breaking the massive grid optimisation problem into smaller, more manageable pieces, the algorithm could reduce the energy transaction scheduling rounds (by reducing the solution decomposition length) to achieve high solution accuracy. In a real-world application, the solution decomposition length acts as ‘scheduling rounds’ that plan and coordinate energy transactions between grid users. By proving that the number of required rounds can be drastically reduced, th",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:2db2511514dea1fb",
+      "published": "2026-10-29",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "E.ON and Qoro Test Hybrid Quantum Computing for Energy Scheduling",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/10/29/eon-qoro-hybrid-quantum-energy-scheduling/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief IQM Quantum Computers reports that its cloud-accessible Emerald system has achieved a Greenberger–Horne–Zeilinger (GHZ) entangled state across all 54 qubits simultaneously. The company measured a fidelity of 0.516 across the full processor with readout error mitigation applied, exceeding the 0.500 threshold cited for distinguishing genuine entanglement from noise. IQM attributes the result to improvements in calibration, gate selection and automated state preparation, and says cloud customers can access the system’s full-chip performance. PRESS RELEASE &#8212; IQM Quantum Computers (Nasdaq: IQMX), a global leader in superconducting quantum computers, today announced that its cloud-accessible IQM Emerald system has fully entangled all 54 qubits on the chip simultaneously, a result that shows the system’s computational quality holds up when every qubit is put to work at once. IQM’s cloud customers now have access to that same full-chip performance, so their computations can draw on the entire processor rather than a fraction of it. These results rank among the strongest reported for any commercially available quantum computer, giving customers access to state-of-the-art, high-quality processors. Until now, a user running a comparable demonstration on IQM Emerald could reliably use on the order of 30 qubits within a single algorithm. Studies on large quantum chips often use only a fraction of the available qubits, commonly 10 to 20, even when the hardware has many more. Emerald&#8217;s result shows the alternative: an entire processor working together on one computation. &#8220;Entangling the entire chip means every qubit and every connection between them has to work correctly in the same circuit. Getting there came down to being smarter about how we prepare the state itself, choosing the gate order to keep idle time to a minimum,&#8221; said Craig Ciesla, CTO, IQM Quantum Computers. &#8220;Our current and prospective cloud customers now have the chance t",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:0e516b9af5585149",
+      "published": "2026-10-29",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "IQM Demonstrates Entanglement Across a Complete 54-Qubit Processor",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/10/29/iqm-full-chip-entanglement-54-qubit-processor/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Waiting for native PQC leaves long-lived data exposed to harvest-now-decrypt-later. Learn how external quantum-safe keys protect high-risk corridors today.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://ionq.com/blog/rss.xml"
+      },
+      "id": "feed:0d1c75b0015ec970",
+      "published": "2026-10-29",
+      "source": "IonQ",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "IonQ | Protect Network Corridors Before Native PQC Arrives | IonQ",
+      "topics": [],
+      "url": "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Pelagic Systems, a spin-out from the Novo Nordisk Foundation Quantum Computing Programme (NQCP), is commercializing software for real-time control, calibration, and characterization of quantum processors. Their platform addresses parameter instabilities in multi-qubit systems by running routines directly on FPGA controllers, significantly reducing latency compared to traditional methods. This technology aims to automate and streamline the tuning of complex quantum hardware, offering a solution to a growing bottleneck in the industry. The post NQCP Spins Out Pelagic Systems to Commercialize Real-Time Hardware Calibration Software appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:01dc69e712f64c4f",
+      "published": "2026-10-29",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "NQCP Spins Out Pelagic Systems to Commercialize Real-Time Hardware Calibration Software",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/nqcp-spins-out-pelagic-systems-to-commercialize-real-time-hardware-calibration-software/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Pelagic Systems, a spinout from the Novo Nordisk Foundation Quantum Computing Programme at the Niels Bohr Institute, is launching software for calibrating, monitoring and controlling quantum hardware. The company says its platform has been demonstrated on superconducting quantum processors, where it can characterize and recalibrate key processor parameters on millisecond timescales. Supported by Innovation Fund Denmark, Pelagic is offering its software to research groups and quantum computing companies working on advanced quantum hardware. Pelagic Systems, a new spinout from the Novo Nordisk Foundation Quantum Computing Programme (NQCP) at the Niels Bohr Institute , was announced on October 27, 2026, according to a company press release. The company is developing the software layer for operating quantum hardware at the frontier. Pelagic describes quantum processors as experimental systems that are delicate and constantly changing. Its platform brings tools to measure, understand and control them into a single software package, the release states. The company says that by closely integrating high-level experimental software with real-time hardware control, the platform makes possible a new generation of quantum experiments that can respond, adapt and explore the full potential of quantum hardware. For Peter Krogstrup, CEO of NQCP and Quantum Foundry Copenhagen , Pelagic is an example of how technology developed around the programme’s quantum computing work can become capabilities with value well beyond a single research project, the release says. Krogstrup said in the release: “I’m incredibly proud to see Pelagic Systems spin out of our program. It’s a sophisticated piece of quantum computing control software that’s extremely efficient at calibrating, validating, and maintaining our QC hardware. Its built-in fast control and readout algorithms also enable us to apply advanced multi-qubit operations as we progress toward more complex hardware systems.” P",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:00b3953d8d0d6b51",
+      "published": "2026-10-29",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Niels Bohr Institute Spinout Pelagic Systems Targets Quantum Hardware Control",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/10/29/pelagic-systems-quantum-control-software/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "",
+      "authors": [
+        "Yanhao Wang",
+        "Suhas Ganjam",
+        "Ishan Narra",
+        "Luigi Frunzio",
+        "Robert J. Schoelkopf"
+      ],
+      "extra": {
+        "doi": "10.1103/2dpj-3nsv",
+        "subjects": []
+      },
+      "id": "doi:10.1103/2dpj-3nsv",
+      "published": "2026-10-29",
+      "source": "PRX Quantum",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Rhenium as a material platform for long-lived transmon qubits",
+      "topics": [],
+      "url": "https://doi.org/10.1103/2dpj-3nsv",
+      "why_it_matters": ""
+    },
     {
       "abstract": "EPB and IonQ trained an in-house quantum team and ran hybrid algorithms on IonQ Forte Enterprise, cutting grid model parameters by up to 95.8%.",
       "authors": [],
@@ -40,6 +443,24 @@
       "why_it_matters": ""
     },
     {
+      "abstract": "An NMR spectrometer can reveal molecular structure down to the atomic level, but weak signals limit what it can see. Now, Aarhus University researchers have used AI to let the spectrometer learn the best pulse sequence directly from the sample.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://phys.org/rss-feed/physics-news/quantum-physics/"
+      },
+      "id": "feed:aa7d7d253d1e764f",
+      "published": "2026-10-28",
+      "source": "Phys.org Quantum Physics",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "When simulations fall short, this spectrometer learns for itself",
+      "topics": [],
+      "url": "https://phys.org/news/2026-10-simulations-fall-short-spectrometer.html",
+      "why_it_matters": ""
+    },
+    {
       "abstract": "Insider Brief Quantum Design Oxford has named Dr Frank Zhao of the University of Maryland and Dr Zhengguang Lu of Florida State University joint winners of the 2026 Lee Osheroff Richardson Science Prize. Zhao was recognised for research into unconventional superconductivity in layered crystals and twisted interfaces, while Lu was recognised for discoveries involving topological states and superconductivity in multilayer graphene. The winners will share a $15,000 cash prize and receive additional support to attend a global physics conference. PRESS RELEASE &#8212; Quantum Design Oxford today announces that Dr Frank Zhao , Assistant Professor of Physics at the University of Maryland, and Dr Zhengguang Lu , Assistant Professor of Physics at Florida State University and an affiliate of the National High Magnetic Field Laboratory, have been selected as joint winners of the 2026 Lee Osheroff Richardson (LOR) Science Prize . In an exceptional year, the high number and quality of nominations led the selection committee to award two prizes, recognising both Dr Zhao and Dr Lu for their outstanding contributions to quantum materials research. Dr Zhao is recognised for his contributions to unconventional superconductivity in layered crystals and their interfaces, including the discovery of emergent time-reversal symmetry breaking superconductivity at twisted cuprate interfaces and a new layered superconductor with one of the highest upper critical fields recorded.&nbsp; “It is a great honor to be jointly selected for the Lee Osheroff Richardson Prize. A great deal of the credit must go to my mentors, Philip Kim and Joe Checkelsky, who trusted and encouraged me to develop new sample fabrication and measurement techniques even though the pay-off was often far-off and uncertain. Notably, I really enjoyed pushing the boundary of what is possible with Nicola Poccia, who co-developed the glovebox fabrication techniques with me; as well as Paul Neves, Josh Wakefield, and Dave Graf, wh",
       "authors": [
         "Mohib Ur Rehman"
@@ -57,6 +478,26 @@
       "title": "Frank Zhao and Zhengguang Lu Win 2026 LOR Science Prize",
       "topics": [],
       "url": "https://thequantuminsider.com/2026/10/28/frank-zhao-zhengguang-lu-2026-lor-prize/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief PsiQuantum has unveiled an 8×8 optical circuit switching demonstration built on its low-loss silicon photonics platform, originally developed for utility-scale quantum computing. Company testing reported 1.2 dB insertion loss, 40 dB crosstalk performance and less than 3 milliseconds of reconfiguration time, without optical amplification. PsiQuantum is sharing demonstration samples with selected prospective customers and plans to develop commercial products for AI data center connectivity while continuing its work on fault-tolerant quantum computers. PRESS RELEASE &#8212; PsiQuantum today unveiled its Optical Circuit Switching (OCS) technology, demonstrating how the company’s advanced, low-loss silicon photonics platform can be applied to some of the most significant scaling challenges facing AI infrastructure. AI systems are scaling faster than computing infrastructure, with increasingly large pools of compute placing enormous demands on the networks connecting them. As moving data efficiently between these systems becomes a fundamental constraint for continued AI scaling, the computing industry is increasingly turning to optics to provide faster, more efficient, and scalable connectivity. PsiQuantum &#8216;s first publicly disclosed OCS is an 8×8-radix demonstration vehicle built on the low-loss, silicon photonics platform that the company has spent nearly a decade developing for utility-scale quantum computing. Testing conducted in PsiQuantum&#8217;s labs has shown typical results of 1.2 dB of insertion loss, 40 dB cross talk, and less than 3 ms of reconfiguration time, all exceeding initial targets set for these devices and without amplification. PsiQuantum is now sharing samples of its demonstration vehicle with select prospective customers and advancing the platform toward commercial products that will be announced in the coming months. PsiQuantum has pursued performance requirements for fault-tolerant quantum computing that exceed many of those r",
+      "authors": [
+        "Mohib Ur Rehman"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:896d6beea98e1b83",
+      "published": "2026-10-28",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "PsiQuantum Unveils Optical Circuit Switch for AI Data Centers",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/10/28/psiquantum-optical-circuit-switch-ai-data-centers/",
       "why_it_matters": ""
     },
     {
@@ -97,6 +538,62 @@
       "title": "NIST Releases Final IR 8547 Establishing Definitive Post-Quantum Cryptography Transition Timeline and Deprecation Schedules",
       "topics": [],
       "url": "https://quantumcomputingreport.com/nist-releases-final-ir-8547-establishing-definitive-post-quantum-cryptography-transition-timeline-and-deprecation-schedules/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Researchers at Delft University of Technology (the Netherlands) have succeeded in controlling the magnetism in the nucleus of a single atom with radio waves. This came as a surprise: until now, physicists believed that this nuclear spin could not be manipulated directly. The discovery could open up new possibilities for storing and reading quantum information. The research is published in the journal Nature Communications.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://phys.org/rss-feed/physics-news/quantum-physics/"
+      },
+      "id": "feed:68c784f836a8fca7",
+      "published": "2026-10-28",
+      "source": "Phys.org Quantum Physics",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Against all expectations, researchers control the magnetic core of a single atom",
+      "topics": [],
+      "url": "https://phys.org/news/2026-10-magnetic-core-atom.html",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Using a new slow-motion electron camera, physicists from Regensburg, Marburg and Jülich revealed how intense electric fields drive electrons in graphene, causing them to jump across energy gaps in a seemingly paradoxical manner. This was made possible by a novel combination of laser technology and electron microscopy.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://phys.org/rss-feed/physics-news/quantum-physics/"
+      },
+      "id": "feed:6772ca2d6bc13e1f",
+      "published": "2026-10-28",
+      "source": "Phys.org Quantum Physics",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Slow-motion electron camera reveals light-driven quantum jumps in graphene",
+      "topics": [],
+      "url": "https://phys.org/news/2026-10-motion-electron-camera-reveals-driven.html",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Insider Brief Intel agreed to acquire quantum computing software provider Classiq Technologies, with legal advice from Hogan Lovells Cadwalader. The proposed acquisition would combine Classiq ’s software synthesis platform with Intel ’s spin-qubit manufacturing and existing software to create a full-stack quantum computing platform. The deal would position Intel to add quantum processing units to its portfolio of CPUs, GPUs and application-specific integrated circuits. PRESS RELEASE &#8212; Global law firm Hogan Lovells Cadwalader advised Intel Corporation (Nasdaq: INTC) as it entered into a definitive agreement to acquire Classiq Technologies Ltd, a leading provider of quantum computing software. The combination of Classiq ’s synthesis platform with Intel ’s spin-qubit manufacturing and existing software would create a user-friendly full-stack quantum computing platform, enabling the promising technology to mature into a mainstream computing business. The combination would enable Intel to become a full-stack quantum solutions provider, while also allowing the company to add Quantum Processing Units (QPUs) to its already diverse compute platform portfolio spanning Central Processing Units (CPUs), Graphical Processing Units (GPUs) and application-specific integrated circuit (ASICs). More information on the transaction can be found here . The Hogan Lovells Cadwalader cross-border and cross-practice deal team was led by partners Jane Ross (M&amp;A, Silicon Valley), John Brockland (IP, San Francisco), Michael Frank (Tax, Pensions &amp; Benefits, Silicon Valley), Tao Leung (Employment, Los Angeles), Nicola Lemay (Tax, Pensions &amp; Benefits, Boston), Scott Loughlin (Data, Privacy and Cybersecurity, Washington, D.C.), Aleksandar Dukic (International Trade &amp; Investment, Washington, D.C.), Christian Larson (International Trade &amp; Investment, Washington, D.C.), David Emanuelson (Antitrust &amp; Competition, San Francisco), Kevin Greenslade (Securities &amp; Public Co",
+      "authors": [
+        "Matt Swayne"
+      ],
+      "extra": {
+        "feed_url": "https://thequantuminsider.com/feed/"
+      },
+      "id": "feed:56bab56a1e2bc36f",
+      "published": "2026-10-28",
+      "source": "The Quantum Insider",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Hogan Lovells Cadwalader Advises Intel in Pending Acquisition of Classiq Technologies",
+      "topics": [],
+      "url": "https://thequantuminsider.com/2026/10/28/hogan-lovells-cadwalader-advises-intel-in-pending-acquisition-of-classiq-technologies/",
       "why_it_matters": ""
     },
     {
@@ -160,6 +657,105 @@
       "why_it_matters": ""
     },
     {
+      "abstract": "Data privacy and authentication are two main security requirements for remote access and cloud services. While QKD has been explored to address data privacy concerns, oftentimes its use is separate from the client authentication protocol despite implicitly providing authentication. Here, we present a quantum authentication key expansion (QAKE) protocol that (1) integrates both authentication and key expansion within a single protocol, and (2) provides key recycling property – allowing all authentication keys to be reused. We analyse the security of the protocol in a QAKE framework adapted from a classical authentication key exchange (AKE) framework, providing separate security conditions for authentication and data privacy. We experimentally implemented the protocol with appropriate post-selection. Additional results on the security of pseudorandom basis generation in QAKE and decoy state BB84 are provided.",
+      "authors": [
+        "Wen Yu Kon",
+        "Jefferson Chu",
+        "Kevin Han Yong Loh",
+        "Obada Alia",
+        "Omar Amer",
+        "Marco Pistoia",
+        "Kaushik Chakraborty",
+        "Charles Lim"
+      ],
+      "extra": {
+        "doi": "10.22331/q-2026-10-28-2255",
+        "subjects": []
+      },
+      "id": "doi:10.22331/q-2026-10-28-2255",
+      "published": "2026-10-28",
+      "source": "Quantum",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Quantum Authenticated Key Expansion with Key Recycling",
+      "topics": [],
+      "url": "https://doi.org/10.22331/q-2026-10-28-2255",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Semidefinite relaxations of polynomial optimization have become a central tool for addressing the non-convex optimization problems over non-commutative operators that are ubiquitous in quantum information theory and, more in general, quantum physics. Yet, as these global relaxation methods are solved numerically, the bounds issued by the semidefinite solver can – and often do – exceed the global optimum, undermining their certifiability. To counter this issue, we introduce a framework for extracting rigorous certified bounds on non-commutative optimization problems from inexact numerical data, and apply it to several paradigmatic problems in quantum information theory. An extension to sparsity and symmetry-adapted semidefinite relaxations is also provided and compared to the general dense scheme. Our results establish rational post-processing as a practical route to reliable certification, pushing semidefinite optimization toward a certifiable standard for quantum information science.",
+      "authors": [
+        "Younes Naceur",
+        "Jie Wang",
+        "Victor Magron",
+        "Antonio Acín"
+      ],
+      "extra": {
+        "doi": "10.22331/q-2026-10-28-2254",
+        "subjects": []
+      },
+      "id": "doi:10.22331/q-2026-10-28-2254",
+      "published": "2026-10-28",
+      "source": "Quantum",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Certified bounds on optimization problems in quantum theory",
+      "topics": [],
+      "url": "https://doi.org/10.22331/q-2026-10-28-2254",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "This paper presents a counterexample to the optimality conjecture for the trace distance based optimal state transformation problem proposed by Coutts et al. [Quantum 5, 448 (2021)]. The conjecture posits that for the trace distance based optimal state transformation problem, applying the sign function to the error matrix uniquely determines a dual certificate for every optimal solution. By constructing a counterexample in 2-dimensional Hilbert spaces, we disprove this conjecture.",
+      "authors": [
+        "Jianting Yang"
+      ],
+      "extra": {
+        "doi": "10.22331/q-2026-10-28-2253",
+        "subjects": []
+      },
+      "id": "doi:10.22331/q-2026-10-28-2253",
+      "published": "2026-10-28",
+      "source": "Quantum",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "A Counterexample to the Optimality Conjecture in Convex Quantum Channel Optimization",
+      "topics": [],
+      "url": "https://doi.org/10.22331/q-2026-10-28-2253",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "We show that recent experiments in hybrid qubit-oscillator devices that measure the phase-space characteristic function of the oscillator via the qubit can be seen through the lens of functional calculus and path integrals, drawing a clear analogy with the generating functional of a quantum field theory. This connection suggests an expansion of the characteristic function in terms of Feynman diagrams, exposing the role of the real-time bosonic propagator, and identifying the external source functions with certain time-dependent couplings that can be controlled experimentally. By applying maximum-likelihood techniques, we show that the “measurement&amp;apos;&amp;apos; of these Feynman diagrams can be reformulated as a problem of multi-parameter point estimation that takes as input a set of Ramsey-type measurements of the qubit. By numerical simulations that consider leading imperfections in trapped-ion devices, we identify the optimal regimes in which Feynman diagrams could be reconstructed from measured data with low systematic and stochastic errors. We discuss how these ideas can be generalized to finite temperatures via the Schwinger-Keldysh formalism, contributing to a bottom-up approach to probe quantum simulators of lattice field theories by systematically increasing the qubit-oscillator number.",
+      "authors": [
+        "S. Varona",
+        "S. Saner",
+        "O. BÄzÄvan",
+        "G. Araneda",
+        "G. Aarts",
+        "A. Bermudez"
+      ],
+      "extra": {
+        "doi": "10.22331/q-2026-10-28-2252",
+        "subjects": []
+      },
+      "id": "doi:10.22331/q-2026-10-28-2252",
+      "published": "2026-10-28",
+      "source": "Quantum",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Towards quantum computing Feynman diagrams in hybrid qubit-oscillator devices",
+      "topics": [],
+      "url": "https://doi.org/10.22331/q-2026-10-28-2252",
+      "why_it_matters": ""
+    },
+    {
       "abstract": "We investigate optimal metrological protocols for phase estimation in the presence of correlated dephasing noise, including spin-squeezed state sensing strategies as well as parallel and adaptive protocols optimized using tensor-network-based numerical methods. The results are benchmarked against fundamental bounds obtained either via the latest quantum comb extension method or an optimized classical simulation method. We find that the spin-squeezed states offer practically optimal performance in the regime where phase fluctuations are positively correlated but can be outperformed by tensor-network-optimized strategies for negatively correlated fluctuations.",
       "authors": [
         "Srijon Ghosh",
@@ -186,6 +782,29 @@
     {
       "abstract": "",
       "authors": [
+        "Gihwan Kim",
+        "Andreas Butler",
+        "Oskar Painter"
+      ],
+      "extra": {
+        "doi": "10.1103/cx2t-3hq7",
+        "subjects": []
+      },
+      "id": "doi:10.1103/cx2t-3hq7",
+      "published": "2026-10-28",
+      "source": "PRX Quantum",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Tunable, modeless, and hybridization-free cross-Kerr coupler for miniaturized superconducting qubits",
+      "topics": [],
+      "url": "https://doi.org/10.1103/cx2t-3hq7",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "",
+      "authors": [
         "Oskar Leimkuhler",
         "K. Birgitta Whaley"
       ],
@@ -203,6 +822,75 @@
       "title": "Barriers to dequantization of near-term molecular electronic structure methods",
       "topics": [],
       "url": "https://doi.org/10.1103/bsbv-gxhw",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "",
+      "authors": [
+        "Shota Kanasugi",
+        "Riki Toshio",
+        "Kazunori Maruyama",
+        "Hirotaka Oshima"
+      ],
+      "extra": {
+        "doi": "10.1103/863w-jxzp",
+        "subjects": []
+      },
+      "id": "doi:10.1103/863w-jxzp",
+      "published": "2026-10-28",
+      "source": "PRX Quantum",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Enabling chemically accurate quantum phase estimation in the early fault-tolerant regime via unitary weight concentration",
+      "topics": [],
+      "url": "https://doi.org/10.1103/863w-jxzp",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Abstract As quantum communication systems and networks are becoming a commercial reality, clarity on their future infrastructure is increasingly important. Based on the inevitable presence of some amount of loss, chromatic dispersion, and timing jitter, we present simulations to show that certain wavelengths and bandwidths have clear advantages.",
+      "authors": [
+        "Marcus James Clark",
+        "Siddarth Koduru Joshi"
+      ],
+      "extra": {
+        "doi": "10.1088/2058-9565/aeba74",
+        "subjects": []
+      },
+      "id": "doi:10.1088/2058-9565/aeba74",
+      "published": "2026-10-28",
+      "source": "Quantum Science and Technology",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Optimising physical parameters of a quantum network based on a loss-jitter trade-off",
+      "topics": [],
+      "url": "https://doi.org/10.1088/2058-9565/aeba74",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Abstract Real-time, scalable, and accurate decoding is a critical component for realizing a fault-tolerant quantum computer. While Transformer-based neural decoders such as AlphaQubit have demonstrated high accuracy, the computational complexity of their core attention mechanism, which scales as $${{{\\mathcal{O}}}}({d}^{4})$$ O ( d 4 ) with code distance d , results in decoding speeds insufficient for practical real-time applications. In this work, we introduce and evaluate a Mamba -based decoder, a state-space model with $${{{\\mathcal{O}}}}({d}^{2})$$ O ( d 2 ) complexity. In memory experiments using Sycamore hardware data, our Mamba decoder matches the performance of its Transformer-based counterpart, demonstrating that its superior efficiency does not come at the cost of performance. Crucially, in simulated real-time scenarios that account for decoder-induced noise, the Mamba decoder significantly outperforms the Transformer, with the performance gap increasing across the tested code distances up to d = 9. These results demonstrate that Mamba decoders offer a compelling balance between speed and accuracy, making them a promising architecture for scalable, real-time quantum error correction.",
+      "authors": [
+        "Changwon Lee",
+        "Tak Hur",
+        "Daniel K. Park"
+      ],
+      "extra": {
+        "doi": "10.1038/s41534-026-01403-y",
+        "subjects": []
+      },
+      "id": "doi:10.1038/s41534-026-01403-y",
+      "published": "2026-10-28",
+      "source": "npj Quantum Information",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Scalable neural decoders for practical real-time quantum error correction",
+      "topics": [],
+      "url": "https://doi.org/10.1038/s41534-026-01403-y",
       "why_it_matters": ""
     },
     {
@@ -2612,7 +3300,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Generation of quantum light with tunable Wigner negativity with a semiconductor quantum dot",
       "topics": [],
@@ -2637,7 +3325,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Three-dimensional quantum Hall insulators in magnetic pyrochlore systems",
       "topics": [],
@@ -2669,7 +3357,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Ultrafast light-electron modulation for free-electron quantum optics: fundamentals and applications",
       "topics": [],
@@ -2699,7 +3387,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Quantum circuit simulation with high-order optical tensor processing",
       "topics": [],
@@ -2724,7 +3412,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Analog Quantum Experiments Meet Automatic Differentiation - from Programs to Atoms",
       "topics": [],
@@ -2748,7 +3436,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Many-body entanglement quantification in arbitrary states through a few partial-transpose moments",
       "topics": [],
@@ -2775,7 +3463,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Scaling and Renormalization in Neural Networks: An Effective Renormalization-Group Description of Grokking",
       "topics": [],
@@ -2799,7 +3487,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Non-Hermitian Schwinger effect in an imaginary magnetic field",
       "topics": [],
@@ -2822,7 +3510,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "An algebraic characterisation of $n$-qubit pure-state invariants",
       "topics": [],
@@ -2848,7 +3536,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Equilibrium Learning of Quantum Circuits",
       "topics": [],
@@ -2874,7 +3562,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Diagonal, Switching, and Locally Optimal Unraveling for efficient quantum trajectories in metastable open quantum systems",
       "topics": [],
@@ -2901,7 +3589,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Parity-doublet spin interactions in ultracold polyatomic molecules",
       "topics": [],
@@ -2926,7 +3614,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Universal Scaling of Conditional Mutual Information in Classical Stochastic Dynamics",
       "topics": [],
@@ -2951,7 +3639,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Mesons, Confinement, and Complexity: A Krylov Space Perspective on the Long-Range Ising Chain",
       "topics": [],
@@ -2974,7 +3662,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Typicality of entanglement growth and transport fluctuations in quantum symmetric exclusion processes",
       "topics": [],
@@ -3001,7 +3689,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Symmetry-resolved fermionic correlations in iron-oxide ground spaces",
       "topics": [],
@@ -3025,7 +3713,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "An open EFT for dark matter searches with matter-wave interferometers",
       "topics": [],
@@ -3049,7 +3737,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Analytic Bootstrap Solution for Quantum Mechanics on a Circle",
       "topics": [],
@@ -3072,7 +3760,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "AlgebrasTQD: Computing Algebras and Interfaces in Twisted Quantum Doubles",
       "topics": [],
@@ -3096,7 +3784,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "A Correspondence Between Qubit- and Boson-Based Sensing Protocols",
       "topics": [],
@@ -3123,7 +3811,7 @@
       "source": "arXiv",
       "source_kind": "preprint",
       "summary": "",
-      "summary_status": "deferred",
+      "summary_status": "api_error_400",
       "technical_depth": "overview",
       "title": "Amorphization-Depth-Dependent Bismuth Redistribution and Activation in Silicon for Quantum Devices",
       "topics": [],
