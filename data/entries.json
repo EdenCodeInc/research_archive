@@ -1,6 +1,69 @@
 {
-  "count": 10126,
+  "count": 10134,
   "entries": [
+    {
+      "abstract": "",
+      "authors": [
+        "Mingxuan Liu",
+        "Ge Bai",
+        "Valerio Scarani"
+      ],
+      "extra": {
+        "doi": "10.1038/s41534-026-01379-9",
+        "subjects": []
+      },
+      "id": "doi:10.1038/s41534-026-01379-9",
+      "published": "2026-11-01",
+      "source": "npj Quantum Information",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Unifying quantum smoothing theories with extended retrodiction",
+      "topics": [],
+      "url": "https://doi.org/10.1038/s41534-026-01379-9",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Physicists at Chalmers University of Technology have developed a new method to eliminate microwave crosstalk in superconducting processors. Their research shows that by engineering on-chip parasitic capacitances, they can achieve destructive interference among parasitic capacitive channels, suppressing unwanted qubit excitations. This method offers a practical advantage for floating transmons and allows for alignment of classical microwave crosstalk nulls with quantum ZZ nulls. The post Chalmers University Demonstrates Hardware-Level Microwave Crosstalk Suppression via Parasitic Capacitance Engineering appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:f4306965465694ed",
+      "published": "2026-10-31",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Chalmers University Demonstrates Hardware-Level Microwave Crosstalk Suppression via Parasitic Capacitance Engineering",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/chalmers-university-demonstrates-hardware-level-microwave-crosstalk-suppression-via-parasitic-capacitance-engineering/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Researchers from Los Alamos National Laboratory and QC Ware developed a hybrid quantum-classical workflow to simulate strongly correlated transition metal oxides. They used Sample-based Quantum Diagonalization (SQD) on IBM Quantum hardware, coupled with ab initio-informed d–p tight-binding models, to achieve chemical accuracy in modeling diatomic iron monoxide (FeO) and rhombic iron oxide dimers (Fe2O2). This method successfully recovered experimental ground states and outperformed traditional computational methods, establishing a new approach for modeling bulk periodic FeO. The post Los Alamos and QC Ware Model Correlated Iron Oxides Using Sample-Based Quantum Diagonalization on IBM Hardware appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:e47d3354fdb038e4",
+      "published": "2026-10-31",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Los Alamos and QC Ware Model Correlated Iron Oxides Using Sample-Based Quantum Diagonalization on IBM Hardware",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/los-alamos-and-qc-ware-model-correlated-iron-oxides-using-sample-based-quantum-diagonalization-on-ibm-hardware/",
+      "why_it_matters": ""
+    },
     {
       "abstract": "Wolfspeed has launched transparent silicon carbide (TSiC™) wafers for quantum computing and integrated photonics, available in 150mm and 200mm sizes, with 300mm in sampling. This technology offers a scalable platform for solid-state spin qubits and quantum photonic integration, addressing manufacturing bottlenecks faced by other materials like diamond. TSiC™'s optical and thermal properties enable monolithic integration of quantum devices, overcoming previous limitations in wafer-scale fabrication. The post Wolfspeed Commercializes Transparent Silicon Carbide Substrates for Quantum Computing and Integrated Photonics appeared first on Quantum Computing Report .",
       "authors": [
@@ -19,6 +82,44 @@
       "title": "Wolfspeed Commercializes Transparent Silicon Carbide Substrates for Quantum Computing and Integrated Photonics",
       "topics": [],
       "url": "https://quantumcomputingreport.com/wolfspeed-commercializes-transparent-silicon-carbide-substrates-for-quantum-computing-and-integrated-photonics/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "As quantum computers grow more ambitious, many researchers believe the best way forward is to build them in multiple interconnected parts. In these modular designs, separate quantum processors are linked so they can work together as one larger machine. For this to happen, however, connections must carry fragile quantum information without destroying it.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://phys.org/rss-feed/physics-news/quantum-physics/"
+      },
+      "id": "feed:dacb8b7fd140c435",
+      "published": "2026-10-31",
+      "source": "Phys.org Quantum Physics",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Four superconducting cables link two large quantum processors into one",
+      "topics": [],
+      "url": "https://phys.org/news/2026-10-superconducting-cables-link-large-quantum.html",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "IBM has launched IBM Quantum Safe, a software suite designed to help enterprises migrate to post-quantum cryptography (PQC). This platform offers tools for strategic assessment, automated source-code discovery, and dynamic network mediation. It aims to address the challenge of identifying and remediating cryptographic vulnerabilities in existing IT infrastructure, enabling organizations to transition to PQC in anticipation of federal migration deadlines. The post IBM Launches Unified Quantum Safe Software Suite to Automate Enterprise PQC Migration appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:a9cd05f73c6fcb99",
+      "published": "2026-10-31",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "IBM Launches Unified Quantum Safe Software Suite to Automate Enterprise PQC Migration",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration/",
       "why_it_matters": ""
     },
     {
@@ -82,6 +183,24 @@
       "why_it_matters": ""
     },
     {
+      "abstract": "According to quantum electrodynamics, the theory describing interactions between light and electrically charged particles, a sufficiently strong electric field can, in principle, convert some of its energy into particles and their antimatter partners. A particle's antimatter partner has the same mass and, for electrically charged particles, the opposite electric charge.",
+      "authors": [],
+      "extra": {
+        "feed_url": "https://phys.org/rss-feed/physics-news/quantum-physics/"
+      },
+      "id": "feed:4e481bb7a7a3fb73",
+      "published": "2026-10-31",
+      "source": "Phys.org Quantum Physics",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Ultracold atoms simulate hard-to-observe matter-antimatter pair production",
+      "topics": [],
+      "url": "https://phys.org/news/2026-10-ultracold-atoms-simulate-hard-antimatter.html",
+      "why_it_matters": ""
+    },
+    {
       "abstract": "pQCee has partnered with Carahsoft Technology Corp. to provide its post-quantum cybersecurity software to the U.S. public sector. This agreement allows Carahsoft to distribute pQCee's encryption suites to various government entities through its existing networks. This collaboration addresses the need for secure, post-quantum cryptography solutions in response to Executive Order 14412, enabling government agencies to upgrade their cybersecurity without overhauling existing IT infrastructure. The post pQCee Enters U.S. Public Sector Through Carahsoft Master Aggregator Agreement appeared first on Quantum Computing Report .",
       "authors": [
         "Mohamed Abdel-Kareem"
@@ -142,6 +261,26 @@
       "why_it_matters": ""
     },
     {
+      "abstract": "The University of Stuttgart, in collaboration with Saarland University and Leibniz IFW Dresden, successfully deployed an entanglement-based quantum key distribution (QKD) link using a quantum dot photon source. The system generated 14.2 Mbit of secure key material over a 1.59 km fiber link, achieving one-time pad image encryption. This demonstrates the viability of quantum dots with frequency conversion for metropolitan quantum key networks. The post University of Stuttgart Deploys Quantum Dot QKD Link Using Frequency Conversion Over Campus Fiber appeared first on Quantum Computing Report .",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "extra": {
+        "feed_url": "https://quantumcomputingreport.com/feed/"
+      },
+      "id": "feed:3e1706cad85ac8e5",
+      "published": "2026-10-31",
+      "source": "Quantum Computing Report",
+      "source_kind": "blog",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "University of Stuttgart Deploys Quantum Dot QKD Link Using Frequency Conversion Over Campus Fiber",
+      "topics": [],
+      "url": "https://quantumcomputingreport.com/university-of-stuttgart-deploys-quantum-dot-qkd-link-using-frequency-conversion-over-campus-fiber/",
+      "why_it_matters": ""
+    },
+    {
       "abstract": "Lumen Technologies is advancing quantum technology with two new initiatives. They are partnering with The Ohio State University to research quantum network transport over commercial optical fiber, and integrating Fortinet's post-quantum cryptography into their SASE solution to enhance enterprise security. These efforts aim to overcome challenges in quantum signal transmission and protect against future decryption threats. The post Lumen Expands Quantum Footprint with Ohio State Fiber Research and Fortinet PQC SASE Rollout appeared first on Quantum Computing Report .",
       "authors": [
         "Mohamed Abdel-Kareem"
@@ -199,6 +338,37 @@
       "title": "IQM Verifies Full-Chip Entanglement Across 54-Qubit Emerald Superconducting Processor",
       "topics": [],
       "url": "https://quantumcomputingreport.com/iqm-verifies-full-chip-entanglement-across-54-qubit-emerald-superconducting-processor/",
+      "why_it_matters": ""
+    },
+    {
+      "abstract": "Abstract Quantum position verification (QPV) enables multiple verifiers to certify a prover’s location using quantum communication and physical assumptions. With experimental demonstrations of QPV becoming increasingly feasible, enhancing the practicality and security of QPV protocols is more important than ever. In this work, we make three key contributions toward this goal. First, we introduce a robust QPV protocol in which the verifier’s state preparation is independent of channel loss, improving reliability in real-world conditions. Second, we refine existing security analysis techniques to bolster protocol resilience against experimental imperfections. Third, we identify and address some implicit assumptions present in existing security analyses, providing a framework to eliminate such assumptions. Additionally, as an example of QPV application beyond location verification, we illustrate how QPV can be leveraged for authenticating classical communication in quantum key distribution.",
+      "also_at": [
+        {
+          "published": "2026-10-31",
+          "source": "Nature: Quantum Information",
+          "url": "https://www.nature.com/articles/s41534-026-01325-9"
+        }
+      ],
+      "authors": [
+        "Wen Yu Kon",
+        "Ignatius William Primaatmaja",
+        "Kaushik Chakraborty",
+        "Charles Lim"
+      ],
+      "extra": {
+        "doi": "10.1038/s41534-026-01325-9",
+        "subjects": []
+      },
+      "id": "doi:10.1038/s41534-026-01325-9",
+      "published": "2026-10-31",
+      "source": "npj Quantum Information",
+      "source_kind": "journal",
+      "summary": "",
+      "summary_status": "api_error_400",
+      "technical_depth": "overview",
+      "title": "Efficient multi-basis quantum position verification secure against generalized adversaries",
+      "topics": [],
+      "url": "https://doi.org/10.1038/s41534-026-01325-9",
       "why_it_matters": ""
     },
     {
